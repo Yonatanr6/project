@@ -1,5 +1,6 @@
 רשימת מקורות
 
+
   * https://stackoverflow.com/questions/32265533/reading-contents-of-a-file-into-class-objects
  * https://www.tutorialspoint.com/java/io/bufferedreader_readline.htm
  * https://stackoverflow.com/questions/7209110/java-util-nosuchelementexception-no-line-found
@@ -34,4 +35,4 @@ https://labs.micromata.de/projects/jak.html
 מגישים: 
  *שירן אבסקר ו201299591
  *יונתן רופסוב 314471970
- 
+ -----------------------------
