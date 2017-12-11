@@ -1,7 +1,4 @@
-
-
-
-
+package matala;
 public class location {
 
 	public double Lat;
