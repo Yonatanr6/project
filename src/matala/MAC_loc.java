@@ -28,7 +28,7 @@ public class MAC_loc {
 	
 	public MAC_loc() throws FileNotFoundException {
 		
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input");
+		File folder = new File("C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\input");
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {

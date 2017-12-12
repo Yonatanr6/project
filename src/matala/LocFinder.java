@@ -24,7 +24,7 @@ public class LocFinder {
 
 	String FirstSeen, Id, MAC, SSID;
 	
-	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\MAC_loc.csv";
+	String path="C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\output\\MAC_loc.csv";
 	
 	public LocFinder(List<MAC_loc> MAC_locs) throws FileNotFoundException {
 		for(int j=0;j<MAC_locs.size();j++) {

@@ -10,7 +10,7 @@ public class main {
 
 	public static void main(String[] args) throws IOException {
 		
-		String path=("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\best.csv");
+		String path=("C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\output\\best.csv");
 		
 		Writer newFile =new Writer(path);
 		
