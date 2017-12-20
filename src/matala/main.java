@@ -10,7 +10,7 @@ public class main {
 
 	public static void main(String[] args) throws IOException {
 		
-		String path=("C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\output\\best.csv");
+		String path=("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\best.csv");
 		
 		Writer newFile =new Writer(path);
 		
@@ -18,6 +18,14 @@ public class main {
 		
 		//LocFinder Find = new LocFinder(newFile, mac);
 		MAC_loc loc = new MAC_loc();
+		KMLpoint point = new KMLpoint();
+		no_gps_read read = new no_gps_read();
+		try {
+			Algo2 re = new Algo2(read);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	//	System.out.print(""+Find.getfAltitude()+" "+Find.getfLatitude()+" "+Find.fLongitude);
 		

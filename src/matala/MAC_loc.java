@@ -19,6 +19,7 @@ public class MAC_loc {
 	List<Double> LatitudeL= new ArrayList<>();
 	List<Double> LongitudeL= new ArrayList<>();
 	List<Double> AltitudeL= new ArrayList<>();
+
 	
 	List<MAC_loc> MAC_locs= new ArrayList<>();
 	
@@ -28,7 +29,7 @@ public class MAC_loc {
 	
 	public MAC_loc() throws FileNotFoundException {
 		
-		File folder = new File("C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\input");
+		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input");
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
@@ -44,6 +45,7 @@ public class MAC_loc {
 			while ((lineRead = br.readLine()) != null) {
 				if (!lineRead.contains("Type")&&!lineRead.contains("brand")&&!lineRead.contains("GSM")) {
 					MAC_loc loc = new MAC_loc(ID);
+					loc.Id = ID.getId();
 				String[] split = lineRead.split(",");
 				loc.MAC = split[0];
 				loc.SSID = split[1];
@@ -90,7 +92,7 @@ public class MAC_loc {
 			}
 		}
 		
-		LocFinder find = new LocFinder(MAC_locs);
+		Algo1 find = new Algo1(MAC_locs);
 		
 	
 }

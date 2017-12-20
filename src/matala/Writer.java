@@ -1,6 +1,5 @@
 package matala;
 
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,7 +15,7 @@ public class Writer {
 	
 	PrintWriter writer = new PrintWriter(path);
 	
-	writer.println("FirstSeen"+",Id"+",CurrentLantitude"+",CurrentLongitude"+",AltitudeMeters"+",#OfWifiNetworks"+",SSID"+",MAC"+",Channel"+",RSSI"+
+	writer.println("FirstSeen"+",Id"+",CurrentLantitude"+",CurrentLongitude"+",AltitudeMeters"+",#OfWifiNetworks"+","+",SSID"+",MAC"+",Channel"+",RSSI"+
 			","+",SSID2"+",MAC2"+",Channel2"+",RSSI2"+
 			","+",SSID3"+",MAC3"+",Channel3"+",RSSI3"+
 			","+",SSID4"+",MAC4"+",Channel4"+",RSSI4"+
@@ -33,6 +32,7 @@ public class Writer {
 		writer.print(data.wifiNetworks.get(i).FirstSeen+","+ data.wifiNetworks.get(i).Id
 				+","+data.wifiNetworks.get(i).CurrentLatitude +","+ data.wifiNetworks.get(i).CurrentLongitude
 				+","+ data.wifiNetworks.get(i).AltitudeMeters +","+data.wifiNetworks.get(i).NumberOWN);
+		
 	for(int j=0;j<data.wifiNetworks.size();j++)
 		if(j<data.wifiNetworks.get(i).NumberOWN) {
 		writer.print(","+data.wifiNetworks.get(i).SSID2.get(j)+","+

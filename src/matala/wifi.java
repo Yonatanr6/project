@@ -2,7 +2,6 @@ package matala;
 
 
 
-
 public class wifi {
 	
 	int RSSI, Channel;

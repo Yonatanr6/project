@@ -1,4 +1,7 @@
 package matala;
+
+
+
 public class wifiPoint {
 	
 

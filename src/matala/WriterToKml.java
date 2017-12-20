@@ -22,7 +22,7 @@ public class WriterToKml {
 			lineRead = br.readLine();
 			
 			while ((lineRead = br.readLine()) != null) {
-				KMLpoint point =new KMLpoint(lineRead);
+				KMLpoint point =new KMLpoint();
 				KMLpoints.add(point);
 			
 			}

@@ -1,6 +1,5 @@
 package matala;
 
-
 public class getID {
 
 	private String id;	
