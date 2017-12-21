@@ -1,6 +1,6 @@
 package wifi_data;
 
-public class wifiPoint {
+public class wifiPoint {//class that creates an object with the information of the wifiscan from the wiglewifi file
 	
 
 	@Override

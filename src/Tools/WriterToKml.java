@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class WriterToKml {
 	
-	public WriterToKml(String path) throws IOException {
+	public WriterToKml(String path) throws IOException {// a class that creates kml file, the class is not completed due to project restart and lack of time
 		
 		List<comb_reader> KMLpoints =new ArrayList<>();
 		

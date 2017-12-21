@@ -10,7 +10,7 @@ import Tools.comb_reader;
 import Tools.no_gps_read;
 
 
-public class Algo2 {
+public class Algo2 {//the class of algo2
 
 	double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	int NumberOWN;
@@ -27,7 +27,7 @@ public class Algo2 {
 	double fLongitude, fLatitude, fAltitude;
 	double sLongitude, sLatitude, sAltitude;
 	
-	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo2\\algo2.csv";
+	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo2\\algo2.csv";//output file
 	
 
 	double pow=2,min_dif=3,norm=10000,sig_dif=0.4,no_sig=-120,dif_no_sig=100;
@@ -37,7 +37,7 @@ public class Algo2 {
 		comb_reader data = new comb_reader();
 		PrintWriter writer = new PrintWriter(path);
 
-		for(int i=0; i< no_gps.scans.size();i++) {
+		for(int i=0; i< no_gps.scans.size();i++) {//algo for creating a list that calcs and writes the aproxx location of the user
 			
 			List<Algo2> calcs = new ArrayList<>();
 
@@ -104,7 +104,7 @@ public class Algo2 {
 
 	}
 	
-	public void piCalc(List<Algo2> calcs) {
+	public void piCalc(List<Algo2> calcs) {//func that calcs the similarty between each line 
 		double sum =1;
 		for(int i=0;i<calcs.size();i++) {
 			for(int j=0;j<calcs.get(i).weight.size();j++) 

@@ -7,7 +7,7 @@ import java.util.List;
 import Tools.Writer;
 import Tools.wigel_mac;
 
-public class Algo1 {
+public class Algo1 {//the class of algo1
 
 	public List<Integer> RSSI= new ArrayList<>();
 	public List<Double> Latitude= new ArrayList<>();
@@ -26,9 +26,9 @@ public class Algo1 {
 
 	public String FirstSeen, Id, MAC, SSID;
 	
-	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo1\\algo1.csv";
+	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo1\\algo1.csv";//output file
 	
-	public Algo1(List<wigel_mac> MAC_locs) throws FileNotFoundException {
+	public Algo1(List<wigel_mac> MAC_locs) throws FileNotFoundException {//the main algo that clacs the approx location of the mac, wich gets list of macs
 		for(int j=0;j<MAC_locs.size();j++) {
 			Algo1 FindMe = new Algo1();
 			FindMe.FirstSeen = MAC_locs.get(j).FirstSeen;
@@ -77,7 +77,7 @@ public class Algo1 {
 		WriteFile(LocFinders);
 	}
 
-	public void WriteFile(List<Algo1> LocFinders) throws FileNotFoundException {
+	public void WriteFile(List<Algo1> LocFinders) throws FileNotFoundException {//writer for the algo
 		PrintWriter writer = new PrintWriter(path);
 		for(int i=0;i<LocFinders.size();i++) {
 			writer.print(LocFinders.get(i).FirstSeen);
@@ -105,7 +105,7 @@ public class Algo1 {
 
 	}
 
-	public Algo1(Writer newFile, String mac) {
+	public Algo1(Writer newFile, String mac) {//Secondary algo with different input
 
 		for(int i=0;i<newFile.data.wifiNetworks.size();i++) 
 			for(int j=0;j<newFile.data.wifiNetworks.get(i).MAC2.size();j++)

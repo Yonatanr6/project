@@ -13,7 +13,7 @@ import java.util.List;
 import Algorithms.Algo1;
 import wifi_data.getID;
 
-public class wigel_mac {
+public class wigel_mac {//a class that reads wiglewifi file, and creates list of macs for algo1
 	
 	public String FirstSeen;
 	public String Id;

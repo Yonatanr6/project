@@ -21,7 +21,7 @@ import wifi_data.wifiPoint;
 
 
 
-public class Read {
+public class Read {//a class that reads wiglewifi files, and creates a list of wifi scans
 
 	public 	List<location> locations= new ArrayList<location>();
 	public List<wifiPoint> wifiPoints = new ArrayList<wifiPoint>();
@@ -31,7 +31,7 @@ public class Read {
 	public Read() throws IOException {
 		
 		
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\WigleWifi");
+		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\WigleWifi");//path of the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {

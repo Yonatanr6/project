@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class wifiNetwork {
+public class wifiNetwork {// class that creates a wifinetwork from the location and wifipoint objects 
 
 	
 	public double CurrentLongitude;

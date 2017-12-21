@@ -8,7 +8,7 @@ import java.util.List;
 
 import wifi_data.getID;
 
-public class no_gps_read {
+public class no_gps_read {//a class that reads no gps file, and creates a list for algo2
 
 	public double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	public int NumberOWN;
@@ -27,7 +27,7 @@ public class no_gps_read {
 
 	public no_gps_read() {
 
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\no_gps");
+		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\no_gps");//path for the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
@@ -47,9 +47,7 @@ public class no_gps_read {
 							String[] split = lineRead.split(",");
 							scan.FirstSeen= split[0];
 							scan.Id= split[1];
-							//scan.CurrentLatitude = Double.parseDouble(split[2]);
-							//scan.CurrentLongitude = Double.parseDouble(split[3]);
-							//scan.AltitudeMeters = Double.parseDouble(split[4]);
+							
 							scan.NumberOWN = Integer.parseInt(split[5]);
 							for(int i=0;i<scan.NumberOWN;i++) {
 								scan.SSIDList.add(split[6+i*4]);

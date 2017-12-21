@@ -4,7 +4,7 @@ public class getID {
 
 	private String id;	
 
-	public getID(String str){		
+	public getID(String str){	//class that gets the id of the device fromt the wiglewifi	
 		int start = str.indexOf("model=");
 		if(start>=0){
 			start+="model=".length();

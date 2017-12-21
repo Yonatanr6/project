@@ -9,7 +9,7 @@ import java.util.List;
 
 import wifi_data.getID;
 
-public class comb_reader {
+public class comb_reader {// a class that reads comb/best files and creats a list of scans
 
 	public double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	public int NumberOWN;
@@ -28,7 +28,7 @@ public class comb_reader {
 
 	public comb_reader() {
 
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\comb");
+		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\comb");//path of the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {

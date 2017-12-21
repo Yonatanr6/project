@@ -4,14 +4,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class Writer {
+public class Writer {// a class that writes a comb file from the wigelwifi files
 	
 	public Read data=new Read();
 
 	public Writer() throws IOException {
 	
 		
-		String path=("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\our_comb\\best.csv");
+		String path=("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file
 	
 	PrintWriter writer = new PrintWriter(path);
 	
@@ -25,7 +25,7 @@ public class Writer {
 			","+",SSID8"+",MAC8"+",Channel8"+",RSSI8"+
 			","+",SSID9"+",MAC9"+",Channel9"+",RSSI9"+
 			","+",SSID10"+",MAC10"+",Channel10"+",RSSI10"
-			);//header for the file
+			);
 	
 
 	for(int i=0;i<data.wifiNetworks.size();i++) {

@@ -8,7 +8,7 @@ public class location {
 	public String Id; 
 	public String FirstSeen;
 	public int NumberOWN=0;
-	public location(wifiPoint line, getID firstline)
+	public location(wifiPoint line, getID firstline)///class that creates an object with the location information from wiglewifi
 	{
 		this.Id=firstline.getId();
 		this.Lat=line.CurrentLatitude;
