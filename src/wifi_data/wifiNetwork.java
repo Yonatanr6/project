@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class wifiNetwork {// class that creates a wifinetwork from the location and wifipoint objects 
+
+public class wifiNetwork {
 
 	
 	public double CurrentLongitude;
@@ -24,6 +25,12 @@ public class wifiNetwork {// class that creates a wifinetwork from the location 
 
 	@Override
 	public String toString() {
+
+/**
+ *  class that creates a wifinetwork from the location and wifipoint objects 
+ *  Shiran &Yonatan
+ *
+ */
 		return FirstSeen +","+ Id +","+ CurrentLatitude +","+ CurrentLongitude +","+ AltitudeMeters
 				+","+ NumberOWN +","+ SSID2.toString() +","+ MAC2.toString() + ","+ Channel3.toString() + ","+ RSSI2.toString()
 				;

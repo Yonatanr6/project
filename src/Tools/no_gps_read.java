@@ -8,8 +8,9 @@ import java.util.List;
 
 import wifi_data.getID;
 
-public class no_gps_read {//a class that reads no gps file, and creates a list for algo2
 
+public class no_gps_read {
+	
 	public double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	public int NumberOWN;
 	public String FirstSeen, Id;
@@ -22,6 +23,12 @@ public class no_gps_read {//a class that reads no gps file, and creates a list f
 	public List<comb_reader> scans = new ArrayList<>();
 
 	public no_gps_read(getID firstline) {
+		/**
+		 * a class that reads no gps file, and creates a list for algo2 
+		 *  Shiran &Yonatan
+		 *
+		 */
+
 		Id=firstline.getId();
 	}
 

@@ -13,7 +13,9 @@ import java.util.List;
 import Algorithms.Algo1;
 import wifi_data.getID;
 
-public class wigel_mac {//a class that reads wiglewifi file, and creates list of macs for algo1
+
+public class wigel_mac {
+	
 	
 	public String FirstSeen;
 	public String Id;
@@ -36,6 +38,11 @@ public class wigel_mac {//a class that reads wiglewifi file, and creates list of
 	
 	
 	public wigel_mac() throws FileNotFoundException {
+		/**
+		 * a class that reads wiglewifi file, and creates list of macs for algo1
+		 * @author Shiran &Yonatan
+		 *
+		 */
 		
 		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\WigleWifi");
 		File[] listOfFiles = folder.listFiles();

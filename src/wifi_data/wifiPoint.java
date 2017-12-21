@@ -1,10 +1,20 @@
 package wifi_data;
 
-public class wifiPoint {//class that creates an object with the information of the wifiscan from the wiglewifi file
+
+
+
+public class wifiPoint {
+
 	
 
 	@Override
 	public String toString() {
+		/**
+		 * class that creates an object with the information of the wifiscan from the wiglewifi file 
+		 *  Shiran &Yonatan
+		 *
+		 */
+
 		return  Id +","+ FirstSeen + "," + AuthMode + "," + SSID + "," + Channel + "," + RSSI + "," + CurrentLatitude
 				+ "," + CurrentLongitude + "," + AltitudeMeters + "," + AccuracyMeters + "," + type+ "," +MAC ;
 	}

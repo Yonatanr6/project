@@ -13,10 +13,14 @@ import Tools.no_gps_read;
 import Tools.wigel_mac;
 
 public class main {
+	
 
 	public static void main(String[] args) throws IOException {
-		
-		
+		/**
+		 * main
+		 * @author Shiran &Yonatan
+		 *
+		 */
 		
 		Writer newFile =new Writer();
 		

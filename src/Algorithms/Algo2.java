@@ -10,7 +10,13 @@ import Tools.comb_reader;
 import Tools.no_gps_read;
 
 
-public class Algo2 {//the class of algo2
+
+public class Algo2 {
+	/**
+	 * the class of algo2
+	 * @author Shiran &Yonatan
+	 *
+	 */
 
 	double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	int NumberOWN;
@@ -104,7 +110,13 @@ public class Algo2 {//the class of algo2
 
 	}
 	
-	public void piCalc(List<Algo2> calcs) {//func that calcs the similarty between each line 
+	public void piCalc(List<Algo2> calcs) {
+		/**
+		 *func that calcs the similarty between each line 
+		 * @author Shiran &Yonatan
+		 *
+		 */
+		
 		double sum =1;
 		for(int i=0;i<calcs.size();i++) {
 			for(int j=0;j<calcs.get(i).weight.size();j++) 

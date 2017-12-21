@@ -9,7 +9,8 @@ import java.util.List;
 
 import wifi_data.getID;
 
-public class comb_reader {// a class that reads comb/best files and creats a list of scans
+
+public class comb_reader {
 
 	public double CurrentLongitude, CurrentLatitude,  AltitudeMeters;
 	public int NumberOWN;
@@ -23,6 +24,11 @@ public class comb_reader {// a class that reads comb/best files and creats a lis
 	public List<comb_reader> KMLpoints = new ArrayList<>();
 
 	public comb_reader(getID firstline) {
+		/**
+		 * a class that reads comb/best files and creats a list of scans 
+		 * Shiran &Yonatan
+		 *
+		 */
 		Id=firstline.getId();
 	}
 

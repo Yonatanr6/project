@@ -8,8 +8,19 @@ public class location {
 	public String Id; 
 	public String FirstSeen;
 	public int NumberOWN=0;
-	public location(wifiPoint line, getID firstline)///class that creates an object with the location information from wiglewifi
+	
+	
+	
+	public location(wifiPoint line, getID firstline)
 	{
+		/**
+		 * class that creates an object with the location information from wiglewifi
+		 *  Shiran &Yonatan
+		 *
+		 */
+		
+		
+		
 		this.Id=firstline.getId();
 		this.Lat=line.CurrentLatitude;
 		this.Lon=line.CurrentLongitude;

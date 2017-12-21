@@ -4,11 +4,18 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class Writer {// a class that writes a comb file from the wigelwifi files
-	
+
+public class Writer {
+
 	public Read data=new Read();
 
 	public Writer() throws IOException {
+		/**
+		 *  a class that writes a comb file from the wigelwifi files
+		 * @author Shiran &Yonatan
+		 *
+		 */
+		
 	
 		
 		String path=("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file

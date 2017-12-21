@@ -7,8 +7,13 @@ import java.util.List;
 import Tools.Writer;
 import Tools.wigel_mac;
 
-public class Algo1 {//the class of algo1
+//the class of algo1
+ 
+ 
+ 
 
+public class Algo1 {
+	
 	public List<Integer> RSSI= new ArrayList<>();
 	public List<Double> Latitude= new ArrayList<>();
 	public List<Double> Longitude= new ArrayList<>();
@@ -28,7 +33,14 @@ public class Algo1 {//the class of algo1
 	
 	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo1\\algo1.csv";//output file
 	
-	public Algo1(List<wigel_mac> MAC_locs) throws FileNotFoundException {//the main algo that clacs the approx location of the mac, wich gets list of macs
+	
+	public Algo1(List<wigel_mac> MAC_locs) throws FileNotFoundException {
+		
+		/**
+		 * the main algo that clacs the approx location of the mac, wich gets list of macs
+		 * @author Shiran &Yonatan
+		 *
+		 */
 		for(int j=0;j<MAC_locs.size();j++) {
 			Algo1 FindMe = new Algo1();
 			FindMe.FirstSeen = MAC_locs.get(j).FirstSeen;
