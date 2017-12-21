@@ -27,8 +27,8 @@ class testAlgo1 {
 	}
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void test1() {
+		//fail("Not yet implemented");
 	}
 
 }
