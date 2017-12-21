@@ -1,0 +1,6 @@
+algo 1 explenation
+
+first we have read all the information that we need from the wigelwifi files.
+after the reading we have created a new list that contains all the mac address, we removed all duplicates mac after we exctarcted the 
+information from them.
+then the list is sent to the algo1 class that calculates the approx location of the mac, based on the algorithm that were provided.

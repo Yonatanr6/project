@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="testMatala.main" project="matala-shiran-yonatan-" 
-    file="/matala-shiran-yonatan-/src/testMatala/main.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="RunMatala.main" project="matala-shiran-yonatan-" 
+    file="/matala-shiran-yonatan-/src/RunMatala/main.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="106" width="130" x="84" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

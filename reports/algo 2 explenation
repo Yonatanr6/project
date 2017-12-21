@@ -1,0 +1,5 @@
+algo 2 explenation
+
+first we have read the data that we need for the calculations from the comb/best file, and the no gps file for which we need for the input.
+after we have read the data from the comb files,weve created an object that can be searched in to find similarity from the input file.
+after we have both of the objects we sent the to algo2 class to find approx location based on the algorithm2 that were provided.
