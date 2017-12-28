@@ -57,11 +57,13 @@ class Algo1Test {
 			assertTrue(f.exists());
 			BufferedReader br = new BufferedReader(new FileReader(f));
 			assertTrue(br.readLine() == null);
+			br.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 	}
 
 	@Test
