@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import Algorithms.Algo2;
+import KML.kml_writer;
 import Tools.Writer;
 import Tools.comb_reader;
 import Tools.no_gps_read;
@@ -23,7 +24,7 @@ public class main {
 		 */
 		
 		Writer newFile =new Writer();
-		
+		kml_writer newkml = new kml_writer();
 		
 		
 		//LocFinder Find = new LocFinder(newFile, mac);
