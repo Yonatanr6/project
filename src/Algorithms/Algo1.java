@@ -31,7 +31,7 @@ public class Algo1 {
 
 	public String FirstSeen, Id, MAC, SSID;
 	
-	String path="C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\output\\algo1.csv";//output file
+	String path="C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\algo1\\algo1.csv";//output file
 	
 	
 	public Algo1(List<wigel_mac> MAC_locs) throws FileNotFoundException {

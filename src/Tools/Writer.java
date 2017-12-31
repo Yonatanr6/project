@@ -65,7 +65,7 @@ public class Writer {
 		
 	
 		
-    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\output\\Filter\\backup\\backup.csv");//output file for the comb/best file
+    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\backup\\backup.csv");//output file for the comb/best file
 	
 	PrintWriter writer = new PrintWriter(path);
 	

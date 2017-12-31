@@ -6,11 +6,13 @@ import java.io.PrintWriter;
 
 public class Filter {
 	
-	String save_id, save_from_time, save_to_time;
-	double save_from_lat, save_to_lat, save_from_lon, save_to_lon, save_from_alt, save_to_alt;
+	static String save_id;
+	static String save_from_time;
+	static String save_to_time;
+	static double save_from_lat, save_to_lat, save_from_lon, save_to_lon, save_from_alt, save_to_alt;
 	
 	
-public void remove_by_id(comb_reader data, String id) {
+public static void remove_by_id(comb_reader data, String id) {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -19,8 +21,10 @@ public void remove_by_id(comb_reader data, String id) {
 	}
 	setSave_id(id);
 	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).Id.compareTo(id)!=0)
+		if(!data.KMLpoints.get(i).Id.equals(id)) {
 			data.KMLpoints.remove(i);
+		    i--;
+		}
 	}
 	
 	
@@ -35,10 +39,14 @@ public void remove_by_time(comb_reader data, String from_time, String to_time) {
 	setSave_from_time(from_time);
 	setSave_to_time(to_time);
 	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).FirstSeen.compareTo(from_time)<0)
+		if(data.KMLpoints.get(i).FirstSeen.compareTo(from_time)<0) {
 			data.KMLpoints.remove(i);
-		if(data.KMLpoints.get(i).FirstSeen.compareTo(to_time)>0)
+			i--;
+		}
+		if(data.KMLpoints.get(i).FirstSeen.compareTo(to_time)>0) {
 			data.KMLpoints.remove(i);
+			i--;
+		}
 	}	
 }
 
@@ -52,10 +60,14 @@ public void remove_by_lat(comb_reader data, double from, double to) {
 	setSave_from_lat(from);
 	setSave_to_lat(to);
 	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).CurrentLatitude<from)
+		if(data.KMLpoints.get(i).CurrentLatitude<from) {
 			data.KMLpoints.remove(i);
-		if(data.KMLpoints.get(i).CurrentLatitude>to)
+			i--;
+		}
+		if(data.KMLpoints.get(i).CurrentLatitude>to) {
 			data.KMLpoints.remove(i);
+			i--;
+		}
 	}
 	
 }
@@ -69,10 +81,14 @@ public void remove_by_lon(comb_reader data, double from, double to) {
 	setSave_from_lon(from);
 	setSave_to_lon(to);
 	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).CurrentLongitude<from)
+		if(data.KMLpoints.get(i).CurrentLongitude<from) {
 			data.KMLpoints.remove(i);
-		if(data.KMLpoints.get(i).CurrentLongitude>to)
+			i--;
+		}
+		if(data.KMLpoints.get(i).CurrentLongitude>to) {
 			data.KMLpoints.remove(i);
+			i--;
+		}
 	}
 	
 }
@@ -86,16 +102,20 @@ public void remove_by_alt(comb_reader data, double from, double to) {
 	setSave_from_alt(from);
 	setSave_to_alt(to);
 	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).AltitudeMeters<from)
+		if(data.KMLpoints.get(i).AltitudeMeters<from) {
 			data.KMLpoints.remove(i);
-		if(data.KMLpoints.get(i).AltitudeMeters>to)
+			i--;
+		}
+		if(data.KMLpoints.get(i).AltitudeMeters>to) {
 			data.KMLpoints.remove(i);
+			i--;
+		}
 	}
 	
 }
 
-public void save_filter() throws FileNotFoundException {
-String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\output\\Filter\\Filter.txt");//output file for the comb/best file
+public static void save_filter() throws FileNotFoundException {
+String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\Filter.txt");//output file for the comb/best file
 	
 
 	PrintWriter writer = new PrintWriter(path);
@@ -110,34 +130,35 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\output\\Filter\\Filt
 	writer.println(save_to_lon);
 	writer.println(save_from_alt);
 	writer.println(save_to_alt);
+	writer.close();
 	
 }
-public void setSave_id(String save_id) {
-	this.save_id = save_id;
+public static void setSave_id(String save_id1) {
+	save_id = save_id1;
 }
-public void setSave_from_time(String save_from_time) {
-	this.save_from_time = save_from_time;
+public void setSave_from_time(String save_from_time1) {
+	this.save_from_time = save_from_time1;
 }
-public void setSave_to_time(String save_to_time) {
-	this.save_to_time = save_to_time;
+public void setSave_to_time(String save_to_time1) {
+	this.save_to_time = save_to_time1;
 }
-public void setSave_from_lat(double save_from_lat) {
-	this.save_from_lat = save_from_lat;
+public void setSave_from_lat(double save_from_lat1) {
+	this.save_from_lat = save_from_lat1;
 }
-public void setSave_to_lat(double save_to_lat) {
-	this.save_to_lat = save_to_lat;
+public void setSave_to_lat(double save_to_lat1) {
+	this.save_to_lat = save_to_lat1;
 }
-public void setSave_from_lon(double save_from_lon) {
-	this.save_from_lon = save_from_lon;
+public void setSave_from_lon(double save_from_lon1) {
+	this.save_from_lon = save_from_lon1;
 }
-public void setSave_to_lon(double save_to_lon) {
-	this.save_to_lon = save_to_lon;
+public void setSave_to_lon(double save_to_lon1) {
+	this.save_to_lon = save_to_lon1;
 }
-public void setSave_from_alt(double save_from_alt) {
-	this.save_from_alt = save_from_alt;
+public void setSave_from_alt(double save_from_alt1) {
+	this.save_from_alt = save_from_alt1;
 }
-public void setSave_to_alt(double save_to_alt) {
-	this.save_to_alt = save_to_alt;
+public void setSave_to_alt(double save_to_alt1) {
+	this.save_to_alt = save_to_alt1;
 }
 
 

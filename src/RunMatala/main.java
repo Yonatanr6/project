@@ -12,7 +12,7 @@ import Tools.Writer;
 import Tools.comb_reader;
 import Tools.no_gps_read;
 import Tools.wigel_mac;
-
+import Tools.Filter;
 public class main {
 	
 
@@ -25,11 +25,14 @@ public class main {
 		
 		Writer newFile =new Writer();
 		kml_writer newkml = new kml_writer();
-		
+		String a="model=SM-G950F_device=dreamlte";
 		
 		//LocFinder Find = new LocFinder(newFile, mac);
 		wigel_mac loc = new wigel_mac();
 		comb_reader point = new comb_reader();
+		//Tools.Filter.remove_by_id(point,a);
+		//Tools.Filter.save_filter();
+		Writer writeComb= new Writer(point);
 		no_gps_read read = new no_gps_read();
 		try {
 			Algo2 re = new Algo2(read);

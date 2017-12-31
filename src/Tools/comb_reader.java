@@ -34,7 +34,7 @@ public class comb_reader {
 
 	public comb_reader() {
 
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\comb");//path of the files for reading
+		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\input\\comb");//path of the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
