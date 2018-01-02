@@ -33,7 +33,7 @@ public class Algo2 {
 	double fLongitude, fLatitude, fAltitude;
 	double sLongitude, sLatitude, sAltitude;
 	
-	String path="C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\output\\algo2\\algo2.csv";//output file
+	String path="C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\algo2\\algo2.csv";//output file
 	
 
 	double pow=2,min_dif=3,norm=10000,sig_dif=0.4,no_sig=-120,dif_no_sig=100;

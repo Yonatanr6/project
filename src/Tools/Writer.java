@@ -7,9 +7,9 @@ import java.io.PrintWriter;
 
 public class Writer {
 
-	public Read data=new Read();
 
-	public Writer() throws IOException {
+
+	public Writer(Read data) throws IOException {
 		/**
 		 *  a class that writes a comb file from the wigelwifi files
 		 * @author Shiran &Yonatan
@@ -52,9 +52,7 @@ public class Writer {
 			
 	writer.close();
 	}
-	public Read getData() {
-		return data;
-	}
+	
 	
 	public Writer(comb_reader data2) throws IOException {
 		/**

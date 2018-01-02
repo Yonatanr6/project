@@ -108,19 +108,6 @@ public class wigel_mac {
 				MAC_locs.remove(j);
 			}
 		}
-//for(int i=0; i<MAC_locs.size();i++) {
-//	MAC_locs2.add(MAC_locs.get(i));
-//	for(int j=1; j<MAC_locs.size();j++)
-//		if(MAC_locs.get(i).MAC.matches(MAC_locs.get(j).MAC)) {
-//			MAC_locs2.get(i).RSSIL.add(MAC_locs.get(j).RSSI);
-//			MAC_locs2.get(i).LatitudeL.add(MAC_locs.get(j).Latitude);
-//			MAC_locs2.get(i).LongitudeL.add(MAC_locs.get(j).Longitude);
-//			MAC_locs2.get(i).AltitudeL.add(MAC_locs.get(j).Altitude);
-//			
-//			MAC_locs.remove(j);
-//			
-//		}
-//}
 		
 		
 		Algo1 find = new Algo1(MAC_locs);

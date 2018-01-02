@@ -4,6 +4,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+import Tools.Read;
 import Tools.Writer;
 import Tools.wigel_mac;
 
@@ -117,16 +118,16 @@ public class Algo1 {
 
 	}
 
-	public Algo1(Writer newFile, String mac) {//Secondary algo with different input
+	public Algo1(Read newFile, String mac) {//Secondary algo with different input
 
-		for(int i=0;i<newFile.data.wifiNetworks.size();i++) 
-			for(int j=0;j<newFile.data.wifiNetworks.get(i).MAC2.size();j++)
-				if(mac.equals(newFile.data.wifiNetworks.get(i).MAC2.get(j))==true) {
+		for(int i=0;i<newFile.wifiNetworks.size();i++) 
+			for(int j=0;j<newFile.wifiNetworks.get(i).MAC2.size();j++)
+				if(mac.equals(newFile.wifiNetworks.get(i).MAC2.get(j))==true) {
 					count++;
-					RSSI.add(newFile.data.wifiNetworks.get(i).RSSI2.get(j));
-					Latitude.add(newFile.data.wifiNetworks.get(i).CurrentLatitude);
-					Longitude.add(newFile.data.wifiNetworks.get(i).CurrentLongitude);
-					Altitude.add(newFile.data.wifiNetworks.get(i).AltitudeMeters);
+					RSSI.add(newFile.wifiNetworks.get(i).RSSI2.get(j));
+					Latitude.add(newFile.wifiNetworks.get(i).CurrentLatitude);
+					Longitude.add(newFile.wifiNetworks.get(i).CurrentLongitude);
+					Altitude.add(newFile.wifiNetworks.get(i).AltitudeMeters);
 				}
 
 
