@@ -22,6 +22,7 @@ public class main {
 		 * @author Shiran &Yonatan
 		 *
 		 */
+		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\after_filter.csv");
 		
 		Writer newFile =new Writer();
 		kml_writer newkml = new kml_writer();
@@ -30,9 +31,9 @@ public class main {
 		//LocFinder Find = new LocFinder(newFile, mac);
 		wigel_mac loc = new wigel_mac();
 		comb_reader point = new comb_reader();
-		//Tools.Filter.remove_by_id(point,a);
-		//Tools.Filter.save_filter();
-		Writer writeComb= new Writer(point);
+		Tools.Filter.remove_by_id(point,a);
+		Tools.Filter.save_filter();
+		Writer writeComb= new Writer(point,path);
 		no_gps_read read = new no_gps_read();
 		try {
 			Algo2 re = new Algo2(read);
