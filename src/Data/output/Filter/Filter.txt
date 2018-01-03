@@ -1,9 +1,0 @@
-model=SM-G950F_device=dreamlte
-null
-null
-0.0
-0.0
-0.0
-0.0
-0.0
-0.0

@@ -23,8 +23,8 @@ public class WriterToKml {
 		 * @author Shiran &Yonatan
 		 *
 		 */
-		String path= "C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\KML";
-		 File file = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\KML\\kmalMap.kml");
+		
+		 File file = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\KML\\kmalMap.kml");
 	      
 	      file.createNewFile();
 	      

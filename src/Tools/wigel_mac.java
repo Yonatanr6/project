@@ -44,7 +44,7 @@ public class wigel_mac {
 		 *
 		 */
 		
-		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\input\\WigleWifi");
+		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\WigleWifi");
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {

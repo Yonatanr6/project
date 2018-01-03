@@ -119,7 +119,7 @@ public void remove_by_alt(comb_reader data, double from, double to) {
 }
 
 public static void save_filter() throws FileNotFoundException {
-String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\Filter.txt");//output file for the comb/best file
+String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\Filter.txt");//output file for the comb/best file
 
 
 	PrintWriter writer = new PrintWriter(path);
@@ -138,8 +138,8 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\F
 	
 }
 
-public static void load_filter() throws FileNotFoundException {
-	File newfile = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\Filter.txt");
+public static void load_filter() throws IOException {
+	File newfile = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\Filter.txt");
 	BufferedReader br = new BufferedReader(new FileReader(newfile));
 	
 	String[] filterRead= new String[9];
@@ -150,7 +150,7 @@ public static void load_filter() throws FileNotFoundException {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
-	}
+	
 	load_id= filterRead[0];
 	load_from_time= filterRead[1];
 	load_to_time =filterRead[2];
@@ -160,6 +160,9 @@ public static void load_filter() throws FileNotFoundException {
 	load_to_lon = Double.parseDouble(filterRead[6]);
     load_from_alt = Double.parseDouble(filterRead[7]);
     load_to_alt = Double.parseDouble(filterRead[8]);
+    
+	}
+	br.close();
 }
 
 public static void and_filter() {

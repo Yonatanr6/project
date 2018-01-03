@@ -9,7 +9,7 @@ public class Writer {
 
 
 	public Writer() throws FileNotFoundException {//deletes the data base
-		 String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file
+		 String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file
 			
 			PrintWriter writer = new PrintWriter(path);
 			
@@ -35,7 +35,7 @@ public class Writer {
 		
 	
 		
-    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file
+    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file
 	
 	PrintWriter writer = new PrintWriter(path);
 	
@@ -77,7 +77,7 @@ public class Writer {
 		 * @author Shiran &Yonatan
 		 *
 		 */	
-    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\backup\\backup.csv");//output file for the comb/best file
+    String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\backup\\backup.csv");//output file for the comb/best file
 	
 	PrintWriter writer = new PrintWriter(path);
 	

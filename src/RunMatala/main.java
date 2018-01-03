@@ -23,7 +23,7 @@ public class main {
 		 * @author Shiran &Yonatan
 		 *
 		 */
-		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\Filter\\after_filter.csv");
+		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\after_filter.csv");
 		
 		Read data=new Read();
 		Writer newFile =new Writer(data);

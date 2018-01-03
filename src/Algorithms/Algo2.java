@@ -36,7 +36,7 @@ public class Algo2 {
 	double fLongitude, fLatitude, fAltitude;
 	double sLongitude, sLatitude, sAltitude;
 
-	String path="C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\algo2\\algo2.csv";//output file
+	String path="C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\algo2\\algo2.csv";//output file
 
 
 	double pow=2,min_dif=3,norm=10000,sig_dif=0.4,no_sig=-120,dif_no_sig=100;
@@ -138,7 +138,7 @@ public class Algo2 {
 
 		List<comb_reader> scans = new ArrayList<>();
 
-		String temp="12/05/17 11:48 AM,model=SM-G950F_device=dreamlte,?,?,?,3,IT-MNG,1c:b9:c4:15:ed:b8,1,-81, ,8c:0c:90:ae:16:83,11,-86,Ariel_University,1c:b9:c4:16:ed:3c,44,-91,,,,,,,,,,,,,,,,,,,,\r\n" ;
+		
 		String[] split = no_gps.split(",");	
 
 		getID ID = new getID(no_gps);

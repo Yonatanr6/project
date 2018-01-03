@@ -37,7 +37,7 @@ public class Read {
 
 		
 		
-		File folder = new File("C:\\Users\\Yoni\\Documents\\EclipseProjects\\testMatala\\src\\Data\\input\\WigleWifi");//path of the files for reading
+		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\WigleWifi");//path of the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
@@ -188,7 +188,7 @@ public List<wifiPoint> getwifiPoints() {
 
 public void comb_adder(String path) {//adds comb to data
 
-	File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\input\\comb");//path of the files for reading
+	File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\comb");//path of the files for reading
 	File[] listOfFiles = folder.listFiles();
 
 	for (File file : listOfFiles) {
