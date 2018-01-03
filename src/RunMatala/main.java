@@ -7,6 +7,9 @@ import java.io.PrintWriter;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
 import java.nio.file.WatchKey;
 import java.nio.file.WatchService;
 import java.util.ArrayList;
@@ -32,6 +35,24 @@ public class main {
 		 */
 		try (WatchService service = FileSystems.getDefault().newWatchService()){
 			Map<WatchKey, Path> KeyMap = new HashMap<>();
+			Path path = Paths.get("input");
+			KeyMap.put(path.register(service,
+				StandardWatchEventKinds.ENTRY_CREATE,
+				StandardWatchEventKinds.ENTRY_DELETE,
+				StandardWatchEventKinds.ENTRY_MODIFY
+					),path);
+			WatchKey watchKey;
+			do {
+				watchKey = service.take();
+				Path eventDir = KeyMap.get(watchKey);
+				for(WatchEvent<?> event : watchKey.pollEvents()) {
+					
+				}
+			} while(watchKey.reset());
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\after_filter.csv");
 		
