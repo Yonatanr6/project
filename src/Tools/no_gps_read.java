@@ -34,7 +34,7 @@ public class no_gps_read {
 
 	public no_gps_read() {
 
-		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\no_gps\\no_gps");//path for the files for reading
+		File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\no_gps");//path for the files for reading
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
