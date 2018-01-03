@@ -31,7 +31,7 @@ public class wigel_mac {
 	
 	public List<wigel_mac> MAC_locs= new ArrayList<>();
 	
-	
+	String mac="c0:ac:54:f5:b4:c9";
 	
 	public double wLatitude, wLongitude, wAltitude;
 
@@ -110,7 +110,7 @@ public class wigel_mac {
 		}
 		
 		
-		Algo1 find = new Algo1(MAC_locs);
+		Algo1 find = new Algo1(MAC_locs,mac);
 		
 	
 }

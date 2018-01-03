@@ -161,6 +161,11 @@ public static void load_filter() throws FileNotFoundException {
     load_from_alt = Double.parseDouble(filterRead[7]);
     load_to_alt = Double.parseDouble(filterRead[8]);
 }
+
+public static void and_filter() {
+	
+}
+
 public static void setSave_id(String save_id1) {
 	save_id = save_id1;
 }

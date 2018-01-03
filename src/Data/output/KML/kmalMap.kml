@@ -1,0 +1,3093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Style id="red"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style><Style id="yellow"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style><Style id="green"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style><Folder><name>Wifi Networks</name>
+<Placemark>
+<name><![CDATA[HOTBOX-D88A]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:b4:c9</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:42:54</b><br/>]]></description>
+<Point><coordinates>34.8144489381276,32.17224246105308</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Efrat]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:86:c0:f1</b><br/>RSSI:<b>-74</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:00</b><br/>]]></description>
+<Point><coordinates>34.81444473498782,32.172238019565235</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[angela]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:f5:d8:e8</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:06</b><br/>]]></description>
+<Point><coordinates>34.814391891326764,32.172252019523675</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KarvatB0.5]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:cc:ed:6d</b><br/>RSSI:<b>-89</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:43:18</b><br/>]]></description>
+<Point><coordinates>34.81421445142988,32.172265215924426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free GA32E3]]></name>
+<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:29</b><br/>]]></description>
+<Point><coordinates>34.81363858823374,32.1723485161587</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[lellouche]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:ad:2d:34</b><br/>RSSI:<b>-93</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:43:31</b><br/>]]></description>
+<Point><coordinates>34.81350895,32.17237425</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dobry2016]]></name>
+<description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9b</b><br/>RSSI:<b>-69</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:33</b><br/>]]></description>
+<Point><coordinates>34.81341290942063,32.17238058500455</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mevohot_1]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1b:a2:48</b><br/>RSSI:<b>-95</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:43:34</b><br/>]]></description>
+<Point><coordinates>34.81333642,32.17238884</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-66</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:37</b><br/>]]></description>
+<Point><coordinates>34.81318688512261,32.17241155333384</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-73</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:37</b><br/>]]></description>
+<Point><coordinates>34.81315388,32.17241727</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome_2EX]]></name>
+<description><![CDATA[MAC: <b>74:da:38:14:1f:8d</b><br/>RSSI:<b>-82</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:43:37</b><br/>]]></description>
+<Point><coordinates>34.81315388,32.17241727</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mevohot_3]]></name>
+<description><![CDATA[MAC: <b>60:e3:27:e8:41:e8</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:37</b><br/>]]></description>
+<Point><coordinates>34.81315388,32.17241727</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:ba:1e:85</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-83</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[shweiger1]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:c1:ad:7d</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>08:3e:5d:5c:72:5e</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:43:40</b><br/>]]></description>
+<Point><coordinates>34.81296682,32.17243758</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-57</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:41</b><br/>]]></description>
+<Point><coordinates>34.81295646141121,32.17244042298214</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:43</b><br/>]]></description>
+<Point><coordinates>34.81278713,32.17246651</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:c1:ad:7d</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:43</b><br/>]]></description>
+<Point><coordinates>34.81278713,32.17246651</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-78</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:45</b><br/>]]></description>
+<Point><coordinates>34.81270507338805,32.17248344093608</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Eldad_2EX]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:e8:b9:cc</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:45</b><br/>]]></description>
+<Point><coordinates>34.81270507338805,32.17248344093608</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Eldad_2EX]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:e8:b9:cc</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:46</b><br/>]]></description>
+<Point><coordinates>34.81260015,32.1724962</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX1234]]></name>
+<description><![CDATA[MAC: <b>30:b5:c2:6e:12:d4</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:46</b><br/>]]></description>
+<Point><coordinates>34.81260015,32.1724962</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX1234]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:f9:f5:5b</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:49</b><br/>]]></description>
+<Point><coordinates>34.81242555,32.17253749</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:52</b><br/>]]></description>
+<Point><coordinates>34.81224372,32.17255033</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:55</b><br/>]]></description>
+<Point><coordinates>34.81211077,32.17246746</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Miller]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:0e:5c</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:55</b><br/>]]></description>
+<Point><coordinates>34.81211077,32.17246746</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[urigil1]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:5d:c2:60</b><br/>RSSI:<b>-90</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:43:57</b><br/>]]></description>
+<Point><coordinates>34.812091884783165,32.17240151409594</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:43:57</b><br/>]]></description>
+<Point><coordinates>34.812091884783165,32.17240151409594</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gil-Up]]></name>
+<description><![CDATA[MAC: <b>50:c7:bf:36:df:98</b><br/>RSSI:<b>-89</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:43:58</b><br/>]]></description>
+<Point><coordinates>34.81204165,32.17230828</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Helen.]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:57:cd:42</b><br/>RSSI:<b>-79</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81201239183262,32.17217553070084</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[U2I8L1M0X42]]></name>
+<description><![CDATA[MAC: <b>54:64:d9:66:29:ef</b><br/>RSSI:<b>-85</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81201239183262,32.17217553070084</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[U2I8L1M0X42]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:97:35:f1</b><br/>RSSI:<b>-73</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81196568,32.17212193</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81196568,32.17212193</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:81</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81196568,32.17212193</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ben Ami_2.4]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:60:6a:b5</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81196568,32.17212193</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraGuest]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:82</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
+<Point><coordinates>34.81196568,32.17212193</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ben Ami_2.4]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:60:6a:b5</b><br/>RSSI:<b>-84</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:04</b><br/>]]></description>
+<Point><coordinates>34.81189708,32.17191211</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Shani - Green]]></name>
+<description><![CDATA[MAC: <b>54:b8:0a:34:68:90</b><br/>RSSI:<b>-95</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:04</b><br/>]]></description>
+<Point><coordinates>34.81189708,32.17191211</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Liza]]></name>
+<description><![CDATA[MAC: <b>8c:59:c3:ea:db:4a</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:05</b><br/>]]></description>
+<Point><coordinates>34.81190851897319,32.17188758190333</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ben Ami_2.4]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:60:6a:b5</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:07</b><br/>]]></description>
+<Point><coordinates>34.81179424,32.1716947</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hilush111]]></name>
+<description><![CDATA[MAC: <b>6c:b0:ce:2f:43:36</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:07</b><br/>]]></description>
+<Point><coordinates>34.81179424,32.1716947</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gil Kitchen]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:a3:7d:62</b><br/>RSSI:<b>-96</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:10</b><br/>]]></description>
+<Point><coordinates>34.81172206,32.17151458</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:11</b><br/>]]></description>
+<Point><coordinates>34.811757862271804,32.17149430101505</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[mika1]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:fb:c0:3e</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:14</b><br/>]]></description>
+<Point><coordinates>34.81169555724996,32.17134020148104</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[donush]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:b7:f2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:14</b><br/>]]></description>
+<Point><coordinates>34.81169555724996,32.17134020148104</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DAVID]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:1b:d6</b><br/>RSSI:<b>-96</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:16</b><br/>]]></description>
+<Point><coordinates>34.81159343,32.17121725</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DAVID]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:1b:d6</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:18</b><br/>]]></description>
+<Point><coordinates>34.811594706105254,32.17113909756608</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[home]]></name>
+<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:19</b><br/>]]></description>
+<Point><coordinates>34.81151613,32.17106022</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[home]]></name>
+<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:22</b><br/>]]></description>
+<Point><coordinates>34.81148871152029,32.17094198600168</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_2C3A]]></name>
+<description><![CDATA[MAC: <b>84:16:f9:d7:2c:3a</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:22</b><br/>]]></description>
+<Point><coordinates>34.81148871152029,32.17094198600168</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[home]]></name>
+<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:25</b><br/>]]></description>
+<Point><coordinates>34.81134771,32.1707657</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Guymic]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:99:2d</b><br/>RSSI:<b>-95</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:25</b><br/>]]></description>
+<Point><coordinates>34.81134771,32.1707657</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[home]]></name>
+<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:26</b><br/>]]></description>
+<Point><coordinates>34.81136052218762,32.17073022335429</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Guymic]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:99:2d</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:28</b><br/>]]></description>
+<Point><coordinates>34.81125793,32.1706109</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-A53E]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:a1:7e:98</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:28</b><br/>]]></description>
+<Point><coordinates>34.81125793,32.1706109</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-A53E]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:a1:7e:98</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
+<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rdk]]></name>
+<description><![CDATA[MAC: <b>e4:d3:f1:9a:81:60</b><br/>RSSI:<b>-85</b><br/>Channel:<b>13</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
+<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RDK]]></name>
+<description><![CDATA[MAC: <b>58:b6:33:34:81:a8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
+<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RDK]]></name>
+<description><![CDATA[MAC: <b>58:b6:33:34:ae:f8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
+<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink]]></name>
+<description><![CDATA[MAC: <b>40:9b:cd:11:2f:88</b><br/>RSSI:<b>-92</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
+<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-A53E]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:a1:7e:98</b><br/>RSSI:<b>-79</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:31</b><br/>]]></description>
+<Point><coordinates>34.81116946,32.17044716</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Guymic]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:99:2d</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:31</b><br/>]]></description>
+<Point><coordinates>34.81116946,32.17044716</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RDK]]></name>
+<description><![CDATA[MAC: <b>58:b6:33:34:81:a8</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:31</b><br/>]]></description>
+<Point><coordinates>34.81116946,32.17044716</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[devolo-0f4]]></name>
+<description><![CDATA[MAC: <b>30:d3:2d:37:20:f4</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:34</b><br/>]]></description>
+<Point><coordinates>34.81109365,32.17027335</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[devolo-0f4]]></name>
+<description><![CDATA[MAC: <b>30:d3:2d:37:20:f4</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:37</b><br/>]]></description>
+<Point><coordinates>34.81099899,32.17009476</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Neeman2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2b</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:37</b><br/>]]></description>
+<Point><coordinates>34.81099899,32.17009476</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free F026CC]]></name>
+<description><![CDATA[MAC: <b>6a:0c:c8:1d:c8:28</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:37</b><br/>]]></description>
+<Point><coordinates>34.81099899,32.17009476</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Neeman2.4_5]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:44:38</b><br/>]]></description>
+<Point><coordinates>34.811007615648165,32.17005047256307</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Neeman2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2b</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free F026CC]]></name>
+<description><![CDATA[MAC: <b>6a:0c:c8:1d:c8:28</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-20-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>fc:15:b4:65:09:20</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX12]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:62:4d</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main]]></name>
+<description><![CDATA[MAC: <b>74:da:3a:97:66:9e</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2E6E]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:27:42</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
+<Point><coordinates>34.81091198,32.16988722</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-20-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>fc:15:b4:65:09:20</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:41</b><br/>]]></description>
+<Point><coordinates>34.8109235856239,32.16984101063408</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2E6E]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:27:42</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:41</b><br/>]]></description>
+<Point><coordinates>34.8109235856239,32.16984101063408</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Alpha125]]></name>
+<description><![CDATA[MAC: <b>30:b5:c2:e0:55:9c</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:43</b><br/>]]></description>
+<Point><coordinates>34.81083325,32.16968089</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free T00C36]]></name>
+<description><![CDATA[MAC: <b>5a:0c:c8:0f:21:90</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:46</b><br/>]]></description>
+<Point><coordinates>34.81075792,32.16947978</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>62:ee:0c:39:f9:16</b><br/>RSSI:<b>-94</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:44:46</b><br/>]]></description>
+<Point><coordinates>34.81075792,32.16947978</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELCHARAR_2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:0f:21:93</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:46</b><br/>]]></description>
+<Point><coordinates>34.81075792,32.16947978</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax_2.4G_A92417]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:24:17</b><br/>RSSI:<b>-75</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:44:49</b><br/>]]></description>
+<Point><coordinates>34.81071393258221,32.16930328971546</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqNGN_001489_2.4GHz_1]]></name>
+<description><![CDATA[MAC: <b>c0:a0:bb:cb:59:5b</b><br/>RSSI:<b>-73</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:49</b><br/>]]></description>
+<Point><coordinates>34.81066887,32.1692751</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[netbox]]></name>
+<description><![CDATA[MAC: <b>d0:d4:12:65:19:a2</b><br/>RSSI:<b>-96</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:49</b><br/>]]></description>
+<Point><coordinates>34.81066887,32.1692751</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[forestisthebest]]></name>
+<description><![CDATA[MAC: <b>c8:d7:19:da:03:16</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:52</b><br/>]]></description>
+<Point><coordinates>34.81060214,32.16907519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[spielman]]></name>
+<description><![CDATA[MAC: <b>f4:f2:6d:34:56:54</b><br/>RSSI:<b>-79</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:52</b><br/>]]></description>
+<Point><coordinates>34.81060214,32.16907519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:81</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:52</b><br/>]]></description>
+<Point><coordinates>34.81060214,32.16907519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraGuest]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:82</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:52</b><br/>]]></description>
+<Point><coordinates>34.81060214,32.16907519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-C1-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>28:80:23:f6:e0:c1</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:52</b><br/>]]></description>
+<Point><coordinates>34.81060214,32.16907519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oberyn Martell]]></name>
+<description><![CDATA[MAC: <b>18:d6:c7:fb:1c:0e</b><br/>RSSI:<b>-79</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:44:56</b><br/>]]></description>
+<Point><coordinates>34.81052111,32.16883715</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:56</b><br/>]]></description>
+<Point><coordinates>34.81052111,32.16883715</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-89</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:44:56</b><br/>]]></description>
+<Point><coordinates>34.81052111,32.16883715</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HTC]]></name>
+<description><![CDATA[MAC: <b>06:c2:3e:e4:21:85</b><br/>RSSI:<b>-92</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 10:44:56</b><br/>]]></description>
+<Point><coordinates>34.81052111,32.16883715</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RS_GUEST]]></name>
+<description><![CDATA[MAC: <b>ec:08:6b:38:0d:dd</b><br/>RSSI:<b>-85</b><br/>Channel:<b>12</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RS_GUEST_5G]]></name>
+<description><![CDATA[MAC: <b>ec:08:6b:38:0d:dc</b><br/>RSSI:<b>-89</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-F4-HP DeskJet 3830 series]]></name>
+<description><![CDATA[MAC: <b>c8:d3:ff:57:60:f5</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-89</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HTC]]></name>
+<description><![CDATA[MAC: <b>06:c2:3e:e4:21:85</b><br/>RSSI:<b>-89</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:8e</b><br/>RSSI:<b>-92</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
+<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[kaymeraQA]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:80</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-84</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vision Public]]></name>
+<description><![CDATA[MAC: <b>c0:4a:00:f7:00:c1</b><br/>RSSI:<b>-89</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BARON WIFI 2.4]]></name>
+<description><![CDATA[MAC: <b>60:e3:27:bf:a1:a5</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[cactus]]></name>
+<description><![CDATA[MAC: <b>a0:4f:d4:42:ba:71</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraGuest]]></name>
+<description><![CDATA[MAC: <b>cc:16:7e:97:1d:92</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
+<Point><coordinates>34.81060785,32.16872739</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-91</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:45:01</b><br/>]]></description>
+<Point><coordinates>34.81072410830097,32.168721003548164</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[A-Home]]></name>
+<description><![CDATA[MAC: <b>00:25:86:b1:6f:f8</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:01</b><br/>]]></description>
+<Point><coordinates>34.81074499,32.16870873</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:08:a4:5c</b><br/>RSSI:<b>-69</b><br/>Channel:<b>52</b><br/>First seen:<b>2017-12-01 10:45:11</b><br/>]]></description>
+<Point><coordinates>34.81164041,32.16877222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:11</b><br/>]]></description>
+<Point><coordinates>34.81164041,32.16877222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-90</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:45:11</b><br/>]]></description>
+<Point><coordinates>34.81164041,32.16877222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:11</b><br/>]]></description>
+<Point><coordinates>34.81164041,32.16877222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oberyn Martell]]></name>
+<description><![CDATA[MAC: <b>18:d6:c7:fb:1c:0e</b><br/>RSSI:<b>-95</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:45:11</b><br/>]]></description>
+<Point><coordinates>34.81164041,32.16877222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:4c</b><br/>RSSI:<b>-70</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
+<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-76</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
+<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-400D]]></name>
+<description><![CDATA[MAC: <b>40:65:a3:2b:62:22</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
+<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-400D]]></name>
+<description><![CDATA[MAC: <b>40:65:a3:2b:62:0e</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
+<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SE-WiFi-Employees]]></name>
+<description><![CDATA[MAC: <b>70:4c:a5:20:be:18</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:16</b><br/>]]></description>
+<Point><coordinates>34.81188912,32.16898017</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Einav_1]]></name>
+<description><![CDATA[MAC: <b>00:26:5a:10:b7:0a</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:23</b><br/>]]></description>
+<Point><coordinates>34.81209444,32.16940316</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RS_GUEST]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:71:f5:ce</b><br/>RSSI:<b>-92</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:45:23</b><br/>]]></description>
+<Point><coordinates>34.81209444,32.16940316</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:23</b><br/>]]></description>
+<Point><coordinates>34.81209444,32.16940316</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-68</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:25</b><br/>]]></description>
+<Point><coordinates>34.81214324467331,32.169545831397976</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:26</b><br/>]]></description>
+<Point><coordinates>34.81218021,32.16958729</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Nehalem_ISR]]></name>
+<description><![CDATA[MAC: <b>08:ea:44:74:4b:d5</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:26</b><br/>]]></description>
+<Point><coordinates>34.81218021,32.16958729</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[arama]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hilda]]></name>
+<description><![CDATA[MAC: <b>00:30:4f:91:36:07</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Astra]]></name>
+<description><![CDATA[MAC: <b>00:21:63:4d:73:31</b><br/>RSSI:<b>-92</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>5a:ab:1b:62:0d:fd</b><br/>RSSI:<b>-93</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[mazia]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b2:5f:05</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225463,32.16977119</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[arama]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-90</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
+<Point><coordinates>34.81225463,32.16977119</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TUCHLER]]></name>
+<description><![CDATA[MAC: <b>00:26:5a:69:94:e3</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[landau]]></name>
+<description><![CDATA[MAC: <b>74:da:38:14:4b:88</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-83</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[klaiman]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-86</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Astra]]></name>
+<description><![CDATA[MAC: <b>00:21:63:4d:73:31</b><br/>RSSI:<b>-86</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mehta_Up]]></name>
+<description><![CDATA[MAC: <b>f8:d1:11:b8:3b:7e</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>5a:ab:1b:62:0d:fd</b><br/>RSSI:<b>-87</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-8156]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:a7:81:5c</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:32</b><br/>]]></description>
+<Point><coordinates>34.81233913,32.16994827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
+<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-8A-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>8c:dc:d4:6a:a9:8a</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
+<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[landau]]></name>
+<description><![CDATA[MAC: <b>d4:7b:b0:79:65:fc</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
+<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
+<Point><coordinates>34.81242227,32.17012573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[arama]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-84</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
+<Point><coordinates>34.81242227,32.17012573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-8A-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>8c:dc:d4:6a:a9:8a</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
+<Point><coordinates>34.81242227,32.17012573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-62EF]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:62:f5</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
+<Point><coordinates>34.81242227,32.17012573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Florida_Israel1]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:3b:fa:1e</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
+<Point><coordinates>34.81242227,32.17012573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-72</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
+<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[klaiman]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-78</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
+<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-62EF]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:62:f5</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
+<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-84</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:45:38</b><br/>]]></description>
+<Point><coordinates>34.81250563,32.17031089</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-62EF]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:62:f5</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:38</b><br/>]]></description>
+<Point><coordinates>34.81250563,32.17031089</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[geller]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:3b:62</b><br/>RSSI:<b>-90</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:38</b><br/>]]></description>
+<Point><coordinates>34.81250563,32.17031089</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-70</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:41</b><br/>]]></description>
+<Point><coordinates>34.81258190129876,32.17050972538356</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-63</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:43</b><br/>]]></description>
+<Point><coordinates>34.81264159,32.17062502</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-77</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:45:43</b><br/>]]></description>
+<Point><coordinates>34.81264159,32.17062502</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:43</b><br/>]]></description>
+<Point><coordinates>34.81264159,32.17062502</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-83</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:45</b><br/>]]></description>
+<Point><coordinates>34.81269650889793,32.17075992790425</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-65</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:47</b><br/>]]></description>
+<Point><coordinates>34.8127604,32.17086052</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:47</b><br/>]]></description>
+<Point><coordinates>34.8127604,32.17086052</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:47</b><br/>]]></description>
+<Point><coordinates>34.8127604,32.17086052</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:47</b><br/>]]></description>
+<Point><coordinates>34.8127604,32.17086052</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-84</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:45:49</b><br/>]]></description>
+<Point><coordinates>34.81281338424775,32.17100836271353</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-78</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
+<Point><coordinates>34.81284875,32.17105914</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
+<Point><coordinates>34.81284875,32.17105914</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
+<Point><coordinates>34.81284875,32.17105914</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sirocco_2.4o]]></name>
+<description><![CDATA[MAC: <b>c4:e9:84:83:1a:0a</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
+<Point><coordinates>34.81284875,32.17105914</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>f8:ab:05:e9:6d:3d</b><br/>RSSI:<b>-85</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:45:53</b><br/>]]></description>
+<Point><coordinates>34.81291128023999,32.17125707817382</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:53</b><br/>]]></description>
+<Point><coordinates>34.81289934,32.1712472</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-92</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:53</b><br/>]]></description>
+<Point><coordinates>34.81289934,32.1712472</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:48:af:4d</b><br/>RSSI:<b>-93</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:45:53</b><br/>]]></description>
+<Point><coordinates>34.81289934,32.1712472</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-92</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:59</b><br/>]]></description>
+<Point><coordinates>34.81296105,32.17164516</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SHAHAF2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:0a:ef:2a</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:04</b><br/>]]></description>
+<Point><coordinates>34.81299603716402,32.17198534972246</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-82</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:46:05</b><br/>]]></description>
+<Point><coordinates>34.81299553,32.17201156</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Motti11]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-96</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:05</b><br/>]]></description>
+<Point><coordinates>34.81299553,32.17201156</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:46:07</b><br/>]]></description>
+<Point><coordinates>34.81301798358491,32.172152473716416</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:08</b><br/>]]></description>
+<Point><coordinates>34.81302496,32.17218423</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-94</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:08</b><br/>]]></description>
+<Point><coordinates>34.81302496,32.17218423</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:08</b><br/>]]></description>
+<Point><coordinates>34.81302496,32.17218423</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-84</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:11</b><br/>]]></description>
+<Point><coordinates>34.81305758,32.1723264</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-73</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:46:13</b><br/>]]></description>
+<Point><coordinates>34.813112686158654,32.172434684187074</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:14</b><br/>]]></description>
+<Point><coordinates>34.81314461,32.17240104</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Miller]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:0e:5c</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:14</b><br/>]]></description>
+<Point><coordinates>34.81314461,32.17240104</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-1A14]]></name>
+<description><![CDATA[MAC: <b>00:07:26:4f:07:ae</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:20</b><br/>]]></description>
+<Point><coordinates>34.81345105,32.17237484</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dobry2016_5]]></name>
+<description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:46:23</b><br/>]]></description>
+<Point><coordinates>34.81365654,32.17232792</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:28</b><br/>]]></description>
+<Point><coordinates>34.81401199636586,32.172328818282836</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:29</b><br/>]]></description>
+<Point><coordinates>34.81402472,32.17229561</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:29</b><br/>]]></description>
+<Point><coordinates>34.81402472,32.17229561</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>08:3e:5d:5c:72:5e</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:29</b><br/>]]></description>
+<Point><coordinates>34.81402472,32.17229561</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:32</b><br/>]]></description>
+<Point><coordinates>34.81420816,32.17226318</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mevohot_3]]></name>
+<description><![CDATA[MAC: <b>60:e3:27:e8:41:e8</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:32</b><br/>]]></description>
+<Point><coordinates>34.81420816,32.17226318</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Wifi]]></name>
+<description><![CDATA[MAC: <b>74:44:01:39:09:86</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:32</b><br/>]]></description>
+<Point><coordinates>34.81420816,32.17226318</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[love]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:58:73:75</b><br/>RSSI:<b>-70</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:38</b><br/>]]></description>
+<Point><coordinates>34.81443463,32.1722525</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Efrat]]></name>
+<description><![CDATA[MAC: <b>40:65:a3:35:4c:c4</b><br/>RSSI:<b>-75</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:49:08</b><br/>]]></description>
+<Point><coordinates>34.81446401702757,32.17218268216534</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Volvo247]]></name>
+<description><![CDATA[MAC: <b>08:97:58:32:69:c6</b><br/>RSSI:<b>-81</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 10:49:14</b><br/>]]></description>
+<Point><coordinates>34.814448298318844,32.172209259560766</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Zvi_2.4]]></name>
+<description><![CDATA[MAC: <b>10:5a:f7:0f:d5:32</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:49:21</b><br/>]]></description>
+<Point><coordinates>34.81440381,32.17228106</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[love]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:58:73:75</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:49:29</b><br/>]]></description>
+<Point><coordinates>34.81436692415887,32.172250875103074</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>62:ee:0c:3d:eb:b9</b><br/>RSSI:<b>-88</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:49:42</b><br/>]]></description>
+<Point><coordinates>34.81413625,32.17227827</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Chakir]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:35:c8:7c</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:49:44</b><br/>]]></description>
+<Point><coordinates>34.814036899369874,32.17228483399432</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-69</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:49:47</b><br/>]]></description>
+<Point><coordinates>34.81387685906902,32.17230733807558</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:01:ad:fe</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:49:51</b><br/>]]></description>
+<Point><coordinates>34.81367079,32.17234589</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mevohot_1]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1b:a2:48</b><br/>RSSI:<b>-70</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:49:56</b><br/>]]></description>
+<Point><coordinates>34.81336124587249,32.172382685741084</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-71</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:00</b><br/>]]></description>
+<Point><coordinates>34.81316731,32.1724094</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:ba:1e:85</b><br/>RSSI:<b>-76</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:50:00</b><br/>]]></description>
+<Point><coordinates>34.81316731,32.1724094</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[GuyHila]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:ba:1e:85</b><br/>RSSI:<b>-76</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:50:00</b><br/>]]></description>
+<Point><coordinates>34.81316731,32.1724094</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mevohot_3]]></name>
+<description><![CDATA[MAC: <b>60:e3:27:e8:41:e8</b><br/>RSSI:<b>-80</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:50:00</b><br/>]]></description>
+<Point><coordinates>34.81316731,32.1724094</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-68</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:05</b><br/>]]></description>
+<Point><coordinates>34.81291470608912,32.17244003231061</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:05</b><br/>]]></description>
+<Point><coordinates>34.81291470608912,32.17244003231061</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:06</b><br/>]]></description>
+<Point><coordinates>34.81286197,32.17246049</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NIPPON_3687]]></name>
+<description><![CDATA[MAC: <b>08:97:58:32:d2:98</b><br/>RSSI:<b>-88</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:50:08</b><br/>]]></description>
+<Point><coordinates>34.812693847413286,32.17248382374769</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-75</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:09</b><br/>]]></description>
+<Point><coordinates>34.81263803,32.17250306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BS-WIFI-4EVER]]></name>
+<description><![CDATA[MAC: <b>fc:75:16:55:27:fa</b><br/>RSSI:<b>-94</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:09</b><br/>]]></description>
+<Point><coordinates>34.81263803,32.17250306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NIPPON_3687]]></name>
+<description><![CDATA[MAC: <b>08:97:58:32:d2:98</b><br/>RSSI:<b>-80</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:50:11</b><br/>]]></description>
+<Point><coordinates>34.81247911919242,32.1725225188478</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hotbox]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:f9:e8:58</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:50:11</b><br/>]]></description>
+<Point><coordinates>34.81247911919242,32.1725225188478</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-74-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>3c:52:82:af:42:75</b><br/>RSSI:<b>-59</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:12</b><br/>]]></description>
+<Point><coordinates>34.81242662,32.17253375</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:14</b><br/>]]></description>
+<Point><coordinates>34.81226897382831,32.17254564957508</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NIPPON_3687]]></name>
+<description><![CDATA[MAC: <b>08:97:58:32:d2:98</b><br/>RSSI:<b>-79</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:50:15</b><br/>]]></description>
+<Point><coordinates>34.81222007,32.17254538</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gil Kitchen]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:a3:7d:62</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:15</b><br/>]]></description>
+<Point><coordinates>34.81222007,32.17254538</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[urigil1]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:5d:c2:60</b><br/>RSSI:<b>-97</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:50:18</b><br/>]]></description>
+<Point><coordinates>34.81207339,32.17242642</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Helen.]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:57:cd:42</b><br/>RSSI:<b>-74</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:50:20</b><br/>]]></description>
+<Point><coordinates>34.812042356198646,32.17229408710547</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:21</b><br/>]]></description>
+<Point><coordinates>34.81201158,32.17226944</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda_HD]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c1</b><br/>RSSI:<b>-88</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:50:21</b><br/>]]></description>
+<Point><coordinates>34.81201158,32.17226944</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Shani - Green]]></name>
+<description><![CDATA[MAC: <b>54:b8:0a:34:68:90</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:27</b><br/>]]></description>
+<Point><coordinates>34.81187369,32.17190615</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ben Ami_2.4]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:60:6a:b5</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:50:29</b><br/>]]></description>
+<Point><coordinates>34.8118405837912,32.171728186062275</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:32</b><br/>]]></description>
+<Point><coordinates>34.811768201385796,32.17154067297358</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ronkla2_5]]></name>
+<description><![CDATA[MAC: <b>3c:1e:04:07:2a:ff</b><br/>RSSI:<b>-85</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:50:35</b><br/>]]></description>
+<Point><coordinates>34.81168874408503,32.17135803478369</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[maya salon]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:df:c5</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:36</b><br/>]]></description>
+<Point><coordinates>34.81165241,32.17134232</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[@Cafe]]></name>
+<description><![CDATA[MAC: <b>52:a8:1d:12:df:c4</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:36</b><br/>]]></description>
+<Point><coordinates>34.81165241,32.17134232</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[luxynet]]></name>
+<description><![CDATA[MAC: <b>00:c0:02:0a:c6:c2</b><br/>RSSI:<b>-93</b><br/>Channel:<b>7</b><br/>First seen:<b>2017-12-01 10:50:36</b><br/>]]></description>
+<Point><coordinates>34.81165241,32.17134232</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[mika1]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:fb:c0:3e</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:38</b><br/>]]></description>
+<Point><coordinates>34.811600945951724,32.17117720998362</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gana7_2GExt]]></name>
+<description><![CDATA[MAC: <b>64:d9:54:e4:95:37</b><br/>RSSI:<b>-90</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:50:45</b><br/>]]></description>
+<Point><coordinates>34.81137225,32.1708157</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gana7]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:3c:30:1e</b><br/>RSSI:<b>-93</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:50:45</b><br/>]]></description>
+<Point><coordinates>34.81137225,32.1708157</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gana7_2GExt]]></name>
+<description><![CDATA[MAC: <b>64:d9:54:e4:95:37</b><br/>RSSI:<b>-88</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:50:47</b><br/>]]></description>
+<Point><coordinates>34.81130191879183,32.17061250500982</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[shlomi]]></name>
+<description><![CDATA[MAC: <b>d8:5d:4c:d9:c4:68</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:48</b><br/>]]></description>
+<Point><coordinates>34.81126162,32.17062149</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Guymic]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:99:2d</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:50</b><br/>]]></description>
+<Point><coordinates>34.811205413681165,32.1704220061369</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[stephane]]></name>
+<description><![CDATA[MAC: <b>00:24:2b:cf:13:21</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:53</b><br/>]]></description>
+<Point><coordinates>34.811098338566204,32.17023774400125</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[shlomi]]></name>
+<description><![CDATA[MAC: <b>d8:5d:4c:d9:c4:68</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:54</b><br/>]]></description>
+<Point><coordinates>34.81107053,32.17022989</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[devolo-0f4]]></name>
+<description><![CDATA[MAC: <b>30:d3:2d:37:20:f4</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:56</b><br/>]]></description>
+<Point><coordinates>34.81099874038432,32.170053389171805</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-4D4E]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fb:1e:09</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:56</b><br/>]]></description>
+<Point><coordinates>34.81099874038432,32.170053389171805</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Eric 2.4]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:13:2a:95</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:58</b><br/>]]></description>
+<Point><coordinates>34.81094348,32.1699948</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-89</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:50:58</b><br/>]]></description>
+<Point><coordinates>34.81094348,32.1699948</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Neeman2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2b</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:50:59</b><br/>]]></description>
+<Point><coordinates>34.81092582224991,32.16988410573102</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main_2EX]]></name>
+<description><![CDATA[MAC: <b>74:da:38:97:66:9d</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:50:59</b><br/>]]></description>
+<Point><coordinates>34.81092582224991,32.16988410573102</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main_2EX]]></name>
+<description><![CDATA[MAC: <b>74:da:38:97:66:9d</b><br/>RSSI:<b>-77</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:51:01</b><br/>]]></description>
+<Point><coordinates>34.81088834,32.16983611</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX12]]></name>
+<description><![CDATA[MAC: <b>a0:8e:78:7f:2a:69</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:01</b><br/>]]></description>
+<Point><coordinates>34.81088834,32.16983611</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[bait]]></name>
+<description><![CDATA[MAC: <b>10:be:f5:3f:b2:ce</b><br/>RSSI:<b>-94</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:51:01</b><br/>]]></description>
+<Point><coordinates>34.81088834,32.16983611</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main]]></name>
+<description><![CDATA[MAC: <b>74:da:39:54:b8:1d</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:51:02</b><br/>]]></description>
+<Point><coordinates>34.810858045280845,32.169728418133815</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Li]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f8:6b:28</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:04</b><br/>]]></description>
+<Point><coordinates>34.81083489,32.16970224</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ronizyc1]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:39:f9:15</b><br/>RSSI:<b>-92</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:51:07</b><br/>]]></description>
+<Point><coordinates>34.81078619,32.16957488</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lili]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f9:5c:7c</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:51:08</b><br/>]]></description>
+<Point><coordinates>34.81077184677352,32.169491346626565</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Liliup]]></name>
+<description><![CDATA[MAC: <b>74:da:38:c3:12:45</b><br/>RSSI:<b>-88</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:51:08</b><br/>]]></description>
+<Point><coordinates>34.81077184677352,32.169491346626565</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELCHARAR_2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:0f:21:93</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:08</b><br/>]]></description>
+<Point><coordinates>34.81077184677352,32.169491346626565</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Alpha125]]></name>
+<description><![CDATA[MAC: <b>10:fe:ed:74:fc:46</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:08</b><br/>]]></description>
+<Point><coordinates>34.81077184677352,32.169491346626565</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free T00C36]]></name>
+<description><![CDATA[MAC: <b>5a:0c:c8:0f:21:90</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:08</b><br/>]]></description>
+<Point><coordinates>34.81077184677352,32.169491346626565</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>62:ee:0c:39:f9:16</b><br/>RSSI:<b>-84</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:51:10</b><br/>]]></description>
+<Point><coordinates>34.81076003,32.16948516</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ronizyc1]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:39:f9:15</b><br/>RSSI:<b>-85</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:51:10</b><br/>]]></description>
+<Point><coordinates>34.81076003,32.16948516</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink-A09C]]></name>
+<description><![CDATA[MAC: <b>ac:f1:df:76:a0:9c</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:51:11</b><br/>]]></description>
+<Point><coordinates>34.81074036189685,32.16939849690679</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink-A09C]]></name>
+<description><![CDATA[MAC: <b>ac:f1:df:76:a0:9c</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:51:13</b><br/>]]></description>
+<Point><coordinates>34.81073707,32.16940059</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax_5G_A9241C]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:24:1c</b><br/>RSSI:<b>-82</b><br/>Channel:<b>40</b><br/>First seen:<b>2017-12-01 10:51:14</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[forestisthebest]]></name>
+<description><![CDATA[MAC: <b>c8:d7:19:d4:7c:73</b><br/>RSSI:<b>-93</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:51:19</b><br/>]]></description>
+<Point><coordinates>34.81072683,32.16937301</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[spielman]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:2b:c4:52</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:20</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[forestisthebest]]></name>
+<description><![CDATA[MAC: <b>c8:d7:19:da:03:16</b><br/>RSSI:<b>-54</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:51:26</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax_5G_A9241C]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:24:1c</b><br/>RSSI:<b>-84</b><br/>Channel:<b>40</b><br/>First seen:<b>2017-12-01 10:51:31</b><br/>]]></description>
+<Point><coordinates>34.81071795,32.16937265</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[evanson]]></name>
+<description><![CDATA[MAC: <b>7c:03:4c:fe:f6:68</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:51:56</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[forestisthebest-guest]]></name>
+<description><![CDATA[MAC: <b>c8:d7:19:d4:7c:75</b><br/>RSSI:<b>-94</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:52:13</b><br/>]]></description>
+<Point><coordinates>34.81070436,32.16936666</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax_5G_A9241C]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:24:1c</b><br/>RSSI:<b>-79</b><br/>Channel:<b>40</b><br/>First seen:<b>2017-12-01 10:52:43</b><br/>]]></description>
+<Point><coordinates>34.81071282,32.16938116</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:81</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:53:11</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:81</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:53:44</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[spielman]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:2b:c4:52</b><br/>RSSI:<b>-73</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:53:47</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[evanson]]></name>
+<description><![CDATA[MAC: <b>7c:03:4c:fe:f6:68</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:54:11</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqNGN_001489_2.4GHz_1]]></name>
+<description><![CDATA[MAC: <b>c0:a0:bb:cb:59:5b</b><br/>RSSI:<b>-68</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:54:23</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main]]></name>
+<description><![CDATA[MAC: <b>74:da:39:54:b8:1d</b><br/>RSSI:<b>-64</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:54:41</b><br/>]]></description>
+<Point><coordinates>34.81072496254775,32.16935940800852</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>62:be:f5:40:26:83</b><br/>RSSI:<b>-96</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:55:10</b><br/>]]></description>
+<Point><coordinates>34.81068889,32.16935676</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[MAC: <b>34:36:3b:c2:be:b8</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:55:46</b><br/>]]></description>
+<Point><coordinates>34.81066982,32.16923806</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[spielman]]></name>
+<description><![CDATA[MAC: <b>f4:f2:6d:34:56:54</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:55:47</b><br/>]]></description>
+<Point><coordinates>34.81068174685835,32.169212309411726</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Jamcanup]]></name>
+<description><![CDATA[MAC: <b>74:da:38:c3:0d:6b</b><br/>RSSI:<b>-87</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:55:50</b><br/>]]></description>
+<Point><coordinates>34.8106650271149,32.16917019230133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Jamcandown]]></name>
+<description><![CDATA[MAC: <b>74:da:38:b6:f6:c9</b><br/>RSSI:<b>-89</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 10:55:50</b><br/>]]></description>
+<Point><coordinates>34.8106650271149,32.16917019230133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax_2.4G_ruty]]></name>
+<description><![CDATA[MAC: <b>74:da:38:d3:bb:81</b><br/>RSSI:<b>-80</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:55:56</b><br/>]]></description>
+<Point><coordinates>34.8106650271149,32.16917019230133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-C1-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>28:80:23:f6:e0:c1</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:55:56</b><br/>]]></description>
+<Point><coordinates>34.8106650271149,32.16917019230133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[MAC: <b>10:be:f5:40:26:82</b><br/>RSSI:<b>-89</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:56:21</b><br/>]]></description>
+<Point><coordinates>34.81065234,32.16916884</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oberyn Martell]]></name>
+<description><![CDATA[MAC: <b>18:d6:c7:fb:1c:0e</b><br/>RSSI:<b>-89</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:56:54</b><br/>]]></description>
+<Point><coordinates>34.81062139,32.16907372</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-C1-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>28:80:23:f6:e0:c1</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:56:55</b><br/>]]></description>
+<Point><coordinates>34.810619520712386,32.169012321650136</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-90</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:56:58</b><br/>]]></description>
+<Point><coordinates>34.81057719,32.1689281</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[iFOREX]]></name>
+<description><![CDATA[MAC: <b>f8:d1:11:b1:92:93</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:56:58</b><br/>]]></description>
+<Point><coordinates>34.81057058716543,32.168881406149175</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-a8-HP M477 LaserJet]]></name>
+<description><![CDATA[MAC: <b>aa:6b:ad:04:c6:a8</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:01</b><br/>]]></description>
+<Point><coordinates>34.8105797,32.16884222</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:02</b><br/>]]></description>
+<Point><coordinates>34.81061687133246,32.16878253500298</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:02</b><br/>]]></description>
+<Point><coordinates>34.81061687133246,32.16878253500298</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-a8-HP M477 LaserJet]]></name>
+<description><![CDATA[MAC: <b>aa:6b:ad:04:c6:a8</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:02</b><br/>]]></description>
+<Point><coordinates>34.81061687133246,32.16878253500298</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Levy]]></name>
+<description><![CDATA[MAC: <b>f8:ab:05:46:de:55</b><br/>RSSI:<b>-85</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:57:04</b><br/>]]></description>
+<Point><coordinates>34.81066791,32.16876228</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-F4-HP DeskJet 3830 series]]></name>
+<description><![CDATA[MAC: <b>c8:d3:ff:57:60:f5</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:04</b><br/>]]></description>
+<Point><coordinates>34.81066791,32.16876228</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:05</b><br/>]]></description>
+<Point><coordinates>34.81078259065756,32.168750227662805</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX111]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f6:ae:5e</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:11</b><br/>]]></description>
+<Point><coordinates>34.81129910090613,32.16875525343879</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:14</b><br/>]]></description>
+<Point><coordinates>34.81154567298425,32.16878953124043</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-74</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:17</b><br/>]]></description>
+<Point><coordinates>34.81174537287164,32.16883769901991</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-88</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:57:17</b><br/>]]></description>
+<Point><coordinates>34.81174537287164,32.16883769901991</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-400D]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:36:dd:b9</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:17</b><br/>]]></description>
+<Point><coordinates>34.81174537287164,32.16883769901991</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-59</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:19</b><br/>]]></description>
+<Point><coordinates>34.81180676,32.16885258</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-68</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:57:19</b><br/>]]></description>
+<Point><coordinates>34.81183319930766,32.16889805537721</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Talfamily]]></name>
+<description><![CDATA[MAC: <b>e0:ce:c3:86:a7:9e</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:19</b><br/>]]></description>
+<Point><coordinates>34.81183319930766,32.16889805537721</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-8156]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:a7:81:5c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:23</b><br/>]]></description>
+<Point><coordinates>34.81193255078027,32.16909112707448</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Fuck Off Yourself]]></name>
+<description><![CDATA[MAC: <b>16:ae:db:c1:ae:55</b><br/>RSSI:<b>-79</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:57:26</b><br/>]]></description>
+<Point><coordinates>34.81201044802282,32.16927107246911</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Fuck Off ext]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:e0:3a:01</b><br/>RSSI:<b>-80</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:26</b><br/>]]></description>
+<Point><coordinates>34.81201044802282,32.16927107246911</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mheta_AP]]></name>
+<description><![CDATA[MAC: <b>86:2a:a8:eb:a9:60</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:26</b><br/>]]></description>
+<Point><coordinates>34.81201044802282,32.16927107246911</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELCHARAR_2.4]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:0f:21:93</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:29</b><br/>]]></description>
+<Point><coordinates>34.81208525807686,32.16943682725201</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free T00C36]]></name>
+<description><![CDATA[MAC: <b>5a:0c:c8:0f:21:90</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:29</b><br/>]]></description>
+<Point><coordinates>34.81208525807686,32.16943682725201</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-67</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:37</b><br/>]]></description>
+<Point><coordinates>34.81229045,32.16960197</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[arama]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-76</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:37</b><br/>]]></description>
+<Point><coordinates>34.81229045,32.16960197</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-89</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:57:37</b><br/>]]></description>
+<Point><coordinates>34.81229045,32.16960197</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[arama]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-67</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:43</b><br/>]]></description>
+<Point><coordinates>34.81265851,32.16957574</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber arama]]></name>
+<description><![CDATA[MAC: <b>e0:ce:c3:23:12:30</b><br/>RSSI:<b>-76</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:43</b><br/>]]></description>
+<Point><coordinates>34.81265851,32.16957574</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:50</b><br/>]]></description>
+<Point><coordinates>34.81323889640528,32.16955478439471</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hilda]]></name>
+<description><![CDATA[MAC: <b>00:30:4f:91:36:07</b><br/>RSSI:<b>-71</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:53</b><br/>]]></description>
+<Point><coordinates>34.813408321637986,32.1695720901851</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-29-HP OfficeJet Pro 8710]]></name>
+<description><![CDATA[MAC: <b>ec:8e:b5:05:57:19</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:53</b><br/>]]></description>
+<Point><coordinates>34.813408321637986,32.1695720901851</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hilda]]></name>
+<description><![CDATA[MAC: <b>00:30:4f:91:38:b3</b><br/>RSSI:<b>-73</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:57:55</b><br/>]]></description>
+<Point><coordinates>34.81343376,32.1696487</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free 836CFE]]></name>
+<description><![CDATA[MAC: <b>52:0d:7f:83:6c:ff</b><br/>RSSI:<b>-90</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:55</b><br/>]]></description>
+<Point><coordinates>34.81343376,32.1696487</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR_DGN2200]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:83:6c:fe</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:55</b><br/>]]></description>
+<Point><coordinates>34.81343376,32.1696487</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ab]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:d9:69</b><br/>RSSI:<b>-95</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:57:55</b><br/>]]></description>
+<Point><coordinates>34.81343376,32.1696487</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-96</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:55</b><br/>]]></description>
+<Point><coordinates>34.81343376,32.1696487</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:56</b><br/>]]></description>
+<Point><coordinates>34.81347187978352,32.1697212488476</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[kawasaki]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:3b:ac:5a</b><br/>RSSI:<b>-75</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:58</b><br/>]]></description>
+<Point><coordinates>34.81346387,32.16981779</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free]]></name>
+<description><![CDATA[MAC: <b>62:ee:0c:3b:ac:5b</b><br/>RSSI:<b>-75</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:57:58</b><br/>]]></description>
+<Point><coordinates>34.81346387,32.16981779</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:57:58</b><br/>]]></description>
+<Point><coordinates>34.81346387,32.16981779</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[shmulik]]></name>
+<description><![CDATA[MAC: <b>d0:d4:12:64:05:12</b><br/>RSSI:<b>-80</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:02</b><br/>]]></description>
+<Point><coordinates>34.81351135,32.17004926</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink]]></name>
+<description><![CDATA[MAC: <b>00:24:01:18:99:57</b><br/>RSSI:<b>-67</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:02</b><br/>]]></description>
+<Point><coordinates>34.813514176763185,32.17010132675571</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[orange]]></name>
+<description><![CDATA[MAC: <b>00:21:04:e7:95:da</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:02</b><br/>]]></description>
+<Point><coordinates>34.813514176763185,32.17010132675571</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free]]></name>
+<description><![CDATA[MAC: <b>62:19:8f:46:9f:bf</b><br/>RSSI:<b>-94</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:02</b><br/>]]></description>
+<Point><coordinates>34.813514176763185,32.17010132675571</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pantum-AP-9DDCCB]]></name>
+<description><![CDATA[MAC: <b>28:f3:66:9d:dc:cb</b><br/>RSSI:<b>-84</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:05</b><br/>]]></description>
+<Point><coordinates>34.81353649,32.17021581</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[orange]]></name>
+<description><![CDATA[MAC: <b>00:21:04:e7:95:da</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:05</b><br/>]]></description>
+<Point><coordinates>34.813537076757704,32.17025406565039</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Daizad]]></name>
+<description><![CDATA[MAC: <b>e8:cc:18:ac:1a:52</b><br/>RSSI:<b>-72</b><br/>Channel:<b>7</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356425,32.17039308</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Is]]></name>
+<description><![CDATA[MAC: <b>16:0c:c3:ee:27:39</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356425,32.17039308</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-F028]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:6f:c3</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356425,32.17039308</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-96</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356425,32.17039308</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-F028]]></name>
+<description><![CDATA[MAC: <b>18:1e:78:86:03:15</b><br/>RSSI:<b>-76</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356387819144,32.17042884309843</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-F028]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:6f:c3</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:08</b><br/>]]></description>
+<Point><coordinates>34.81356387819144,32.17042884309843</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-F028]]></name>
+<description><![CDATA[MAC: <b>18:1e:78:86:03:15</b><br/>RSSI:<b>-61</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.81358945,32.17057165</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[amnon]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f8:6c:8a</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.81358945,32.17057165</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:36:a2:b3</b><br/>RSSI:<b>-91</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.81358945,32.17057165</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Motti11]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-93</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.81358945,32.17057165</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[amnon]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f8:6c:8a</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.813595071211296,32.17061830172761</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Is]]></name>
+<description><![CDATA[MAC: <b>16:0c:c3:ee:27:39</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.813595071211296,32.17061830172761</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[My_Internet]]></name>
+<description><![CDATA[MAC: <b>fc:75:16:2e:5a:47</b><br/>RSSI:<b>-90</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.813595071211296,32.17061830172761</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-91</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:11</b><br/>]]></description>
+<Point><coordinates>34.813595071211296,32.17061830172761</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:42:60</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:14</b><br/>]]></description>
+<Point><coordinates>34.81362514,32.17076265</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-88</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:14</b><br/>]]></description>
+<Point><coordinates>34.81362514,32.17076265</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-82</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:14</b><br/>]]></description>
+<Point><coordinates>34.81363414318978,32.17081392063111</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:42:60</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:14</b><br/>]]></description>
+<Point><coordinates>34.81363414318978,32.17081392063111</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-80</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:17</b><br/>]]></description>
+<Point><coordinates>34.81363121,32.17094133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX111]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:3c:c2</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:17</b><br/>]]></description>
+<Point><coordinates>34.81363121,32.17094133</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX111]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:3c:c2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:17</b><br/>]]></description>
+<Point><coordinates>34.81362985551846,32.17098714928447</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[MNP_HOME_2.4GHz_1]]></name>
+<description><![CDATA[MAC: <b>04:a1:51:e0:5f:ee</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81352307,32.1710485</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[test012]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:d2:0c:38</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81352307,32.1710485</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[My_Internet]]></name>
+<description><![CDATA[MAC: <b>fc:75:16:2e:5a:47</b><br/>RSSI:<b>-88</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81352307,32.1710485</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nurit]]></name>
+<description><![CDATA[MAC: <b>a0:4f:d4:45:1f:a1</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81352307,32.1710485</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[My_Internet]]></name>
+<description><![CDATA[MAC: <b>fc:75:16:2e:5a:47</b><br/>RSSI:<b>-77</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81350325265134,32.17106789784238</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[MNP_HOME_2.4GHz_1]]></name>
+<description><![CDATA[MAC: <b>04:a1:51:e0:5f:ee</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81350325265134,32.17106789784238</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[test012]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:d2:0c:38</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:20</b><br/>]]></description>
+<Point><coordinates>34.81350325265134,32.17106789784238</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Yotam _ work _ room]]></name>
+<description><![CDATA[MAC: <b>d8:5d:4c:d1:4d:b0</b><br/>RSSI:<b>-75</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:23</b><br/>]]></description>
+<Point><coordinates>34.81334185,32.17105532</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>f8:ab:05:e9:6d:3d</b><br/>RSSI:<b>-81</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:23</b><br/>]]></description>
+<Point><coordinates>34.81334185,32.17105532</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Yotam_Shir]]></name>
+<description><![CDATA[MAC: <b>00:26:5a:24:f4:f0</b><br/>RSSI:<b>-90</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:58:23</b><br/>]]></description>
+<Point><coordinates>34.81334185,32.17105532</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Yotam _ work _ room]]></name>
+<description><![CDATA[MAC: <b>d8:5d:4c:d1:4d:b0</b><br/>RSSI:<b>-68</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:23</b><br/>]]></description>
+<Point><coordinates>34.81330158971711,32.17107862941617</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:23</b><br/>]]></description>
+<Point><coordinates>34.81330158971711,32.17107862941617</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nurit]]></name>
+<description><![CDATA[MAC: <b>a0:4f:d4:45:1f:a1</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.81312098,32.17108533</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>f8:ab:05:e9:6d:3d</b><br/>RSSI:<b>-75</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.81312098,32.17108533</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a2</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.81312098,32.17108533</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal2]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a1</b><br/>RSSI:<b>-86</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.81312098,32.17108533</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sirocco_2.4o]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:09:3c:b9</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.81312098,32.17108533</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nurit]]></name>
+<description><![CDATA[MAC: <b>a0:4f:d4:45:1f:a1</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sirocco_2.4o]]></name>
+<description><![CDATA[MAC: <b>c4:e9:84:83:1a:0a</b><br/>RSSI:<b>-79</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a2</b><br/>RSSI:<b>-79</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[044870715]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:ab:ad</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal2]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a1</b><br/>RSSI:<b>-84</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sirocco_2.4o]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:09:3c:b9</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-75-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>b0:5a:da:fa:44:76</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:26</b><br/>]]></description>
+<Point><coordinates>34.813083395926654,32.17110086640514</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[044870715]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:b7:ab:ad</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:29</b><br/>]]></description>
+<Point><coordinates>34.81293682,32.17110218</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>7c:b7:33:ea:b8:ff</b><br/>RSSI:<b>-93</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:58:29</b><br/>]]></description>
+<Point><coordinates>34.81293682,32.17110218</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:32</b><br/>]]></description>
+<Point><coordinates>34.812838021973164,32.17104344764023</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-90</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:58:32</b><br/>]]></description>
+<Point><coordinates>34.812838021973164,32.17104344764023</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:35</b><br/>]]></description>
+<Point><coordinates>34.81276023,32.17091306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-79</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:35</b><br/>]]></description>
+<Point><coordinates>34.81276023,32.17091306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:35</b><br/>]]></description>
+<Point><coordinates>34.81276023,32.17091306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-84</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:58:35</b><br/>]]></description>
+<Point><coordinates>34.81276023,32.17091306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Motti11]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:35</b><br/>]]></description>
+<Point><coordinates>34.81276023,32.17091306</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-70</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81267377,32.17074241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-71</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81267377,32.17074241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-72</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81267377,32.17074241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81267377,32.17074241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Laufer-wifi]]></name>
+<description><![CDATA[MAC: <b>4c:60:de:51:8b:ca</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81267377,32.17074241</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-69</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81268528377859,32.17070417266147</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-84</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:58:38</b><br/>]]></description>
+<Point><coordinates>34.81268528377859,32.17070417266147</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-75</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:41</b><br/>]]></description>
+<Point><coordinates>34.81258739,32.17057552</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-69</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:44</b><br/>]]></description>
+<Point><coordinates>34.81251639,32.17041608</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-71</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:58:44</b><br/>]]></description>
+<Point><coordinates>34.81251639,32.17041608</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SIEMENS_LivingRoom]]></name>
+<description><![CDATA[MAC: <b>d4:6e:0e:3c:44:e1</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:58:47</b><br/>]]></description>
+<Point><coordinates>34.812613739872425,32.17028599663912</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[edimax.setup]]></name>
+<description><![CDATA[MAC: <b>74:da:38:c6:57:9b</b><br/>RSSI:<b>-71</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:50</b><br/>]]></description>
+<Point><coordinates>34.81274376,32.17027834</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_E3CA]]></name>
+<description><![CDATA[MAC: <b>84:16:f9:e4:e3:ca</b><br/>RSSI:<b>-77</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:50</b><br/>]]></description>
+<Point><coordinates>34.81274376,32.17027834</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[frank]]></name>
+<description><![CDATA[MAC: <b>e8:94:f6:e2:6e:4b</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:50</b><br/>]]></description>
+<Point><coordinates>34.81274376,32.17027834</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[frank]]></name>
+<description><![CDATA[MAC: <b>e8:94:f6:e2:6e:4b</b><br/>RSSI:<b>-71</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:58:50</b><br/>]]></description>
+<Point><coordinates>34.81278321992516,32.17026748685567</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_E3CA]]></name>
+<description><![CDATA[MAC: <b>84:16:f9:e4:e3:ca</b><br/>RSSI:<b>-80</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:58:50</b><br/>]]></description>
+<Point><coordinates>34.81278321992516,32.17026748685567</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:02</b><br/>]]></description>
+<Point><coordinates>34.813533118254576,32.17024204862788</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Daizad]]></name>
+<description><![CDATA[MAC: <b>e8:cc:18:ac:1b:e1</b><br/>RSSI:<b>-90</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:59:02</b><br/>]]></description>
+<Point><coordinates>34.813533118254576,32.17024204862788</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Daizad]]></name>
+<description><![CDATA[MAC: <b>e8:cc:18:ac:1a:52</b><br/>RSSI:<b>-81</b><br/>Channel:<b>7</b><br/>First seen:<b>2017-12-01 10:59:05</b><br/>]]></description>
+<Point><coordinates>34.81358034712056,32.170307583918806</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:36:a2:b3</b><br/>RSSI:<b>-91</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:59:08</b><br/>]]></description>
+<Point><coordinates>34.813608312741444,32.17050412989869</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[amnon]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f8:6c:8a</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:11</b><br/>]]></description>
+<Point><coordinates>34.81360361,32.17065401</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Beni]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f4:82:42</b><br/>RSSI:<b>-71</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:59:14</b><br/>]]></description>
+<Point><coordinates>34.81367243117691,32.17094894909989</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f7:42:60</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:14</b><br/>]]></description>
+<Point><coordinates>34.81367243117691,32.17094894909989</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Baruch_2.4]]></name>
+<description><![CDATA[MAC: <b>10:5a:f7:08:27:71</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:14</b><br/>]]></description>
+<Point><coordinates>34.81367243117691,32.17094894909989</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Partner-4G-B6D4]]></name>
+<description><![CDATA[MAC: <b>a8:c8:3a:35:b6:d4</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:17</b><br/>]]></description>
+<Point><coordinates>34.81359455,32.17103853</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[My_Internet]]></name>
+<description><![CDATA[MAC: <b>fc:75:16:2e:5a:47</b><br/>RSSI:<b>-81</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:59:20</b><br/>]]></description>
+<Point><coordinates>34.81338487,32.17108532</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[yotam17]]></name>
+<description><![CDATA[MAC: <b>f8:ab:05:e9:6d:3d</b><br/>RSSI:<b>-78</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:59:20</b><br/>]]></description>
+<Point><coordinates>34.81334830357392,32.1711226542225</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Yotam_Shir]]></name>
+<description><![CDATA[MAC: <b>00:26:5a:24:f4:f0</b><br/>RSSI:<b>-87</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:59:20</b><br/>]]></description>
+<Point><coordinates>34.81334830357392,32.1711226542225</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[tal2]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:54:22:a1</b><br/>RSSI:<b>-78</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:59:23</b><br/>]]></description>
+<Point><coordinates>34.81313135,32.17109229</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sirocco_2.4o]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:09:3c:b9</b><br/>RSSI:<b>-83</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:26</b><br/>]]></description>
+<Point><coordinates>34.81295,32.17110715</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:29</b><br/>]]></description>
+<Point><coordinates>34.81283207,32.17106862</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[claire]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:67:2b:85</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:32</b><br/>]]></description>
+<Point><coordinates>34.81275918581424,32.17092410916535</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free 672B84]]></name>
+<description><![CDATA[MAC: <b>62:b2:55:67:2b:86</b><br/>RSSI:<b>-92</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:32</b><br/>]]></description>
+<Point><coordinates>34.81275918581424,32.17092410916535</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Motti11]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:35</b><br/>]]></description>
+<Point><coordinates>34.8126719,32.17074693</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[motti-5ghz]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:38</b><br/>RSSI:<b>-88</b><br/>Channel:<b>40</b><br/>First seen:<b>2017-12-01 10:59:35</b><br/>]]></description>
+<Point><coordinates>34.8126719,32.17074693</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:14:bf:42:7e:96</b><br/>RSSI:<b>-88</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:59:41</b><br/>]]></description>
+<Point><coordinates>34.8124744,32.1703328</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:41</b><br/>]]></description>
+<Point><coordinates>34.81249258786661,32.170302961492325</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SIEMENS_LivingRoom]]></name>
+<description><![CDATA[MAC: <b>d4:6e:0e:3c:44:e1</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:44</b><br/>]]></description>
+<Point><coordinates>34.81237323,32.17013195</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:14:bf:42:7e:96</b><br/>RSSI:<b>-83</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:59:44</b><br/>]]></description>
+<Point><coordinates>34.81237323,32.17013195</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>18:d6:c7:97:bd:2a</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:44</b><br/>]]></description>
+<Point><coordinates>34.81237323,32.17013195</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>5a:ab:1b:62:0d:fd</b><br/>RSSI:<b>-85</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:59:44</b><br/>]]></description>
+<Point><coordinates>34.8123924291015,32.17009177038523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[geller]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:3b:62</b><br/>RSSI:<b>-90</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:44</b><br/>]]></description>
+<Point><coordinates>34.8123924291015,32.17009177038523</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[landau]]></name>
+<description><![CDATA[MAC: <b>d4:7b:b0:79:65:fc</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:47</b><br/>]]></description>
+<Point><coordinates>34.81226934,32.16992123</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-1C-HP DeskJet 3830 series]]></name>
+<description><![CDATA[MAC: <b>94:57:a5:4b:4f:41</b><br/>RSSI:<b>-77</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:50</b><br/>]]></description>
+<Point><coordinates>34.81217399,32.16969314</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:48:af:4d</b><br/>RSSI:<b>-90</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:59:50</b><br/>]]></description>
+<Point><coordinates>34.81217399,32.16969314</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-76</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:50</b><br/>]]></description>
+<Point><coordinates>34.812198841457004,32.16964553962474</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-1C-HP DeskJet 3830 series]]></name>
+<description><![CDATA[MAC: <b>94:57:a5:4b:4f:41</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:50</b><br/>]]></description>
+<Point><coordinates>34.812198841457004,32.16964553962474</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:59:53</b><br/>]]></description>
+<Point><coordinates>34.81210224701049,32.169423702689954</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-90</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:59:53</b><br/>]]></description>
+<Point><coordinates>34.81210224701049,32.169423702689954</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[MAC: <b>82:2a:a8:bf:94:29</b><br/>RSSI:<b>-70</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:56</b><br/>]]></description>
+<Point><coordinates>34.81198781,32.16928044</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[WR]]></name>
+<description><![CDATA[MAC: <b>00:30:4f:82:7b:30</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:59:56</b><br/>]]></description>
+<Point><coordinates>34.8119993015223,32.16921657591955</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[klaiman]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-90</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:59:56</b><br/>]]></description>
+<Point><coordinates>34.8119993015223,32.16921657591955</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:59</b><br/>]]></description>
+<Point><coordinates>34.81188495,32.16907948</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-651B]]></name>
+<description><![CDATA[MAC: <b>54:64:d9:5f:59:83</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:59:59</b><br/>]]></description>
+<Point><coordinates>34.81191817927795,32.169027594463216</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mehta_Up]]></name>
+<description><![CDATA[MAC: <b>f8:d1:11:b8:3b:7e</b><br/>RSSI:<b>-86</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:05</b><br/>]]></description>
+<Point><coordinates>34.8118695,32.16887831</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-8156]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:a7:81:5c</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:00:05</b><br/>]]></description>
+<Point><coordinates>34.8118695,32.16887831</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-72</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:00:08</b><br/>]]></description>
+<Point><coordinates>34.81188449,32.16885362</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Fuck Off]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:da:ab:9a</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:19</b><br/>]]></description>
+<Point><coordinates>34.81190459,32.16902986</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[MAC: <b>82:2a:a8:bf:93:e5</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:00:25</b><br/>]]></description>
+<Point><coordinates>34.81209986,32.16942426</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[nina]]></name>
+<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-71</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:26</b><br/>]]></description>
+<Point><coordinates>34.812206661227876,32.16956688989755</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[landau]]></name>
+<description><![CDATA[MAC: <b>74:da:38:14:4b:88</b><br/>RSSI:<b>-86</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:29</b><br/>]]></description>
+<Point><coordinates>34.81230905410695,32.169817000218366</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mehta_Up]]></name>
+<description><![CDATA[MAC: <b>f8:d1:11:b8:3b:7e</b><br/>RSSI:<b>-93</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:31</b><br/>]]></description>
+<Point><coordinates>34.81230743,32.1699094</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[klaiman]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-83</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:00:32</b><br/>]]></description>
+<Point><coordinates>34.812397786519114,32.17005164614875</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:00:32</b><br/>]]></description>
+<Point><coordinates>34.812397786519114,32.17005164614875</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-651B]]></name>
+<description><![CDATA[MAC: <b>54:64:d9:5f:59:83</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:00:32</b><br/>]]></description>
+<Point><coordinates>34.812397786519114,32.17005164614875</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siemens]]></name>
+<description><![CDATA[MAC: <b>d0:d4:12:5e:db:f2</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:34</b><br/>]]></description>
+<Point><coordinates>34.81240174,32.17010919</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>5a:ab:1b:62:0d:fd</b><br/>RSSI:<b>-82</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:00:34</b><br/>]]></description>
+<Point><coordinates>34.81240174,32.17010919</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-8A-Deskjet 4640 series]]></name>
+<description><![CDATA[MAC: <b>8c:dc:d4:6a:a9:8a</b><br/>RSSI:<b>-84</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:34</b><br/>]]></description>
+<Point><coordinates>34.81240174,32.17010919</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[frank]]></name>
+<description><![CDATA[MAC: <b>e8:94:f6:e2:6e:4b</b><br/>RSSI:<b>-65</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:34</b><br/>]]></description>
+<Point><coordinates>34.81245570309557,32.17019624834832</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-75</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:38</b><br/>]]></description>
+<Point><coordinates>34.812577158369976,32.1704760444708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:38</b><br/>]]></description>
+<Point><coordinates>34.812577158369976,32.1704760444708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-84</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:00:38</b><br/>]]></description>
+<Point><coordinates>34.812577158369976,32.1704760444708</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gillad-1_2.4]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:64:e8:cc</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:40</b><br/>]]></description>
+<Point><coordinates>34.81259485,32.17053537</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-70</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:41</b><br/>]]></description>
+<Point><coordinates>34.81268553093009,32.170654027529686</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TUCHLER]]></name>
+<description><![CDATA[MAC: <b>00:26:5a:69:94:e3</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:41</b><br/>]]></description>
+<Point><coordinates>34.81268553093009,32.170654027529686</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:00:43</b><br/>]]></description>
+<Point><coordinates>34.81270666,32.17071158</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Laufer-wifi]]></name>
+<description><![CDATA[MAC: <b>4c:60:de:51:8b:ca</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:44</b><br/>]]></description>
+<Point><coordinates>34.812767664505046,32.17081209129427</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-70</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:47</b><br/>]]></description>
+<Point><coordinates>34.81282029540289,32.17095455549593</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Motti11]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-74</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:00:49</b><br/>]]></description>
+<Point><coordinates>34.81280707,32.17100176</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siemens]]></name>
+<description><![CDATA[MAC: <b>d0:d4:12:5e:db:f2</b><br/>RSSI:<b>-93</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:52</b><br/>]]></description>
+<Point><coordinates>34.81287892,32.17119137</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 11:00:59</b><br/>]]></description>
+<Point><coordinates>34.812966284830594,32.17178366806458</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:00:59</b><br/>]]></description>
+<Point><coordinates>34.812966284830594,32.17178366806458</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:01:01</b><br/>]]></description>
+<Point><coordinates>34.81297848,32.1718612</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-747B]]></name>
+<description><![CDATA[MAC: <b>e8:d1:1b:72:74:81</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:01</b><br/>]]></description>
+<Point><coordinates>34.81297848,32.1718612</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:04</b><br/>]]></description>
+<Point><coordinates>34.81300217,32.17207279</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:05</b><br/>]]></description>
+<Point><coordinates>34.813008839731566,32.17221891605429</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-76</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:07</b><br/>]]></description>
+<Point><coordinates>34.81302647,32.17226238</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-70</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:10</b><br/>]]></description>
+<Point><coordinates>34.81308783,32.17239057</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-70</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:11</b><br/>]]></description>
+<Point><coordinates>34.81314408162315,32.17246213445027</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[lellouche]]></name>
+<description><![CDATA[MAC: <b>a4:2b:b0:ad:2d:34</b><br/>RSSI:<b>-82</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 11:01:19</b><br/>]]></description>
+<Point><coordinates>34.81368604,32.17235589</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-93</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:01:19</b><br/>]]></description>
+<Point><coordinates>34.81368604,32.17235589</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free GA32E3]]></name>
+<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-67</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:20</b><br/>]]></description>
+<Point><coordinates>34.81383247774181,32.172359339129684</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>08:3e:5d:5c:72:5e</b><br/>RSSI:<b>-83</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:01:20</b><br/>]]></description>
+<Point><coordinates>34.81383247774181,32.172359339129684</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-89</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:01:23</b><br/>]]></description>
+<Point><coordinates>34.81400233,32.17230215</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ben-Eliyahu_PC]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:d4:9a:92</b><br/>RSSI:<b>-92</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 11:01:23</b><br/>]]></description>
+<Point><coordinates>34.81400233,32.17230215</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-66</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:01:26</b><br/>]]></description>
+<Point><coordinates>34.81420299,32.17227412</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[love]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:58:73:75</b><br/>RSSI:<b>-58</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:01:26</b><br/>]]></description>
+<Point><coordinates>34.814265874458584,32.17229583572982</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HUAWEI-00F1]]></name>
+<description><![CDATA[MAC: <b>14:9d:09:80:00:f1</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:03:43</b><br/>]]></description>
+<Point><coordinates>34.81443004,32.17223176</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:58:73:75</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:06</b><br/>]]></description>
+<Point><coordinates>34.814398286352024,32.17221784967324</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqFree]]></name>
+<description><![CDATA[MAC: <b>06:ae:db:58:73:75</b><br/>RSSI:<b>-57</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:18</b><br/>]]></description>
+<Point><coordinates>34.81408016821385,32.17227246645649</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>fc:b4:e6:d2:86:9e</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:04:21</b><br/>]]></description>
+<Point><coordinates>34.81390382396507,32.17230692344676</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Basement]]></name>
+<description><![CDATA[MAC: <b>f4:f2:6d:af:45:26</b><br/>RSSI:<b>-93</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:04:21</b><br/>]]></description>
+<Point><coordinates>34.81388258,32.17232954</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-93</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:04:33</b><br/>]]></description>
+<Point><coordinates>34.81312422,32.17242844</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-90</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:04:36</b><br/>]]></description>
+<Point><coordinates>34.81292387,32.17244679</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-67</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:04:39</b><br/>]]></description>
+<Point><coordinates>34.81271468,32.17247957</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX1234]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:f9:f5:5b</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:45</b><br/>]]></description>
+<Point><coordinates>34.81234245317759,32.17257421641877</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-56-HP OfficeJet 6950]]></name>
+<description><![CDATA[MAC: <b>30:e1:71:be:67:57</b><br/>RSSI:<b>-90</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:04:45</b><br/>]]></description>
+<Point><coordinates>34.81234245317759,32.17257421641877</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Gil Kitchen]]></name>
+<description><![CDATA[MAC: <b>80:1f:02:a3:7d:62</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:04:48</b><br/>]]></description>
+<Point><coordinates>34.81218573168659,32.172567936910234</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:48</b><br/>]]></description>
+<Point><coordinates>34.81218573168659,32.172567936910234</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[kenley-up]]></name>
+<description><![CDATA[MAC: <b>88:dc:96:3b:f5:e0</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:04:51</b><br/>]]></description>
+<Point><coordinates>34.81206365704524,32.17244369050431</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:51</b><br/>]]></description>
+<Point><coordinates>34.81206365704524,32.17244369050431</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[GFCM]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:32:d5:c2</b><br/>RSSI:<b>-92</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 11:04:51</b><br/>]]></description>
+<Point><coordinates>34.81205701,32.17237857</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[varda]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:54</b><br/>]]></description>
+<Point><coordinates>34.81198974378003,32.17225037592235</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Liza]]></name>
+<description><![CDATA[MAC: <b>8c:59:c3:ea:db:4a</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:04:57</b><br/>]]></description>
+<Point><coordinates>34.81189999,32.17197416</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:04:57</b><br/>]]></description>
+<Point><coordinates>34.81189999,32.17197416</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Liza]]></name>
+<description><![CDATA[MAC: <b>8c:59:c3:ea:db:4b</b><br/>RSSI:<b>-91</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:05:00</b><br/>]]></description>
+<Point><coordinates>34.81183741979604,32.171773657455525</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SEW132_23574336]]></name>
+<description><![CDATA[MAC: <b>08:97:58:31:e0:c6</b><br/>RSSI:<b>-85</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:05:03</b><br/>]]></description>
+<Point><coordinates>34.81175227461636,32.171557399952235</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SEW132_23574336]]></name>
+<description><![CDATA[MAC: <b>08:97:58:31:e0:c6</b><br/>RSSI:<b>-87</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:05:03</b><br/>]]></description>
+<Point><coordinates>34.81172407,32.17153243</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Shani - Green]]></name>
+<description><![CDATA[MAC: <b>54:b8:0a:34:78:d0</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:03</b><br/>]]></description>
+<Point><coordinates>34.81172407,32.17153243</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-1966]]></name>
+<description><![CDATA[MAC: <b>6c:2e:85:fe:da:b8</b><br/>RSSI:<b>-75</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:06</b><br/>]]></description>
+<Point><coordinates>34.8116686534985,32.17134387611023</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SEW132_23574336]]></name>
+<description><![CDATA[MAC: <b>08:97:58:31:e0:c6</b><br/>RSSI:<b>-79</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:05:06</b><br/>]]></description>
+<Point><coordinates>34.8116686534985,32.17134387611023</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ronkla2]]></name>
+<description><![CDATA[MAC: <b>3c:1e:04:07:2a:fe</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:06</b><br/>]]></description>
+<Point><coordinates>34.8116686534985,32.17134387611023</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SEW132_23574336]]></name>
+<description><![CDATA[MAC: <b>08:97:58:31:e0:c6</b><br/>RSSI:<b>-78</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:05:06</b><br/>]]></description>
+<Point><coordinates>34.81162405,32.17131792</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[David]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:82:92:78</b><br/>RSSI:<b>-96</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:05:15</b><br/>]]></description>
+<Point><coordinates>34.81125367,32.17063751</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[shlomi]]></name>
+<description><![CDATA[MAC: <b>d8:5d:4c:d9:c4:68</b><br/>RSSI:<b>-65</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:05:18</b><br/>]]></description>
+<Point><coordinates>34.81119993629276,32.17043064941609</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[gononsmarthome]]></name>
+<description><![CDATA[MAC: <b>18:cc:23:00:18:45</b><br/>RSSI:<b>-89</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:05:18</b><br/>]]></description>
+<Point><coordinates>34.81119993629276,32.17043064941609</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[stephane]]></name>
+<description><![CDATA[MAC: <b>00:24:2b:cf:13:21</b><br/>RSSI:<b>-64</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:05:21</b><br/>]]></description>
+<Point><coordinates>34.81108803927924,32.17019380074371</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rozenkrants]]></name>
+<description><![CDATA[MAC: <b>86:2a:a8:a1:a0:b5</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:05:24</b><br/>]]></description>
+<Point><coordinates>34.81096823595285,32.1699449632106</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RS_GUEST]]></name>
+<description><![CDATA[MAC: <b>ec:08:6b:38:0d:dd</b><br/>RSSI:<b>-90</b><br/>Channel:<b>12</b><br/>First seen:<b>2017-12-01 11:05:24</b><br/>]]></description>
+<Point><coordinates>34.81096823595285,32.1699449632106</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[]]></name>
+<description><![CDATA[MAC: <b>fa:8f:ca:35:6e:e9</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:05:24</b><br/>]]></description>
+<Point><coordinates>34.81090236,32.16991824</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main_2EX]]></name>
+<description><![CDATA[MAC: <b>74:da:38:54:b8:1c</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:27</b><br/>]]></description>
+<Point><coordinates>34.810860989133886,32.16969384158719</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[bait]]></name>
+<description><![CDATA[MAC: <b>10:be:f5:3f:b2:ce</b><br/>RSSI:<b>-92</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 11:05:27</b><br/>]]></description>
+<Point><coordinates>34.810860989133886,32.16969384158719</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oved-main]]></name>
+<description><![CDATA[MAC: <b>74:da:39:54:b8:1d</b><br/>RSSI:<b>-79</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:27</b><br/>]]></description>
+<Point><coordinates>34.81081664,32.16965679</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lili]]></name>
+<description><![CDATA[MAC: <b>c4:12:f5:f9:5c:7c</b><br/>RSSI:<b>-79</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:05:30</b><br/>]]></description>
+<Point><coordinates>34.81076504710256,32.169457779876055</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2E6E]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:1e:ea:68</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:05:30</b><br/>]]></description>
+<Point><coordinates>34.81076504710256,32.169457779876055</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[GFCM]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:32:d5:c2</b><br/>RSSI:<b>-95</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 11:05:36</b><br/>]]></description>
+<Point><coordinates>34.81057961,32.16902724</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RS_GUEST]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:71:f5:ce</b><br/>RSSI:<b>-91</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:05:39</b><br/>]]></description>
+<Point><coordinates>34.810540283347045,32.16885854901348</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-79</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 11:05:42</b><br/>]]></description>
+<Point><coordinates>34.81062936,32.16875936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HTC]]></name>
+<description><![CDATA[MAC: <b>06:c2:3e:e4:21:85</b><br/>RSSI:<b>-86</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 11:05:42</b><br/>]]></description>
+<Point><coordinates>34.81062936,32.16875936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:05:42</b><br/>]]></description>
+<Point><coordinates>34.81062936,32.16875936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[A-Home]]></name>
+<description><![CDATA[MAC: <b>00:25:86:b1:6f:f8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:45</b><br/>]]></description>
+<Point><coordinates>34.81081986992245,32.168714629959446</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:05:48</b><br/>]]></description>
+<Point><coordinates>34.81107879163651,32.168714580027334</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-83</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:05:57</b><br/>]]></description>
+<Point><coordinates>34.81174970350504,32.16881183895412</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTFiber-400D]]></name>
+<description><![CDATA[MAC: <b>40:65:a3:2b:62:22</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:05:57</b><br/>]]></description>
+<Point><coordinates>34.81174970350504,32.16881183895412</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Setup>77-M277 LaserJet]]></name>
+<description><![CDATA[MAC: <b>92:cd:b6:2b:e9:77</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:05:57</b><br/>]]></description>
+<Point><coordinates>34.81174970350504,32.16881183895412</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:48</b><br/>RSSI:<b>-62</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:05:57</b><br/>]]></description>
+<Point><coordinates>34.8117473,32.16883049</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-91</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 11:05:57</b><br/>]]></description>
+<Point><coordinates>34.8117473,32.16883049</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LRWN]]></name>
+<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-73</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 11:06:00</b><br/>]]></description>
+<Point><coordinates>34.811856011826194,32.168934759058615</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Home]]></name>
+<description><![CDATA[MAC: <b>82:2a:a8:bf:94:29</b><br/>RSSI:<b>-74</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:06</b><br/>]]></description>
+<Point><coordinates>34.81204692954307,32.16931815149732</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-A5-HP DeskJet 3700 series]]></name>
+<description><![CDATA[MAC: <b>40:b0:34:62:33:a6</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:09</b><br/>]]></description>
+<Point><coordinates>34.81211179,32.1695048</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[InnovationEndeavors-guest]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:48:af:4d</b><br/>RSSI:<b>-91</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:06:12</b><br/>]]></description>
+<Point><coordinates>34.8122124147935,32.16970424697143</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-88</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:06:15</b><br/>]]></description>
+<Point><coordinates>34.81228859490431,32.16988799418102</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[snapper1]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:0e:db</b><br/>RSSI:<b>-91</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:15</b><br/>]]></description>
+<Point><coordinates>34.81228859490431,32.16988799418102</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-8156]]></name>
+<description><![CDATA[MAC: <b>b4:ee:b4:a7:81:5c</b><br/>RSSI:<b>-96</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:15</b><br/>]]></description>
+<Point><coordinates>34.8123046,32.1698844</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ter123]]></name>
+<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-69</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:18</b><br/>]]></description>
+<Point><coordinates>34.81236874860562,32.17005822708653</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siemens]]></name>
+<description><![CDATA[MAC: <b>d0:d4:12:5e:db:f2</b><br/>RSSI:<b>-88</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:18</b><br/>]]></description>
+<Point><coordinates>34.81236632,32.17005572</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[InnovationEndeavors-guest]]></name>
+<description><![CDATA[MAC: <b>14:ae:db:48:af:4d</b><br/>RSSI:<b>-94</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:06:24</b><br/>]]></description>
+<Point><coordinates>34.8125393,32.17043367</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-58</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:27</b><br/>]]></description>
+<Point><coordinates>34.81264147,32.17062832</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:27</b><br/>]]></description>
+<Point><coordinates>34.81264147,32.17062832</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_76C08E]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:c0:8e</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:30</b><br/>]]></description>
+<Point><coordinates>34.812720955098236,32.17081505526214</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[klaiman]]></name>
+<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-95</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:06:33</b><br/>]]></description>
+<Point><coordinates>34.81283858,32.17104463</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:36</b><br/>]]></description>
+<Point><coordinates>34.81289551990273,32.17122085604919</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[maya salon]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:df:c5</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:36</b><br/>]]></description>
+<Point><coordinates>34.81290186,32.17123718</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[@Cafe]]></name>
+<description><![CDATA[MAC: <b>52:a8:1d:12:df:c4</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:36</b><br/>]]></description>
+<Point><coordinates>34.81290186,32.17123718</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-75-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>b0:5a:da:fa:44:76</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:39</b><br/>]]></description>
+<Point><coordinates>34.81293238,32.17144111</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-95</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:39</b><br/>]]></description>
+<Point><coordinates>34.81293238,32.17144111</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:42</b><br/>]]></description>
+<Point><coordinates>34.81294533,32.17167256</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:45</b><br/>]]></description>
+<Point><coordinates>34.81297115265297,32.1718456468208</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:45</b><br/>]]></description>
+<Point><coordinates>34.81297015,32.1718793</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:45</b><br/>]]></description>
+<Point><coordinates>34.81297015,32.1718793</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:48</b><br/>]]></description>
+<Point><coordinates>34.81300152330893,32.17203899486285</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:06:54</b><br/>]]></description>
+<Point><coordinates>34.81307622429901,32.17236326227764</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:06:55</b><br/>]]></description>
+<Point><coordinates>34.81310031,32.17240723</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-1A14]]></name>
+<description><![CDATA[MAC: <b>00:07:26:4f:07:ae</b><br/>RSSI:<b>-86</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:06:58</b><br/>]]></description>
+<Point><coordinates>34.81321284,32.1724394</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIR-825-4f83]]></name>
+<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-66</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:07:00</b><br/>]]></description>
+<Point><coordinates>34.81330741796876,32.1724057467908</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[sellahome]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-82</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:07:01</b><br/>]]></description>
+<Point><coordinates>34.81336604,32.17241585</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free GA32E3]]></name>
+<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-62</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:07:03</b><br/>]]></description>
+<Point><coordinates>34.81347918498145,32.1723824503716</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-95</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:07:07</b><br/>]]></description>
+<Point><coordinates>34.81372174,32.17233583</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-78</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:07:10</b><br/>]]></description>
+<Point><coordinates>34.81393684,32.17230093</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Basement]]></name>
+<description><![CDATA[MAC: <b>f4:f2:6d:af:45:26</b><br/>RSSI:<b>-87</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:07:10</b><br/>]]></description>
+<Point><coordinates>34.81393684,32.17230093</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-57</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:07:12</b><br/>]]></description>
+<Point><coordinates>34.8140756807789,32.17228718061519</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Orit]]></name>
+<description><![CDATA[MAC: <b>c4:a8:1d:12:7d:4c</b><br/>RSSI:<b>-64</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:07:13</b><br/>]]></description>
+<Point><coordinates>34.81413733,32.17226588</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Km]]></name>
+<description><![CDATA[MAC: <b>48:ee:0c:3d:eb:b8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 11:07:18</b><br/>]]></description>
+<Point><coordinates>34.81441454466233,32.17225793952015</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HUAWEI-009D]]></name>
+<description><![CDATA[MAC: <b>14:9d:09:80:00:9d</b><br/>RSSI:<b>-86</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 11:07:18</b><br/>]]></description>
+<Point><coordinates>34.81441454466233,32.17225793952015</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-1234]]></name>
+<description><![CDATA[MAC: <b>7c:03:4c:ba:f5:5a</b><br/>RSSI:<b>-75</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:09:20</b><br/>]]></description>
+<Point><coordinates>34.81348839,32.17237924</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dobry2016]]></name>
+<description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9b</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:09:29</b><br/>]]></description>
+<Point><coordinates>34.81279901,32.17249007</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free GA32E3]]></name>
+<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:09:29</b><br/>]]></description>
+<Point><coordinates>34.81279901,32.17249007</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-68</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:09:32</b><br/>]]></description>
+<Point><coordinates>34.81256671,32.17254002</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ELDAD]]></name>
+<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:09:32</b><br/>]]></description>
+<Point><coordinates>34.81256671,32.17254002</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:01:ad:fe</b><br/>RSSI:<b>-87</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:09:32</b><br/>]]></description>
+<Point><coordinates>34.81256671,32.17254002</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:09:41</b><br/>]]></description>
+<Point><coordinates>34.81202557,32.1723185</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraDev]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:81</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:09:41</b><br/>]]></description>
+<Point><coordinates>34.81202557,32.1723185</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KaymeraGuest]]></name>
+<description><![CDATA[MAC: <b>00:f6:63:15:58:82</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:09:44</b><br/>]]></description>
+<Point><coordinates>34.81192728,32.17206721</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[alfa]]></name>
+<description><![CDATA[MAC: <b>f4:f2:6d:5e:d0:48</b><br/>RSSI:<b>-96</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:09:44</b><br/>]]></description>
+<Point><coordinates>34.81192728,32.17206721</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BezeqNGN_10072E_5GHz_1]]></name>
+<description><![CDATA[MAC: <b>c4:04:15:60:6a:b6</b><br/>RSSI:<b>-82</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 11:09:47</b><br/>]]></description>
+<Point><coordinates>34.81183239,32.17180755</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[G10]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f8:0c:ac</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:09:56</b><br/>]]></description>
+<Point><coordinates>34.81150977,32.17106538</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK-BET]]></name>
+<description><![CDATA[MAC: <b>f8:d1:11:ce:e5:e6</b><br/>RSSI:<b>-96</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 11:09:56</b><br/>]]></description>
+<Point><coordinates>34.81150977,32.17106538</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-96</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:09:56</b><br/>]]></description>
+<Point><coordinates>34.81150977,32.17106538</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hetz2]]></name>
+<description><![CDATA[MAC: <b>74:da:38:6c:89:7b</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:04</b><br/>]]></description>
+<Point><coordinates>34.81118089,32.17043936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-85-HP OfficeJet Pro 6960]]></name>
+<description><![CDATA[MAC: <b>98:e7:f4:0a:dd:86</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:10:04</b><br/>]]></description>
+<Point><coordinates>34.81118089,32.17043936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RDK]]></name>
+<description><![CDATA[MAC: <b>58:b6:33:34:ae:f8</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:10:04</b><br/>]]></description>
+<Point><coordinates>34.81118089,32.17043936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[gononsmarthome]]></name>
+<description><![CDATA[MAC: <b>18:cc:23:00:18:45</b><br/>RSSI:<b>-92</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:10:04</b><br/>]]></description>
+<Point><coordinates>34.81118089,32.17043936</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[  InnovationEndeavors]]></name>
+<description><![CDATA[MAC: <b>74:da:38:a9:1c:df</b><br/>RSSI:<b>-92</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:10:13</b><br/>]]></description>
+<Point><coordinates>34.81084759,32.16967507</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Alpha125]]></name>
+<description><![CDATA[MAC: <b>10:fe:ed:74:fc:46</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:17</b><br/>]]></description>
+<Point><coordinates>34.81071738,32.16931851</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[INGENEO]]></name>
+<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:10:26</b><br/>]]></description>
+<Point><coordinates>34.81063066,32.16874453</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:26</b><br/>]]></description>
+<Point><coordinates>34.81063066,32.16874453</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[simon]]></name>
+<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-90</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 11:10:26</b><br/>]]></description>
+<Point><coordinates>34.81063066,32.16874453</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Avisky]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:b2:d0</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:10:32</b><br/>]]></description>
+<Point><coordinates>34.811185,32.16871788</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Talfamily2]]></name>
+<description><![CDATA[MAC: <b>90:8d:78:b6:28:f6</b><br/>RSSI:<b>-62</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 11:10:37</b><br/>]]></description>
+<Point><coordinates>34.81168165,32.16879785</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Candan]]></name>
+<description><![CDATA[MAC: <b>c0:ff:d4:7b:82:30</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:40</b><br/>]]></description>
+<Point><coordinates>34.81185931,32.16894005</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-C18E]]></name>
+<description><![CDATA[MAC: <b>e0:ce:c3:8c:c1:94</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:50</b><br/>]]></description>
+<Point><coordinates>34.8121884,32.16968439</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:10:53</b><br/>]]></description>
+<Point><coordinates>34.81229315,32.16991843</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[snapper1]]></name>
+<description><![CDATA[MAC: <b>00:78:9e:fa:0e:db</b><br/>RSSI:<b>-93</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:53</b><br/>]]></description>
+<Point><coordinates>34.81229315,32.16991843</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-62EF]]></name>
+<description><![CDATA[MAC: <b>d8:fb:5e:17:62:f5</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:10:59</b><br/>]]></description>
+<Point><coordinates>34.81248459,32.17035702</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-85</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:10:59</b><br/>]]></description>
+<Point><coordinates>34.81248459,32.17035702</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-73</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:11:02</b><br/>]]></description>
+<Point><coordinates>34.81258185,32.17056857</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:02</b><br/>]]></description>
+<Point><coordinates>34.81258185,32.17056857</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-72</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:04</b><br/>]]></description>
+<Point><coordinates>34.81264811,32.17072078</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:04</b><br/>]]></description>
+<Point><coordinates>34.81264811,32.17072078</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOTBOX-2017]]></name>
+<description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-72</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:08</b><br/>]]></description>
+<Point><coordinates>34.81277801,32.1710117</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-AF-Officejet Pro 6830]]></name>
+<description><![CDATA[MAC: <b>28:80:23:40:5f:af</b><br/>RSSI:<b>-84</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:11:08</b><br/>]]></description>
+<Point><coordinates>34.81277801,32.1710117</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[hot]]></name>
+<description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-84</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 11:11:14</b><br/>]]></description>
+<Point><coordinates>34.81290244,32.17146616</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Floor 2]]></name>
+<description><![CDATA[MAC: <b>74:da:38:b6:f3:7a</b><br/>RSSI:<b>-94</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 11:11:14</b><br/>]]></description>
+<Point><coordinates>34.81290244,32.17146616</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[UFI_UF230_B3F]]></name>
+<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-87</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:11:17</b><br/>]]></description>
+<Point><coordinates>34.8129304,32.17168939</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 5Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-87</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 11:11:20</b><br/>]]></description>
+<Point><coordinates>34.81295967,32.17192126</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded]]></name>
+<description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:20</b><br/>]]></description>
+<Point><coordinates>34.81295967,32.17192126</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Oded 2.4Ghz]]></name>
+<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-94</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:20</b><br/>]]></description>
+<Point><coordinates>34.81295967,32.17192126</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:01:ad:fe</b><br/>RSSI:<b>-88</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:38</b><br/>]]></description>
+<Point><coordinates>34.81359923,32.17238006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-CC-HP DeskJet 4670 series]]></name>
+<description><![CDATA[MAC: <b>70:5a:0f:b2:64:cd</b><br/>RSSI:<b>-94</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 11:11:38</b><br/>]]></description>
+<Point><coordinates>34.81359923,32.17238006</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lahav]]></name>
+<description><![CDATA[MAC: <b>b0:b2:8f:01:ad:fe</b><br/>RSSI:<b>-74</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:41</b><br/>]]></description>
+<Point><coordinates>34.81384954,32.17233383</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dobry2016]]></name>
+<description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9b</b><br/>RSSI:<b>-84</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:11:41</b><br/>]]></description>
+<Point><coordinates>34.81384954,32.17233383</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bezeq Free GA32E3]]></name>
+<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-86</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 11:11:41</b><br/>]]></description>
+<Point><coordinates>34.81384954,32.17233383</coordinates></Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DIRECT-F6-HP DeskJet 3830 series]]></name>
+<description><![CDATA[MAC: <b>30:e1:71:fb:1e:f7</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 11:11:44</b><br/>]]></description>
+<Point><coordinates>34.81407594,32.17231097</coordinates></Point>
+</Placemark>
+</Folder></Document></kml>

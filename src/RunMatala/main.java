@@ -7,8 +7,8 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import Algorithms.Algo2;
-import KML.kml_writer;
 import Tools.Writer;
+import Tools.WriterToKml;
 import Tools.comb_reader;
 import Tools.no_gps_read;
 import Tools.wigel_mac;
@@ -27,11 +27,11 @@ public class main {
 		
 		Read data=new Read();
 		Writer newFile =new Writer(data);
-		kml_writer newkml = new kml_writer();
+		
+		WriterToKml newkml = new WriterToKml(data);
+		
 		String a="model=SM-G950F_device=dreamlte";
-		
-		
-		wigel_mac loc = new wigel_mac();
+    	wigel_mac loc = new wigel_mac();
 		comb_reader point = new comb_reader();
 		Tools.Filter.remove_by_id(point,a);
 		Tools.Filter.save_filter();

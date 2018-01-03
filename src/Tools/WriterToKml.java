@@ -1,8 +1,10 @@
 package Tools;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
@@ -10,37 +12,46 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+
 public class WriterToKml {
 	
 	
-	public WriterToKml(String path) throws IOException {
+	public WriterToKml(Read data) throws IOException {
 		/**
 		 *  a class that creates kml file, the class is not completed due to project restart and lack of time
 		 * @author Shiran &Yonatan
 		 *
 		 */
+		String path= "C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\KML";
+		 File file = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\src\\Data\\output\\KML\\kmalMap.kml");
+	      
+	      file.createNewFile();
+	      
+	      PrintWriter writer = new PrintWriter(file); 
+		 writer.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n" + 
+				"<kml xmlns=\"http://www.opengis.net/kml/2.2\"><Document><Style id=\"red\"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style><Style id=\"yellow\"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style><Style id=\"green\"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style><Folder><name>Wifi Networks</name>");
 		
-		List<comb_reader> KMLpoints =new ArrayList<>();
-		
-		try {
-			BufferedReader br = new BufferedReader(new FileReader(path));
-			String lineRead = ""; 
-			lineRead = br.readLine();
-			
-			while ((lineRead = br.readLine()) != null) {
-				comb_reader point =new comb_reader();
-				KMLpoints.add(point);
-			
+		 for(int i=0;i<data.wifiNetworks.size();i++) {
+			 for(int j=0;j<data.wifiNetworks.get(i).NumberOWN;j++) {
+			 writer.println("<Placemark>");
+				writer.println("<name>"+"<![CDATA["+data.wifiNetworks.get(i).SSID2.get(j)+"]]>"+"</name>");
+				writer.println("<description>"+"<![CDATA[MAC: "+"<b>"+data.wifiNetworks.get(i).MAC2.get(j)+"</b>"+"<br/>"
+						+"RSSI:"+"<b>"+data.wifiNetworks.get(i).RSSI2.get(j)+"</b>"+"<br/>"+
+						"Channel:"+"<b>"+data.wifiNetworks.get(i).Channel3.get(j)+"</b>"+"<br/>"+
+						"First seen:"+"<b>"+data.wifiNetworks.get(i).FirstSeen+"</b>"+"<br/>"+				
+						"]]>"+"</description>");
+				writer.println("<Point>"+"<coordinates>"+data.wifiNetworks.get(i).CurrentLongitude+","+data.wifiNetworks.get(i).CurrentLatitude+"</coordinates>"+"</Point>");
+				writer.println("</Placemark>");
 			}
-			
-			
-			
-			
-		} catch (FileNotFoundException e) {
-			
-			e.printStackTrace();
-		}
+		 }
 		
-	}
+			writer.println("</Folder>"+"</Document>"+"</kml>");
+			
+			writer.close();
 
+	
+		 
+		 
+	}		
 }

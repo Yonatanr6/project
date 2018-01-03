@@ -129,6 +129,82 @@ public class Algo2 {
 	}
 
 
+public Algo2(String no_gps) throws Exception {
+		
+	
+	String temp="12/05/17 11:48 AM,model=SM-G950F_device=dreamlte,?,?,?,3,IT-MNG,1c:b9:c4:15:ed:b8,1,-81, ,8c:0c:90:ae:16:83,11,-86,Ariel_University,1c:b9:c4:16:ed:3c,44,-91,,,,,,,,,,,,,,,,,,,,\r\n" ;
+		
+	comb_reader data = new comb_reader();
+	
+		PrintWriter writer = new PrintWriter(path);
+
+		for(int i=0; i< no_gps.scans.size();i++) {//algo for creating a list that calcs and writes the aproxx location of the user
+			
+			List<Algo2> calcs = new ArrayList<>();
+
+			for(int k=0;k<data.KMLpoints.size();k++) {
+				Algo2 calc = new Algo2();
+				calc.CurrentLatitude= data.KMLpoints.get(k).CurrentLatitude;
+				calc.CurrentLongitude= data.KMLpoints.get(k).CurrentLongitude;
+				calc.AltitudeMeters= data.KMLpoints.get(k).AltitudeMeters;
+
+				for(int j=0; j< no_gps.scans.get(i).NumberOWN; j++) {
+					
+					for(int q=0;q<data.KMLpoints.get(k).NumberOWN;q++) {
+					
+					if(no_gps.scans.get(i).MACList.get(j).equals(data.KMLpoints.get(k).MACList.get(q))) {
+						
+						calc.diff1= Math.abs(no_gps.scans.get(i).RSSIList.get(j)-data.KMLpoints.get(k).RSSIList.get(q));
+						calc.weight.add(norm/((Math.pow(calc.diff1, sig_dif))*(Math.pow(no_gps.scans.get(i).RSSIList.get(j), pow))));
+					}
+					else {
+						calc.diff1= dif_no_sig;
+						calc.weight.add(norm/((Math.pow(calc.diff1, sig_dif))*(Math.pow(no_gps.scans.get(i).RSSIList.get(j), pow))));
+						
+					}
+					}
+
+
+				}
+				
+				calcs.add(calc);
+				piCalc(calcs);
+				
+				
+
+			}
+
+			for(int z=0;z<calcs.size();z++) {
+				calcs.get(z).wLatitude1=(calcs.get(z).pi*calcs.get(z).CurrentLatitude);
+				calcs.get(z).wLongitude1=(calcs.get(z).pi*calcs.get(z).CurrentLongitude);
+				calcs.get(z).wAltitude1=(calcs.get(z).pi*calcs.get(z).AltitudeMeters);
+			}
+			for(int z=0;z<calcs.size();z++) {
+				calcs.get(z).sLatitude+=calcs.get(z).wLatitude1;
+				calcs.get(z).sLongitude+=calcs.get(z).wLongitude1;
+				calcs.get(z).sAltitude+=calcs.get(z).wAltitude1;
+				calcs.get(z).Spi+=calcs.get(z).pi;
+			}
+			for(int z=0;z<calcs.size();z++) {
+				calcs.get(z).fLatitude= calcs.get(z).sLatitude/calcs.get(z).Spi;
+				calcs.get(z).fLongitude= calcs.get(z).sLongitude/calcs.get(z).Spi;
+				calcs.get(z).fAltitude= calcs.get(z).sAltitude/calcs.get(z).Spi;
+			}
+			writer.print(","+",");
+			writer.print(calcs.get(i).fLatitude);
+			writer.print(",");
+			writer.print(calcs.get(i).fLongitude);
+			writer.print(",");
+			writer.print(calcs.get(i).fAltitude);
+			writer.println();
+			
+		}
+		
+		writer.close();
+
+
+	}
+	
 	public Algo2() {
 		super();
 		
