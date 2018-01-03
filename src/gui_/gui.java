@@ -198,7 +198,7 @@ public class gui extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
                // Tools.Writer.Writer_();
-             
+             System.out.println("sss");
             }
         });
 
