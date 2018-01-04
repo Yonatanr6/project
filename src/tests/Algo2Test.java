@@ -2,6 +2,9 @@ package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -15,96 +18,26 @@ import wifi_data.*;
 import gui_.*;
 
 class Algo2Test {
+	List<Algo2> calcs = new ArrayList<>();
+	List<Double> weight = new ArrayList<>();
+	List<Integer> diff = new ArrayList<>();
+	double diff1;
+	double pi,Spi;
+	List<Double> wLatitude= new ArrayList<>();
+	List<Double> wLongitude= new ArrayList<>();
+	List<Double> wAltitude= new ArrayList<>();
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-	}
 
-	@AfterAll
-	static void tearDownAfterClass() throws Exception {
-	}
-
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@AfterEach
-	void tearDown() throws Exception {
-	}
 
 	@Test
-	final void testAlgo2No_gps_read() {
-		fail("Not yet implemented"); // TODO
+	final void pic_calctest() {
+		Algo2 sum = null ;
+		for(int i=0;i<calcs.size();i++) {
+			for(int j=0;j<calcs.get(i).weight.size();j++) 
+				calcs.set(i,sum);
+				//sum*=calcs.get(i).weight.get(j);
+			assertEquals(sum,1);
+			
+		}
 	}
-
-	@Test
-	final void testPiCalc() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testAlgo2() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testObject() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetClass() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testHashCode() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testEquals() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testClone() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotify() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotifyAll() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLong() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLongInt() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWait() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testFinalize() {
-		fail("Not yet implemented"); // TODO
-	}
-
 }

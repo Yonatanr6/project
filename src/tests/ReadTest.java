@@ -2,6 +2,15 @@ package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -15,7 +24,9 @@ import wifi_data.*;
 import gui_.*;
 
 class ReadTest {
-
+	public 	List<location> locations= new ArrayList<location>();
+	public List<wifiPoint> wifiPoints = new ArrayList<wifiPoint>(3);
+	public List<wifiNetwork> wifiNetworks = new ArrayList<wifiNetwork>();
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 	}
@@ -33,83 +44,26 @@ class ReadTest {
 	}
 
 	@Test
-	final void testRead() {
-		fail("Not yet implemented"); // TODO
-	}
+	final void make_wifiNetworks_test0() {
+		Comparator com= new Comparator<wifiPoint>(){
+			public int compare(wifiPoint arg0, wifiPoint arg1) {
+				assertEquals(arg0,arg1);
+				return 1;
+			}
 
+		};
+
+	}
 	@Test
-	final void testGetlocations() {
-		fail("Not yet implemented"); // TODO
-	}
+	final void make_wifiNetworks_test1() {
+		Comparator com1= new Comparator<location>(){
 
-	@Test
-	final void testGetWifiNetwork() {
-		fail("Not yet implemented"); // TODO
-	}
+			public int compare(location arg0, location arg1) {
+				assertEquals(arg0,arg1);
+				return 1;
+			}
 
-	@Test
-	final void testGetwifiPoints() {
-		fail("Not yet implemented"); // TODO
+		};
 	}
-
-	@Test
-	final void testObject() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetClass() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testHashCode() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testEquals() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testClone() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotify() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotifyAll() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLong() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLongInt() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWait() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testFinalize() {
-		fail("Not yet implemented"); // TODO
-	}
-
 }
+

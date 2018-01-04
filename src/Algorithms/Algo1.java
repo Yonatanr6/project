@@ -92,7 +92,7 @@ public class Algo1 {
 
 			}
 		
-		WriteFile(LocFinders);
+		WriteFile(LocFinders);// @return  LocFinders to WriteFile 
 	}
 	
 
@@ -184,52 +184,52 @@ public Algo1(List<wigel_mac> MAC_locs, String mac) throws FileNotFoundException 
 
 	}
 
-	public Algo1(Read newFile, String mac) {//Secondary algo with different input
-
-		for(int i=0;i<newFile.wifiNetworks.size();i++) 
-			for(int j=0;j<newFile.wifiNetworks.get(i).MAC2.size();j++)
-				if(mac.equals(newFile.wifiNetworks.get(i).MAC2.get(j))==true) {
-					count++;
-					RSSI.add(newFile.wifiNetworks.get(i).RSSI2.get(j));
-					Latitude.add(newFile.wifiNetworks.get(i).CurrentLatitude);
-					Longitude.add(newFile.wifiNetworks.get(i).CurrentLongitude);
-					Altitude.add(newFile.wifiNetworks.get(i).AltitudeMeters);
-				}
-
-
-		for(int i=0;i<count;i++) {
-			wRSSI.add( (1/ (double)(RSSI.get(i)* (double)RSSI.get(i))));
-		}
-		for(int i=0;i<count;i++) {
-			wLongitude.add((Longitude.get(i)*wRSSI.get(i)));
-		}
-		for(int i=0;i<count;i++) {
-			wLatitude.add((Latitude.get(i)*wRSSI.get(i)));
-		}
-		for(int i=0;i<count;i++) {
-			wAltitude.add((Altitude.get(i)*wRSSI.get(i)));
-		}
-
-
-		for(int i=0;i<count;i++) {
-			sRSSI+=wRSSI.get(i);
-		}
-		for(int i=0;i<count;i++) {
-			sLongitude+=wLongitude.get(i);
-		}
-		for(int i=0;i<count;i++) {
-			sLatitude+=wLatitude.get(i);
-		}
-		for(int i=0;i<count;i++) {
-			sAltitude+=wAltitude.get(i);
-		}
-
-		fLongitude=sLongitude/sRSSI;
-		fLatitude=sLatitude/sRSSI;
-		fAltitude=sAltitude/sRSSI;
-
-
-	}
+//	public Algo1(Read newFile, String mac) {//Secondary algo with different input
+//
+//		for(int i=0;i<newFile.wifiNetworks.size();i++) 
+//			for(int j=0;j<newFile.wifiNetworks.get(i).MAC2.size();j++)
+//				if(mac.equals(newFile.wifiNetworks.get(i).MAC2.get(j))==true) {
+//					count++;
+//					RSSI.add(newFile.wifiNetworks.get(i).RSSI2.get(j));
+//					Latitude.add(newFile.wifiNetworks.get(i).CurrentLatitude);
+//					Longitude.add(newFile.wifiNetworks.get(i).CurrentLongitude);
+//					Altitude.add(newFile.wifiNetworks.get(i).AltitudeMeters);
+//				}
+//
+//
+//		for(int i=0;i<count;i++) {
+//			wRSSI.add( (1/ (double)(RSSI.get(i)* (double)RSSI.get(i))));
+//		}
+//		for(int i=0;i<count;i++) {
+//			wLongitude.add((Longitude.get(i)*wRSSI.get(i)));
+//		}
+//		for(int i=0;i<count;i++) {
+//			wLatitude.add((Latitude.get(i)*wRSSI.get(i)));
+//		}
+//		for(int i=0;i<count;i++) {
+//			wAltitude.add((Altitude.get(i)*wRSSI.get(i)));
+//		}
+//
+//
+//		for(int i=0;i<count;i++) {
+//			sRSSI+=wRSSI.get(i);
+//		}
+//		for(int i=0;i<count;i++) {
+//			sLongitude+=wLongitude.get(i);
+//		}
+//		for(int i=0;i<count;i++) {
+//			sLatitude+=wLatitude.get(i);
+//		}
+//		for(int i=0;i<count;i++) {
+//			sAltitude+=wAltitude.get(i);
+//		}
+//
+//		fLongitude=sLongitude/sRSSI;
+//		fLatitude=sLatitude/sRSSI;
+//		fAltitude=sAltitude/sRSSI;
+//
+//
+//	}
 
 	public double getfAltitude() {
 		return fAltitude;

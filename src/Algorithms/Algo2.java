@@ -29,13 +29,13 @@ public class Algo2 {
 	int NumberOWN;
 	String FirstSeen, Id;
 
-	List<Double> weight = new ArrayList<>();
-	List<Integer> diff = new ArrayList<>();
+	public List<Double> weight = new ArrayList<>();
+	public List<Integer> diff = new ArrayList<>();
 	double diff1;
 	double pi,Spi;
-	List<Double> wLatitude= new ArrayList<>();
-	List<Double> wLongitude= new ArrayList<>();
-	List<Double> wAltitude= new ArrayList<>();
+	public List<Double> wLatitude= new ArrayList<>();
+	public List<Double> wLongitude= new ArrayList<>();
+	public List<Double> wAltitude= new ArrayList<>();
 	double wLatitude1,wLongitude1,wAltitude1;
 	double fLongitude, fLatitude, fAltitude;
 	double sLongitude, sLatitude, sAltitude;
