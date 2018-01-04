@@ -92,7 +92,7 @@ public class Algo1 {
 
 			}
 		
-		WriteFile(LocFinders);
+		WriteFile(LocFinders);// @return  LocFinders to WriteFile 
 	}
 	
 
