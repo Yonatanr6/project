@@ -3,6 +3,12 @@ package Tools;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import Tools.*;
+import Algorithms.*;
+import RunMatala.*;
+import tests.*;
+import wifi_data.*;
+import gui_.*;
 
 
 public class Writer {
@@ -27,12 +33,13 @@ public class Writer {
 			writer.close();
 	}
 	public Writer(Read data) throws IOException {///writes comb from our wiglewifi
+
 		/**
 		 *  a class that writes a comb file from the wigelwifi files
 		 * @author Shiran &Yonatan
 		 *
 		 */
-		
+		 
 	
 		
     String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\our_comb\\best.csv");//output file for the comb/best file

@@ -4,9 +4,13 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import Tools.Read;
-import Tools.Writer;
-import Tools.wigel_mac;
+import Tools.*;
+import Algorithms.*;
+import RunMatala.*;
+import tests.*;
+import wifi_data.*;
+import gui_.*;
+
 
 //the class of algo1
  
