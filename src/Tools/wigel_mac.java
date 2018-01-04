@@ -115,7 +115,7 @@ public class wigel_mac {
 		}
 		
 		
-		Algo1 find = new Algo1(MAC_locs,mac);
+		
 		
 	
 }

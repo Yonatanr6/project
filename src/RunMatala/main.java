@@ -16,8 +16,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-
-import Algorithms.Algo2;
 import Tools.Writer;
 import Tools.WriterToKml;
 import Tools.comb_reader;
@@ -45,7 +43,7 @@ public class main {
 		 * @author Shiran &Yonatan
 		 *
 		 */
-//		
+	
 		
 		watchservice watchMe = new watchservice();
 		
@@ -55,19 +53,22 @@ public class main {
 		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\after_filter.csv");
 		
 		Read data=new Read();
-		Writer newFile =new Writer(data);
+		
 		
 		WriterToKml newkml = new WriterToKml(data);
-		
-		String a="model=SM-G950F_device=dreamlte";
+		Writer temp =new Writer(data);
+		String a="Lenovo PB2-690Y";
     	wigel_mac loc = new wigel_mac();
-		comb_reader point = new comb_reader();
-		Tools.Filter.remove_by_id(point,a);
+		comb_reader point = new comb_reader("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\backup");
+		Tools.Filter.remove_by_id(data,a);
+		Writer newFile =new Writer(data);
 		Tools.Filter.save_filter();
-		Writer writeComb= new Writer(point,path);
+		Tools.Filter.load_filter();
+		//Writer writeComb= new Writer(point,path);
 		no_gps_read read = new no_gps_read();
+		Algo1 find = new Algo1(loc.MAC_locs);
 		try {
-			Algo2 re = new Algo2(read);
+			Algo2 re = new Algo2(point,read);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

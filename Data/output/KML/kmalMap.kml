@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><Style id="red"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style><Style id="yellow"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style><Style id="green"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style><Folder><name>Wifi Networks</name>
 <Placemark>
-<name><![CDATA[HOTBOX-D88A]]></name>
-<description><![CDATA[MAC: <b>c0:ac:54:f5:b4:c9</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:42:54</b><br/>]]></description>
-<Point><coordinates>34.8144489381276,32.17224246105308</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Efrat]]></name>
-<description><![CDATA[MAC: <b>b4:ee:b4:86:c0:f1</b><br/>RSSI:<b>-74</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:00</b><br/>]]></description>
-<Point><coordinates>34.81444473498782,32.172238019565235</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[angela]]></name>
-<description><![CDATA[MAC: <b>80:1f:02:f5:d8:e8</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:06</b><br/>]]></description>
-<Point><coordinates>34.814391891326764,32.172252019523675</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[KarvatB0.5]]></name>
-<description><![CDATA[MAC: <b>14:ae:db:cc:ed:6d</b><br/>RSSI:<b>-89</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:43:18</b><br/>]]></description>
-<Point><coordinates>34.81421445142988,32.172265215924426</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Bezeq Free GA32E3]]></name>
-<description><![CDATA[MAC: <b>52:b0:ce:ac:32:98</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:29</b><br/>]]></description>
-<Point><coordinates>34.81363858823374,32.1723485161587</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[lellouche]]></name>
 <description><![CDATA[MAC: <b>a4:2b:b0:ad:2d:34</b><br/>RSSI:<b>-93</b><br/>Channel:<b>5</b><br/>First seen:<b>2017-12-01 10:43:31</b><br/>]]></description>
 <Point><coordinates>34.81350895,32.17237425</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[dobry2016]]></name>
-<description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9b</b><br/>RSSI:<b>-69</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:33</b><br/>]]></description>
-<Point><coordinates>34.81341290942063,32.17238058500455</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Mevohot_1]]></name>
 <description><![CDATA[MAC: <b>20:0c:c8:1b:a2:48</b><br/>RSSI:<b>-95</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:43:34</b><br/>]]></description>
 <Point><coordinates>34.81333642,32.17238884</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[DIR-825-4f83]]></name>
-<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-66</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:37</b><br/>]]></description>
-<Point><coordinates>34.81318688512261,32.17241155333384</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[DIR-825-4f83]]></name>
@@ -91,11 +56,6 @@
 <Point><coordinates>34.81296682,32.17243758</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[DIR-825-4f83]]></name>
-<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-57</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:41</b><br/>]]></description>
-<Point><coordinates>34.81295646141121,32.17244042298214</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[ELDAD]]></name>
 <description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:43</b><br/>]]></description>
 <Point><coordinates>34.81278713,32.17246651</coordinates></Point>
@@ -104,16 +64,6 @@
 <name><![CDATA[BezeqFree]]></name>
 <description><![CDATA[MAC: <b>06:ae:db:c1:ad:7d</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:43:43</b><br/>]]></description>
 <Point><coordinates>34.81278713,32.17246651</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[ELDAD]]></name>
-<description><![CDATA[MAC: <b>10:0d:7f:80:17:80</b><br/>RSSI:<b>-78</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:45</b><br/>]]></description>
-<Point><coordinates>34.81270507338805,32.17248344093608</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Eldad_2EX]]></name>
-<description><![CDATA[MAC: <b>80:1f:02:e8:b9:cc</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:43:45</b><br/>]]></description>
-<Point><coordinates>34.81270507338805,32.17248344093608</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[Eldad_2EX]]></name>
@@ -146,29 +96,9 @@
 <Point><coordinates>34.81211077,32.17246746</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[urigil1]]></name>
-<description><![CDATA[MAC: <b>a0:ab:1b:5d:c2:60</b><br/>RSSI:<b>-90</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:43:57</b><br/>]]></description>
-<Point><coordinates>34.812091884783165,32.17240151409594</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[INGENEO]]></name>
-<description><![CDATA[MAC: <b>cc:b2:55:e8:4c:e6</b><br/>RSSI:<b>-91</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:43:57</b><br/>]]></description>
-<Point><coordinates>34.812091884783165,32.17240151409594</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Gil-Up]]></name>
 <description><![CDATA[MAC: <b>50:c7:bf:36:df:98</b><br/>RSSI:<b>-89</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:43:58</b><br/>]]></description>
 <Point><coordinates>34.81204165,32.17230828</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Helen.]]></name>
-<description><![CDATA[MAC: <b>a0:ab:1b:57:cd:42</b><br/>RSSI:<b>-79</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
-<Point><coordinates>34.81201239183262,32.17217553070084</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[U2I8L1M0X42]]></name>
-<description><![CDATA[MAC: <b>54:64:d9:66:29:ef</b><br/>RSSI:<b>-85</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:01</b><br/>]]></description>
-<Point><coordinates>34.81201239183262,32.17217553070084</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[U2I8L1M0X42]]></name>
@@ -206,11 +136,6 @@
 <Point><coordinates>34.81189708,32.17191211</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[Liza]]></name>
-<description><![CDATA[MAC: <b>8c:59:c3:ea:db:4a</b><br/>RSSI:<b>-78</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:05</b><br/>]]></description>
-<Point><coordinates>34.81190851897319,32.17188758190333</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Ben Ami_2.4]]></name>
 <description><![CDATA[MAC: <b>c4:04:15:60:6a:b5</b><br/>RSSI:<b>-77</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:07</b><br/>]]></description>
 <Point><coordinates>34.81179424,32.1716947</coordinates></Point>
@@ -226,44 +151,14 @@
 <Point><coordinates>34.81172206,32.17151458</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[varda]]></name>
-<description><![CDATA[MAC: <b>c4:12:f5:85:27:c2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:11</b><br/>]]></description>
-<Point><coordinates>34.811757862271804,32.17149430101505</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[mika1]]></name>
-<description><![CDATA[MAC: <b>c4:12:f5:fb:c0:3e</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:14</b><br/>]]></description>
-<Point><coordinates>34.81169555724996,32.17134020148104</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[donush]]></name>
-<description><![CDATA[MAC: <b>c0:ac:54:f5:b7:f2</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:14</b><br/>]]></description>
-<Point><coordinates>34.81169555724996,32.17134020148104</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[DAVID]]></name>
 <description><![CDATA[MAC: <b>d8:fb:5e:17:1b:d6</b><br/>RSSI:<b>-96</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:16</b><br/>]]></description>
 <Point><coordinates>34.81159343,32.17121725</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[DAVID]]></name>
-<description><![CDATA[MAC: <b>d8:fb:5e:17:1b:d6</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:18</b><br/>]]></description>
-<Point><coordinates>34.811594706105254,32.17113909756608</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[home]]></name>
 <description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:19</b><br/>]]></description>
 <Point><coordinates>34.81151613,32.17106022</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[home]]></name>
-<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-83</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:22</b><br/>]]></description>
-<Point><coordinates>34.81148871152029,32.17094198600168</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[TP-LINK_2C3A]]></name>
-<description><![CDATA[MAC: <b>84:16:f9:d7:2c:3a</b><br/>RSSI:<b>-90</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:22</b><br/>]]></description>
-<Point><coordinates>34.81148871152029,32.17094198600168</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[home]]></name>
@@ -276,11 +171,6 @@
 <Point><coordinates>34.81134771,32.1707657</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[home]]></name>
-<description><![CDATA[MAC: <b>00:13:d4:0f:f3:ba</b><br/>RSSI:<b>-77</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:26</b><br/>]]></description>
-<Point><coordinates>34.81136052218762,32.17073022335429</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Guymic]]></name>
 <description><![CDATA[MAC: <b>14:ae:db:b7:99:2d</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:28</b><br/>]]></description>
 <Point><coordinates>34.81125793,32.1706109</coordinates></Point>
@@ -289,31 +179,6 @@
 <name><![CDATA[HOTFiber-A53E]]></name>
 <description><![CDATA[MAC: <b>7c:b7:33:a1:7e:98</b><br/>RSSI:<b>-90</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:28</b><br/>]]></description>
 <Point><coordinates>34.81125793,32.1706109</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HOTFiber-A53E]]></name>
-<description><![CDATA[MAC: <b>7c:b7:33:a1:7e:98</b><br/>RSSI:<b>-80</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
-<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[rdk]]></name>
-<description><![CDATA[MAC: <b>e4:d3:f1:9a:81:60</b><br/>RSSI:<b>-85</b><br/>Channel:<b>13</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
-<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[RDK]]></name>
-<description><![CDATA[MAC: <b>58:b6:33:34:81:a8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
-<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[RDK]]></name>
-<description><![CDATA[MAC: <b>58:b6:33:34:ae:f8</b><br/>RSSI:<b>-85</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
-<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[dlink]]></name>
-<description><![CDATA[MAC: <b>40:9b:cd:11:2f:88</b><br/>RSSI:<b>-92</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:44:30</b><br/>]]></description>
-<Point><coordinates>34.811243700290355,32.17052489858893</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[HOTFiber-A53E]]></name>
@@ -351,11 +216,6 @@
 <Point><coordinates>34.81099899,32.17009476</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[Neeman2.4_5]]></name>
-<description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:44:38</b><br/>]]></description>
-<Point><coordinates>34.811007615648165,32.17005047256307</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Neeman2.4]]></name>
 <description><![CDATA[MAC: <b>20:0c:c8:1d:c8:2b</b><br/>RSSI:<b>-81</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:40</b><br/>]]></description>
 <Point><coordinates>34.81091198,32.16988722</coordinates></Point>
@@ -386,16 +246,6 @@
 <Point><coordinates>34.81091198,32.16988722</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[HP-Print-20-Deskjet 4640 series]]></name>
-<description><![CDATA[MAC: <b>fc:15:b4:65:09:20</b><br/>RSSI:<b>-87</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:41</b><br/>]]></description>
-<Point><coordinates>34.8109235856239,32.16984101063408</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HOTBOX-2E6E]]></name>
-<description><![CDATA[MAC: <b>c0:ac:54:f7:27:42</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:44:41</b><br/>]]></description>
-<Point><coordinates>34.8109235856239,32.16984101063408</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Alpha125]]></name>
 <description><![CDATA[MAC: <b>30:b5:c2:e0:55:9c</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:44:43</b><br/>]]></description>
 <Point><coordinates>34.81083325,32.16968089</coordinates></Point>
@@ -414,11 +264,6 @@
 <name><![CDATA[ELCHARAR_2.4]]></name>
 <description><![CDATA[MAC: <b>20:0c:c8:0f:21:93</b><br/>RSSI:<b>-95</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:46</b><br/>]]></description>
 <Point><coordinates>34.81075792,32.16947978</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[edimax_2.4G_A92417]]></name>
-<description><![CDATA[MAC: <b>74:da:38:a9:24:17</b><br/>RSSI:<b>-75</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:44:49</b><br/>]]></description>
-<Point><coordinates>34.81071393258221,32.16930328971546</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[BezeqNGN_001489_2.4GHz_1]]></name>
@@ -476,36 +321,6 @@
 <Point><coordinates>34.81052111,32.16883715</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[RS_GUEST]]></name>
-<description><![CDATA[MAC: <b>ec:08:6b:38:0d:dd</b><br/>RSSI:<b>-85</b><br/>Channel:<b>12</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[RS_GUEST_5G]]></name>
-<description><![CDATA[MAC: <b>ec:08:6b:38:0d:dc</b><br/>RSSI:<b>-89</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[DIRECT-F4-HP DeskJet 3830 series]]></name>
-<description><![CDATA[MAC: <b>c8:d3:ff:57:60:f5</b><br/>RSSI:<b>-89</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[simon]]></name>
-<description><![CDATA[MAC: <b>e4:6f:13:73:0a:c2</b><br/>RSSI:<b>-89</b><br/>Channel:<b>8</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HTC]]></name>
-<description><![CDATA[MAC: <b>06:c2:3e:e4:21:85</b><br/>RSSI:<b>-89</b><br/>Channel:<b>4</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[KaymeraDev]]></name>
-<description><![CDATA[MAC: <b>00:f6:63:15:58:8e</b><br/>RSSI:<b>-92</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:44:57</b><br/>]]></description>
-<Point><coordinates>34.810544049627936,32.168823167573045</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[kaymeraQA]]></name>
 <description><![CDATA[MAC: <b>00:f6:63:15:58:80</b><br/>RSSI:<b>-82</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:44:59</b><br/>]]></description>
 <Point><coordinates>34.81060785,32.16872739</coordinates></Point>
@@ -541,11 +356,6 @@
 <Point><coordinates>34.81060785,32.16872739</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[LRWN]]></name>
-<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-91</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:45:01</b><br/>]]></description>
-<Point><coordinates>34.81072410830097,32.168721003548164</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[A-Home]]></name>
 <description><![CDATA[MAC: <b>00:25:86:b1:6f:f8</b><br/>RSSI:<b>-81</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:01</b><br/>]]></description>
 <Point><coordinates>34.81074499,32.16870873</coordinates></Point>
@@ -576,26 +386,6 @@
 <Point><coordinates>34.81164041,32.16877222</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[LRWN]]></name>
-<description><![CDATA[MAC: <b>ec:8c:a2:09:dd:4c</b><br/>RSSI:<b>-70</b><br/>Channel:<b>44</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
-<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[LRWN]]></name>
-<description><![CDATA[MAC: <b>0c:f4:d5:29:a2:9c</b><br/>RSSI:<b>-76</b><br/>Channel:<b>36</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
-<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HOTFiber-400D]]></name>
-<description><![CDATA[MAC: <b>40:65:a3:2b:62:22</b><br/>RSSI:<b>-88</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
-<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HOTFiber-400D]]></name>
-<description><![CDATA[MAC: <b>40:65:a3:2b:62:0e</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:13</b><br/>]]></description>
-<Point><coordinates>34.811787470063976,32.168846097297546</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[SE-WiFi-Employees]]></name>
 <description><![CDATA[MAC: <b>70:4c:a5:20:be:18</b><br/>RSSI:<b>-94</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:16</b><br/>]]></description>
 <Point><coordinates>34.81188912,32.16898017</coordinates></Point>
@@ -617,11 +407,6 @@
 </Placemark>
 <Placemark>
 <name><![CDATA[nina]]></name>
-<description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-68</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:25</b><br/>]]></description>
-<Point><coordinates>34.81214324467331,32.169545831397976</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[nina]]></name>
 <description><![CDATA[MAC: <b>20:0c:c8:2b:2a:14</b><br/>RSSI:<b>-73</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:26</b><br/>]]></description>
 <Point><coordinates>34.81218021,32.16958729</coordinates></Point>
 </Placemark>
@@ -629,26 +414,6 @@
 <name><![CDATA[Nehalem_ISR]]></name>
 <description><![CDATA[MAC: <b>08:ea:44:74:4b:d5</b><br/>RSSI:<b>-92</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:26</b><br/>]]></description>
 <Point><coordinates>34.81218021,32.16958729</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[arama]]></name>
-<description><![CDATA[MAC: <b>80:1f:02:36:04:d0</b><br/>RSSI:<b>-81</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
-<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[hilda]]></name>
-<description><![CDATA[MAC: <b>00:30:4f:91:36:07</b><br/>RSSI:<b>-89</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
-<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Astra]]></name>
-<description><![CDATA[MAC: <b>00:21:63:4d:73:31</b><br/>RSSI:<b>-92</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
-<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[BezeqFree]]></name>
-<description><![CDATA[MAC: <b>5a:ab:1b:62:0d:fd</b><br/>RSSI:<b>-93</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:29</b><br/>]]></description>
-<Point><coordinates>34.81225704427234,32.16978401146249</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[mazia]]></name>
@@ -711,21 +476,6 @@
 <Point><coordinates>34.81233913,32.16994827</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[UFI_UF230_B3F]]></name>
-<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-83</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
-<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HP-Print-8A-Deskjet 4640 series]]></name>
-<description><![CDATA[MAC: <b>8c:dc:d4:6a:a9:8a</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
-<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[landau]]></name>
-<description><![CDATA[MAC: <b>d4:7b:b0:79:65:fc</b><br/>RSSI:<b>-92</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:33</b><br/>]]></description>
-<Point><coordinates>34.8123593768823,32.1700244717399</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[ter123]]></name>
 <description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-82</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:35</b><br/>]]></description>
 <Point><coordinates>34.81242227,32.17012573</coordinates></Point>
@@ -751,21 +501,6 @@
 <Point><coordinates>34.81242227,32.17012573</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[ter123]]></name>
-<description><![CDATA[MAC: <b>70:4d:7b:0c:89:50</b><br/>RSSI:<b>-72</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
-<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[klaiman]]></name>
-<description><![CDATA[MAC: <b>a0:ab:1b:62:0d:fc</b><br/>RSSI:<b>-78</b><br/>Channel:<b>2</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
-<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[HOTBOX-62EF]]></name>
-<description><![CDATA[MAC: <b>d8:fb:5e:17:62:f5</b><br/>RSSI:<b>-80</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:45:37</b><br/>]]></description>
-<Point><coordinates>34.81246926564551,32.170257763614224</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[hot]]></name>
 <description><![CDATA[MAC: <b>00:1c:10:09:4f:bc</b><br/>RSSI:<b>-84</b><br/>Channel:<b>3</b><br/>First seen:<b>2017-12-01 10:45:38</b><br/>]]></description>
 <Point><coordinates>34.81250563,32.17031089</coordinates></Point>
@@ -782,11 +517,6 @@
 </Placemark>
 <Placemark>
 <name><![CDATA[UFI_UF230_B3F]]></name>
-<description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-70</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:41</b><br/>]]></description>
-<Point><coordinates>34.81258190129876,32.17050972538356</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[UFI_UF230_B3F]]></name>
 <description><![CDATA[MAC: <b>00:0b:6c:4d:1b:3f</b><br/>RSSI:<b>-63</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:45:43</b><br/>]]></description>
 <Point><coordinates>34.81264159,32.17062502</coordinates></Point>
 </Placemark>
@@ -799,11 +529,6 @@
 <name><![CDATA[Oded]]></name>
 <description><![CDATA[MAC: <b>14:cc:20:76:b8:2a</b><br/>RSSI:<b>-89</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:43</b><br/>]]></description>
 <Point><coordinates>34.81264159,32.17062502</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Oded 2.4Ghz]]></name>
-<description><![CDATA[MAC: <b>00:12:2a:e1:6c:48</b><br/>RSSI:<b>-83</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:45</b><br/>]]></description>
-<Point><coordinates>34.81269650889793,32.17075992790425</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[Oded]]></name>
@@ -826,11 +551,6 @@
 <Point><coordinates>34.8127604,32.17086052</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[Oded 5Ghz]]></name>
-<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-84</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:45:49</b><br/>]]></description>
-<Point><coordinates>34.81281338424775,32.17100836271353</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[HOTBOX-2017]]></name>
 <description><![CDATA[MAC: <b>c0:ac:54:f5:7d:bd</b><br/>RSSI:<b>-78</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
 <Point><coordinates>34.81284875,32.17105914</coordinates></Point>
@@ -849,11 +569,6 @@
 <name><![CDATA[sirocco_2.4o]]></name>
 <description><![CDATA[MAC: <b>c4:e9:84:83:1a:0a</b><br/>RSSI:<b>-91</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:45:50</b><br/>]]></description>
 <Point><coordinates>34.81284875,32.17105914</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[yotam17]]></name>
-<description><![CDATA[MAC: <b>f8:ab:05:e9:6d:3d</b><br/>RSSI:<b>-85</b><br/>Channel:<b>10</b><br/>First seen:<b>2017-12-01 10:45:53</b><br/>]]></description>
-<Point><coordinates>34.81291128023999,32.17125707817382</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[Candan]]></name>
@@ -876,11 +591,6 @@
 <Point><coordinates>34.81296105,32.17164516</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[SHAHAF2.4]]></name>
-<description><![CDATA[MAC: <b>20:0c:c8:0a:ef:2a</b><br/>RSSI:<b>-82</b><br/>Channel:<b>11</b><br/>First seen:<b>2017-12-01 10:46:04</b><br/>]]></description>
-<Point><coordinates>34.81299603716402,32.17198534972246</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[Oded 5Ghz]]></name>
 <description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-82</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:46:05</b><br/>]]></description>
 <Point><coordinates>34.81299553,32.17201156</coordinates></Point>
@@ -889,11 +599,6 @@
 <name><![CDATA[Motti11]]></name>
 <description><![CDATA[MAC: <b>a4:2b:b0:d4:55:36</b><br/>RSSI:<b>-96</b><br/>Channel:<b>6</b><br/>First seen:<b>2017-12-01 10:46:05</b><br/>]]></description>
 <Point><coordinates>34.81299553,32.17201156</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[Oded 5Ghz]]></name>
-<description><![CDATA[MAC: <b>00:12:2a:e1:6c:4c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>48</b><br/>First seen:<b>2017-12-01 10:46:07</b><br/>]]></description>
-<Point><coordinates>34.81301798358491,32.172152473716416</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[Oded]]></name>
@@ -916,11 +621,6 @@
 <Point><coordinates>34.81305758,32.1723264</coordinates></Point>
 </Placemark>
 <Placemark>
-<name><![CDATA[sellahome]]></name>
-<description><![CDATA[MAC: <b>d8:fb:5e:17:47:f8</b><br/>RSSI:<b>-73</b><br/>Channel:<b>9</b><br/>First seen:<b>2017-12-01 10:46:13</b><br/>]]></description>
-<Point><coordinates>34.813112686158654,32.172434684187074</coordinates></Point>
-</Placemark>
-<Placemark>
 <name><![CDATA[DIR-825-4f83]]></name>
 <description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-74</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:14</b><br/>]]></description>
 <Point><coordinates>34.81314461,32.17240104</coordinates></Point>
@@ -939,11 +639,6 @@
 <name><![CDATA[dobry2016_5]]></name>
 <description><![CDATA[MAC: <b>6c:b0:ce:ac:32:9c</b><br/>RSSI:<b>-89</b><br/>Channel:<b>60</b><br/>First seen:<b>2017-12-01 10:46:23</b><br/>]]></description>
 <Point><coordinates>34.81365654,32.17232792</coordinates></Point>
-</Placemark>
-<Placemark>
-<name><![CDATA[DIR-825-4f83]]></name>
-<description><![CDATA[MAC: <b>80:26:89:0d:4f:84</b><br/>RSSI:<b>-88</b><br/>Channel:<b>1</b><br/>First seen:<b>2017-12-01 10:46:28</b><br/>]]></description>
-<Point><coordinates>34.81401199636586,32.172328818282836</coordinates></Point>
 </Placemark>
 <Placemark>
 <name><![CDATA[Orit]]></name>

@@ -22,7 +22,25 @@ public class Filter {
 	static double save_to_lon,load_to_lon, save_from_alt,load_from_alt, save_to_alt,load_to_alt;
 	
 	
-public static void remove_by_id(comb_reader data, String id) {
+//public static void remove_by_id(comb_reader data, String id) {//filter for comb
+//	try {
+//		Writer backup = new Writer(data);
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	setSave_id(id);
+//	for(int i=0;i<data.KMLpoints.size();i++) {
+//		if(!data.KMLpoints.get(i).Id.equals(id)) {
+//			data.KMLpoints.remove(i);
+//		    i--;
+//		}
+//	}
+//	
+//	
+//}
+
+public static void remove_by_id(Read data, String id) {//filter fo wiglewifi
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -30,16 +48,55 @@ public static void remove_by_id(comb_reader data, String id) {
 		e.printStackTrace();
 	}
 	setSave_id(id);
-	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(!data.KMLpoints.get(i).Id.equals(id)) {
-			data.KMLpoints.remove(i);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).Id.compareTo(id)!=0) {
+			data.wifiNetworks.remove(i);
 		    i--;
 		}
 	}
 	
 	
 }
-public void remove_by_time(comb_reader data, String from_time, String to_time) {
+public static void leave_by_id(Read data, String id) {//filter fo wiglewifi
+	try {
+		Writer backup = new Writer(data);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	setSave_id(id);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).Id.equals(id)) {
+			data.wifiNetworks.remove(i);
+		    i--;
+		}
+	}
+	
+	
+}
+
+//public void remove_by_time(comb_reader data, String from_time, String to_time) {
+//	try {
+//		Writer backup = new Writer(data);
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	setSave_from_time(from_time);
+//	setSave_to_time(to_time);
+//	for(int i=0;i<data.KMLpoints.size();i++) {
+//		if(data.KMLpoints.get(i).FirstSeen.compareTo(from_time)<0) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//		if(data.KMLpoints.get(i).FirstSeen.compareTo(to_time)>0) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//	}	
+//}
+
+public static void remove_by_time(Read data, String from_time, String to_time) {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -48,19 +105,103 @@ public void remove_by_time(comb_reader data, String from_time, String to_time) {
 	}
 	setSave_from_time(from_time);
 	setSave_to_time(to_time);
-	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).FirstSeen.compareTo(from_time)<0) {
-			data.KMLpoints.remove(i);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).FirstSeen.compareTo(from_time)<0) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
-		if(data.KMLpoints.get(i).FirstSeen.compareTo(to_time)>0) {
-			data.KMLpoints.remove(i);
+		if(data.wifiNetworks.get(i).FirstSeen.compareTo(to_time)>0) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+	}	
+}
+public static void leave_by_time(Read data, String from_time, String to_time) {
+	try {
+		Writer backup = new Writer(data);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	setSave_from_time(from_time);
+	setSave_to_time(to_time);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).FirstSeen.compareTo(from_time)>0) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+		if(data.wifiNetworks.get(i).FirstSeen.compareTo(to_time)<0) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
 	}	
 }
 
-public void remove_by_lat(comb_reader data, double from, double to) {
+//public void remove_by_lat(comb_reader data, double from, double to) {
+//	try {
+//		Writer backup = new Writer(data);
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	setSave_from_lat(from);
+//	setSave_to_lat(to);
+//	for(int i=0;i<data.KMLpoints.size();i++) {
+//		if(data.KMLpoints.get(i).CurrentLatitude<from) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//		if(data.KMLpoints.get(i).CurrentLatitude>to) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//	}
+//	
+//}
+//public void remove_by_lon(comb_reader data, double from, double to) {
+//	try {
+//		Writer backup = new Writer(data);
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	setSave_from_lon(from);
+//	setSave_to_lon(to);
+//	for(int i=0;i<data.KMLpoints.size();i++) {
+//		if(data.KMLpoints.get(i).CurrentLongitude<from) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//		if(data.KMLpoints.get(i).CurrentLongitude>to) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//	}
+//	
+//}
+//public void remove_by_alt(comb_reader data, double from, double to) {
+//	try {
+//		Writer backup = new Writer(data);
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	setSave_from_alt(from);
+//	setSave_to_alt(to);
+//	for(int i=0;i<data.KMLpoints.size();i++) {
+//		if(data.KMLpoints.get(i).AltitudeMeters<from) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//		if(data.KMLpoints.get(i).AltitudeMeters>to) {
+//			data.KMLpoints.remove(i);
+//			i--;
+//		}
+//	}
+//	
+//}
+
+public static void remove_by_lat(Read data, double from, double to) {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -69,19 +210,40 @@ public void remove_by_lat(comb_reader data, double from, double to) {
 	}
 	setSave_from_lat(from);
 	setSave_to_lat(to);
-	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).CurrentLatitude<from) {
-			data.KMLpoints.remove(i);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).CurrentLatitude<from) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
-		if(data.KMLpoints.get(i).CurrentLatitude>to) {
-			data.KMLpoints.remove(i);
+		if(data.wifiNetworks.get(i).CurrentLatitude>to) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
 	}
 	
 }
-public void remove_by_lon(comb_reader data, double from, double to) {
+public static void leave_by_lat(Read data, double from, double to) {
+	try {
+		Writer backup = new Writer(data);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	setSave_from_lat(from);
+	setSave_to_lat(to);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).CurrentLatitude>from) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+		if(data.wifiNetworks.get(i).CurrentLatitude<to) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+	}
+	
+}
+public static void remove_by_lon(Read data, double from, double to) {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -90,19 +252,40 @@ public void remove_by_lon(comb_reader data, double from, double to) {
 	}
 	setSave_from_lon(from);
 	setSave_to_lon(to);
-	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).CurrentLongitude<from) {
-			data.KMLpoints.remove(i);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).CurrentLongitude<from) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
-		if(data.KMLpoints.get(i).CurrentLongitude>to) {
-			data.KMLpoints.remove(i);
+		if(data.wifiNetworks.get(i).CurrentLongitude>to) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
 	}
 	
 }
-public void remove_by_alt(comb_reader data, double from, double to) {
+public static void leave_by_lon(Read data, double from, double to) {
+	try {
+		Writer backup = new Writer(data);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	setSave_from_lon(from);
+	setSave_to_lon(to);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).CurrentLongitude>from) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+		if(data.wifiNetworks.get(i).CurrentLongitude<to) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+	}
+	
+}
+public static void remove_by_alt(Read data, double from, double to) {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -111,13 +294,34 @@ public void remove_by_alt(comb_reader data, double from, double to) {
 	}
 	setSave_from_alt(from);
 	setSave_to_alt(to);
-	for(int i=0;i<data.KMLpoints.size();i++) {
-		if(data.KMLpoints.get(i).AltitudeMeters<from) {
-			data.KMLpoints.remove(i);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).AltitudeMeters<from) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
-		if(data.KMLpoints.get(i).AltitudeMeters>to) {
-			data.KMLpoints.remove(i);
+		if(data.wifiNetworks.get(i).AltitudeMeters>to) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+	}
+	
+}
+public static void leave_by_alt(Read data, double from, double to) {
+	try {
+		Writer backup = new Writer(data);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	setSave_from_alt(from);
+	setSave_to_alt(to);
+	for(int i=0;i<data.wifiNetworks.size();i++) {
+		if(data.wifiNetworks.get(i).AltitudeMeters>from) {
+			data.wifiNetworks.remove(i);
+			i--;
+		}
+		if(data.wifiNetworks.get(i).AltitudeMeters<to) {
+			data.wifiNetworks.remove(i);
 			i--;
 		}
 	}
@@ -130,6 +334,17 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter
 
 	PrintWriter writer = new PrintWriter(path);
 	
+	
+//	writer.print(save_id+",");
+//	writer.print(save_from_time+",");
+//	writer.print(save_to_time+",");
+//	writer.print(save_from_lat+",");
+//	writer.print(save_to_lat+",");
+//	writer.print(save_from_lon+",");
+//	writer.print(save_to_lon+",");
+//	writer.print(save_from_alt+",");
+//	writer.print(save_to_alt);
+//	writer.close();
 	
 	writer.println(save_id);
 	writer.println(save_from_time);
@@ -156,7 +371,8 @@ public static void load_filter() throws IOException {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
-	
+	}
+
 	load_id= filterRead[0];
 	load_from_time= filterRead[1];
 	load_to_time =filterRead[2];
@@ -167,7 +383,6 @@ public static void load_filter() throws IOException {
     load_from_alt = Double.parseDouble(filterRead[7]);
     load_to_alt = Double.parseDouble(filterRead[8]);
     
-	}
 	br.close();
 }
 
@@ -178,28 +393,28 @@ public static void and_filter() {
 public static void setSave_id(String save_id1) {
 	save_id = save_id1;
 }
-public void setSave_from_time(String save_from_time1) {
+public static void setSave_from_time(String save_from_time1) {
 	save_from_time = save_from_time1;
 }
-public void setSave_to_time(String save_to_time1) {
+public static void setSave_to_time(String save_to_time1) {
 	save_to_time = save_to_time1;
 }
-public void setSave_from_lat(double save_from_lat1) {
+public static void setSave_from_lat(double save_from_lat1) {
 	save_from_lat = save_from_lat1;
 }
-public void setSave_to_lat(double save_to_lat1) {
+public static void setSave_to_lat(double save_to_lat1) {
 	save_to_lat = save_to_lat1;
 }
-public void setSave_from_lon(double save_from_lon1) {
+public static void setSave_from_lon(double save_from_lon1) {
 	save_from_lon = save_from_lon1;
 }
-public void setSave_to_lon(double save_to_lon1) {
+public static void setSave_to_lon(double save_to_lon1) {
 	save_to_lon = save_to_lon1;
 }
-public void setSave_from_alt(double save_from_alt1) {
+public static void setSave_from_alt(double save_from_alt1) {
 	save_from_alt = save_from_alt1;
 }
-public void setSave_to_alt(double save_to_alt1) {
+public static void setSave_to_alt(double save_to_alt1) {
 	save_to_alt = save_to_alt1;
 }
 

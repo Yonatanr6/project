@@ -1,4 +1,4 @@
-model=SM-G950F_device=dreamlte
+Lenovo PB2-690Y
 null
 null
 0.0

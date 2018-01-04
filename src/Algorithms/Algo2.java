@@ -45,9 +45,9 @@ public class Algo2 {
 
 	double pow=2,min_dif=3,norm=10000,sig_dif=0.4,no_sig=-120,dif_no_sig=100;
 
-	public Algo2(no_gps_read no_gps) throws Exception {
+	public Algo2(comb_reader data,no_gps_read no_gps) throws Exception {
 
-		comb_reader data = new comb_reader();
+		
 		PrintWriter writer = new PrintWriter(path);
 
 		for(int i=0; i< no_gps.scans.size();i++) {//algo for creating a list that calcs and writes the aproxx location of the user
@@ -136,7 +136,7 @@ public class Algo2 {
 	}
 
 
-	public Algo2(String no_gps) throws Exception {
+	public Algo2(comb_reader data,String no_gps) throws Exception {
 
 
 
@@ -163,8 +163,6 @@ public class Algo2 {
 
 		scans.add(scan);
 
-
-		comb_reader data = new comb_reader();
 
 		PrintWriter writer = new PrintWriter(path);
 
@@ -235,17 +233,19 @@ public class Algo2 {
 
 	}
 
-	public Algo2(String mac, String mac2, String mac3, int RSSI, int RSSI2, int RSSI3) throws Exception {
+	public Algo2(comb_reader data,String mac, String mac2, String mac3, int RSSI, int RSSI2, int RSSI3) throws Exception {
 		
 		int[] RSSiArr= {RSSI,RSSI2,RSSI3};
 		String[] MACarr = {mac,mac2,mac3};
+		String loc="";
 
 		
-
+		getID ID = new getID(loc);
 		List<comb_reader> scans = new ArrayList<>();
+		comb_reader scan = new comb_reader(ID);
 		
 		for(int i=0;i<3;i++) {
-			comb_reader scan = new comb_reader();
+			
 
 				scan.MACList.add(MACarr[i]);
 
@@ -253,10 +253,10 @@ public class Algo2 {
 
 
 
-			scans.add(scan);
+			
 		}
+		scans.add(scan);
 
-		comb_reader data = new comb_reader();
 
 		PrintWriter writer = new PrintWriter(path);
 
