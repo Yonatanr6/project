@@ -12,23 +12,14 @@
   </class>  
   <class id="2" language="java" name="Tools.Writer" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/Writer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="106" width="113" x="721" y="-130"/>    
+    <position height="-1" width="-1" x="734" y="-58"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="wifi_data.wifi" project="matala-shiran-yonatan-" 
-    file="/matala-shiran-yonatan-/src/wifi_data/wifi.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="484" width="211" x="254" y="-130"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="wifi_data.location" project="matala-shiran-yonatan-" 
+  <class id="3" language="java" name="wifi_data.location" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/wifi_data/location.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="466" width="169" x="512" y="992"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,7 +28,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="wifi_data.wifiPoint" project="matala-shiran-yonatan-" 
+  <class id="4" language="java" name="wifi_data.wifiPoint" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/wifi_data/wifiPoint.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="538" width="510" x="721" y="992"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,16 +37,16 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="Algorithms.Algo2" project="matala-shiran-yonatan-" 
+  <class id="5" language="java" name="Algorithms.Algo2" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Algorithms/Algo2.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="664" width="176" x="505" y="-130"/>    
+    <position height="-1" width="-1" x="448" y="218"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="Algorithms.Algo1" project="matala-shiran-yonatan-" 
+  <class id="6" language="java" name="Algorithms.Algo1" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Algorithms/Algo1.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="574" width="182" x="874" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -64,7 +55,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="wifi_data.getID" project="matala-shiran-yonatan-" 
+  <class id="7" language="java" name="wifi_data.getID" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/wifi_data/getID.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="124" width="104" x="1106" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -73,7 +64,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="Tools.Read" project="matala-shiran-yonatan-" 
+  <class id="8" language="java" name="Tools.Read" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/Read.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="142" width="227" x="721" y="656"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -82,7 +73,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="Tools.no_gps_read" project="matala-shiran-yonatan-" 
+  <class id="9" language="java" name="Tools.no_gps_read" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/no_gps_read.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="286" width="178" x="1715" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -91,7 +82,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="wifi_data.wifiNetwork" project="matala-shiran-yonatan-" 
+  <class id="10" language="java" name="wifi_data.wifiNetwork" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/wifi_data/wifiNetwork.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="790" width="427" x="1271" y="992"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -100,7 +91,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="Tools.comb_reader" project="matala-shiran-yonatan-" 
+  <class id="11" language="java" name="Tools.comb_reader" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/comb_reader.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="286" width="178" x="1705" y="656"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -109,7 +100,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="Tools.wigel_mac" project="matala-shiran-yonatan-" 
+  <class id="12" language="java" name="Tools.wigel_mac" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/wigel_mac.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="736" width="236" x="1250" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -118,7 +109,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="Tools.WriterToKml" project="matala-shiran-yonatan-" 
+  <class id="13" language="java" name="Tools.WriterToKml" project="matala-shiran-yonatan-" 
     file="/matala-shiran-yonatan-/src/Tools/WriterToKml.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="88" width="139" x="1536" y="-130"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -127,76 +118,100 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="15">    
+  <association id="14">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="15" name="wifiNetworks">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="18" name="LocFinders">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="21" name="locations">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="16" name="locations"/>      
-      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+      <attribute id="24" name="scans">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="27" name="KMLpoints">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="30" name="wifiNetworks">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="33" name="MAC_locs">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="36" name="wifiPoints">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="19" name="KMLpoints"/>      
-      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="21">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="22" name="data"/>      
-      <multiplicity id="23" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="24">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="25" name="wifiPoints"/>      
-      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="27">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="28" name="scans"/>      
-      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="30">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="31" name="wifiNetworks"/>      
-      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="33">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="34" name="MAC_locs"/>      
-      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="13" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="36">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="37" name="wifiNetworks"/>      
-      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="39">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="40" name="LocFinders"/>      
-      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

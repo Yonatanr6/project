@@ -360,6 +360,60 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter
 }
 
 
+public static String getSave_id() {
+	return save_id;
+}
+public static String getLoad_id() {
+	return load_id;
+}
+public static String getSave_from_time() {
+	return save_from_time;
+}
+public static String getLoad_from_time() {
+	return load_from_time;
+}
+public static String getSave_to_time() {
+	return save_to_time;
+}
+public static String getLoad_to_time() {
+	return load_to_time;
+}
+public static double getSave_from_lat() {
+	return save_from_lat;
+}
+public static double getLoad_from_lat() {
+	return load_from_lat;
+}
+public static double getSave_to_lat() {
+	return save_to_lat;
+}
+public static double getLoad_to_lat() {
+	return load_to_lat;
+}
+public static double getSave_from_lon() {
+	return save_from_lon;
+}
+public static double getLoad_from_lon() {
+	return load_from_lon;
+}
+public static double getSave_to_lon() {
+	return save_to_lon;
+}
+public static double getLoad_to_lon() {
+	return load_to_lon;
+}
+public static double getSave_from_alt() {
+	return save_from_alt;
+}
+public static double getLoad_from_alt() {
+	return load_from_alt;
+}
+public static double getSave_to_alt() {
+	return save_to_alt;
+}
+public static double getLoad_to_alt() {
+	return load_to_alt;
+}
 public static void load_filter() throws IOException {
 	File newfile = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\Filter.txt");
 	BufferedReader br = new BufferedReader(new FileReader(newfile));
@@ -374,15 +428,24 @@ public static void load_filter() throws IOException {
 		}	
 	}
 
-	load_id= filterRead[0];
-	load_from_time= filterRead[1];
-	load_to_time =filterRead[2];
-	load_from_lat = Double.parseDouble(filterRead[3]);
-	load_to_lat =Double.parseDouble(filterRead[4]);
-	load_from_lon = Double.parseDouble(filterRead[5]);
-	load_to_lon = Double.parseDouble(filterRead[6]);
-    load_from_alt = Double.parseDouble(filterRead[7]);
-    load_to_alt = Double.parseDouble(filterRead[8]);
+//	load_id= filterRead[0];
+//	load_from_time= filterRead[1];
+//	load_to_time =filterRead[2];
+//	load_from_lat = Double.parseDouble(filterRead[3]);
+//	load_to_lat =Double.parseDouble(filterRead[4]);
+//	load_from_lon = Double.parseDouble(filterRead[5]);
+//	load_to_lon = Double.parseDouble(filterRead[6]);
+//    load_from_alt = Double.parseDouble(filterRead[7]);
+//    load_to_alt = Double.parseDouble(filterRead[8]);
+	save_id= filterRead[0];
+	save_from_time= filterRead[1];
+	save_to_time =filterRead[2];
+	save_from_lat = Double.parseDouble(filterRead[3]);
+	save_to_lat =Double.parseDouble(filterRead[4]);
+	save_from_lon = Double.parseDouble(filterRead[5]);
+	save_to_lon = Double.parseDouble(filterRead[6]);
+	save_from_alt = Double.parseDouble(filterRead[7]);
+	save_to_alt = Double.parseDouble(filterRead[8]);
     
 	br.close();
 }
