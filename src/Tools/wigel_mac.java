@@ -10,8 +10,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import Algorithms.Algo1;
-import wifi_data.getID;
+import Tools.*;
+import Algorithms.*;
+import RunMatala.*;
+import tests.*;
+import wifi_data.*;
+import gui_.*;
+
 
 
 public class wigel_mac {

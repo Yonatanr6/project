@@ -1,6 +1,8 @@
 package gui_;
 
 import java.awt.EventQueue;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
@@ -9,6 +11,17 @@ import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JTextField;
 import Tools.*;
+import Algorithms.*;
+import RunMatala.*;
+import tests.*;
+import wifi_data.*;
+import gui_.*;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
 
 /*public class gui_ {
 
@@ -66,6 +79,7 @@ public class gui extends javax.swing.JFrame {
      */
     public gui() {
         initComponents();
+      
     }
 
     /**
@@ -197,8 +211,14 @@ public class gui extends javax.swing.JFrame {
         Remove_all.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
-               // Tools.Writer.Writer_();
-             System.out.println("sss");
+               // Tools.Writer.Writer();
+             //System.out.println("sss");
+                try {
+					Tools.Writer write_remove= new Writer();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
             }
         });
 
@@ -206,6 +226,7 @@ public class gui extends javax.swing.JFrame {
         Save_cumb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
+                
             }
         });
 
@@ -213,6 +234,7 @@ public class gui extends javax.swing.JFrame {
         Save_kml.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
+                
             }
         });
 
@@ -267,6 +289,12 @@ public class gui extends javax.swing.JFrame {
         Save_filter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
+                try {
+					Tools.Filter.save_filter();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
             }
         });
 
@@ -311,6 +339,7 @@ public class gui extends javax.swing.JFrame {
         O_ALGO1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
+                
             }
         });
 
@@ -382,6 +411,25 @@ public class gui extends javax.swing.JFrame {
         textArea = new JTextArea();
         textArea.setText(t);
         
+        JButton LOAD_FILTER = new JButton();
+        LOAD_FILTER.addMouseListener(new MouseAdapter() {
+        	@Override
+        	public void mouseClicked(MouseEvent arg0) {
+        		try {
+					Tools.Filter.load_filter();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+        	}
+        });
+        LOAD_FILTER.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        	}
+        });
+        LOAD_FILTER.setToolTipText("");
+        LOAD_FILTER.setText("load filter");
+        
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         layout.setHorizontalGroup(
@@ -443,7 +491,7 @@ public class gui extends javax.swing.JFrame {
         				.addGroup(layout.createSequentialGroup()
         					.addGap(20)
         					.addComponent(Before_filter, GroupLayout.PREFERRED_SIZE, 301, GroupLayout.PREFERRED_SIZE)))
-        			.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        			.addContainerGap(14, Short.MAX_VALUE))
         		.addGroup(layout.createSequentialGroup()
         			.addContainerGap()
         			.addGroup(layout.createParallelGroup(Alignment.TRAILING)
@@ -494,9 +542,11 @@ public class gui extends javax.swing.JFrame {
         					.addGap(162))))
         		.addGroup(layout.createSequentialGroup()
         			.addGap(204)
-        			.addComponent(textArea, GroupLayout.DEFAULT_SIZE, 357, Short.MAX_VALUE)
+        			.addComponent(textArea, GroupLayout.DEFAULT_SIZE, 371, Short.MAX_VALUE)
         			.addGap(557)
-        			.addComponent(Save_filter)
+        			.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        				.addComponent(Save_filter)
+        				.addComponent(LOAD_FILTER, GroupLayout.PREFERRED_SIZE, 115, GroupLayout.PREFERRED_SIZE))
         			.addGap(38))
         );
         layout.setVerticalGroup(
@@ -538,7 +588,7 @@ public class gui extends javax.swing.JFrame {
         					.addComponent(rssi3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         					.addComponent(algo2_macs)))
         			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        			.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         				.addGroup(layout.createSequentialGroup()
         					.addComponent(Before_filter)
         					.addPreferredGap(ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
@@ -567,7 +617,7 @@ public class gui extends javax.swing.JFrame {
         							.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         							.addGap(2)
         							.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
-        				.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        				.addGroup(layout.createSequentialGroup()
         					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
         						.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
         						.addComponent(Time1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -579,7 +629,9 @@ public class gui extends javax.swing.JFrame {
         			.addGroup(layout.createParallelGroup(Alignment.LEADING)
         				.addGroup(layout.createSequentialGroup()
         					.addGap(83)
-        					.addComponent(Save_filter, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE))
+        					.addComponent(Save_filter, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE)
+        					.addPreferredGap(ComponentPlacement.UNRELATED)
+        					.addComponent(LOAD_FILTER))
         				.addGroup(layout.createSequentialGroup()
         					.addGap(44)
         					.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 122, GroupLayout.PREFERRED_SIZE)))

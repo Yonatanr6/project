@@ -16,7 +16,13 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import Algorithms.Algo1;
+import Tools.*;
+import Algorithms.*;
+import RunMatala.*;
+import tests.*;
+import wifi_data.*;
+import gui_.*;
+
 
 class Algo1Test {
 
