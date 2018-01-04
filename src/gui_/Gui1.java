@@ -31,7 +31,7 @@ import Tools.*;
 	}
 
 	*//**
-	 * Create the application.
+	 *   Create the application.
 	 *//*
 	public gui_() {
 		initialize();
