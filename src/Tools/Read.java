@@ -137,6 +137,7 @@ public class Read {
 			 return arg0.FirstSeen.compareTo(arg1.FirstSeen);
 		}
 		};
+		
 		Comparator com2 = new Comparator<wifiPoint>(){
 			public int compare(wifiPoint arg0, wifiPoint arg1) {
 				 return arg1.RSSI-arg0.RSSI;

@@ -2,6 +2,12 @@ package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -33,73 +39,36 @@ class no_gps_readTest {
 	}
 
 	@Test
-	final void testNo_gps_readGetID() {
-		fail("Not yet implemented"); // TODO
-	}
+	final void no_gps_read_test() {
+		try {
 
+			File folder = new File("C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\Data\\input\\no_gps");
+			
+			assertTrue(folder.canRead());
+			BufferedReader br = new BufferedReader(new FileReader(folder));
+			assertFalse(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	@Test
-	final void testNo_gps_read() {
-		fail("Not yet implemented"); // TODO
-	}
+	final void no_gps_read_test1() {
+		try {
 
-	@Test
-	final void testObject() {
-		fail("Not yet implemented"); // TODO
+			File folder = new File("C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\input\\no_gps");
+			
+			assertFalse(folder.canRead());
+			BufferedReader br = new BufferedReader(new FileReader(folder));
+			assertFalse(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
-
-	@Test
-	final void testGetClass() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testHashCode() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testEquals() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testClone() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotify() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotifyAll() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLong() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLongInt() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWait() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testFinalize() {
-		fail("Not yet implemented"); // TODO
-	}
-
 }
