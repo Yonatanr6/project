@@ -29,6 +29,7 @@ class Algo1Test {
 	String path="C:\\Users\\shira\\eclipse-workspace\\matala0\\src\\DATE\\output\\algo1.csv";//output file
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
+
 	}
 
 	@AfterAll
@@ -41,16 +42,6 @@ class Algo1Test {
 
 	@AfterEach
 	void tearDown() throws Exception {
-	}
-
-	@Test
-	final void algo1Constuctor() {
-		
-	}
-	
-	@Test
-	final void testAlgo1ListOfwigel_mac() {
-		fail("Not yet implemented"); // TODO
 	}
 
 	@Test
@@ -69,92 +60,51 @@ class Algo1Test {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+	}
+
+	@Test
+	final void testWriteFile_empty() throws FileNotFoundException {
+		List<Algo1> LocFinders2 = new ArrayList<>();//empty list 
+	//	Algo1 a = new Algo1();
+		try {
+			
+			File f = new File(path);
+			assertTrue(f.exists());
+			BufferedReader br = new BufferedReader(new FileReader(f));
+			assertTrue(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 	}
 
 	@Test
-	final void testAlgo1() {
-		fail("Not yet implemented"); // TODO
+	final void Algo1_one_mac() {//null
+		List<Algo1> LocFinders2 = new ArrayList<>(1);
+		Algo1 FindMe = new Algo1();
+		
+		assertEquals(FindMe.mac_find, null);
+		FindMe.mac_find="mac";
+		assertEquals(FindMe.mac_find,"mac");
+		
+		
+				
 	}
 
 	@Test
-	final void testAlgo1WriterString() {
-		fail("Not yet implemented"); // TODO
+	final void Algo1_one_mac_not_null() {
+		List<Algo1> LocFinders2 = new ArrayList<>();
+		Algo1 FindMe = new Algo1();
+		FindMe.mac_find="mac";
+		assertEquals(FindMe.mac_find,"mac");
+		
+		
 	}
 
-	@Test
-	final void testGetfAltitude() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetfLongitude() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetfLatitude() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testObject() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetClass() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testHashCode() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testEquals() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testClone() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotify() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotifyAll() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLong() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLongInt() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWait() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testFinalize() {
-		fail("Not yet implemented"); // TODO
-	}
+	
 
 }

@@ -2,6 +2,14 @@ package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -33,73 +41,61 @@ class comb_readerTest {
 	}
 
 	@Test
-	final void testComb_readerGetID() {
-		fail("Not yet implemented"); // TODO
+	final void testread_File() {
+				try {
+
+					String path="C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\Data\\input\\comb\\New folder";
+					File f = new File(path);
+					assertTrue(f.canRead());
+					BufferedReader br = new BufferedReader(new FileReader(f));
+					assertFalse(br.readLine() == null);
+					br.close();
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		
+	
+
+	@Test
+	final void comb_reader_path() {
+		String path = "C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\Data\\input\\comb\\New folder";
+		File folder = new File(path);//path of the files for reading
+		File[] listOfFiles = folder.listFiles();
+		try {
+
+			
+			assertTrue(folder.canRead());
+			BufferedReader br = new BufferedReader(new FileReader(folder));
+			assertFalse(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Test
-	final void testComb_reader() {
-		fail("Not yet implemented"); // TODO
+	final void comb_reader_no_path_() {
+		String path = "C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\Data\\input\\New folder";
+		File folder = new File(path);//path of the files for reading
+		File[] listOfFiles = folder.listFiles();
+		try {
+
+			
+			assertFalse(folder.canRead());
+			BufferedReader br = new BufferedReader(new FileReader(folder));
+			assertFalse(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
-	@Test
-	final void testObject() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testGetClass() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testHashCode() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testEquals() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testClone() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotify() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testNotifyAll() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLong() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWaitLongInt() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testWait() {
-		fail("Not yet implemented"); // TODO
-	}
-
-	@Test
-	final void testFinalize() {
-		fail("Not yet implemented"); // TODO
-	}
-
+	
 }
