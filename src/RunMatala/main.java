@@ -22,41 +22,47 @@ import Tools.WriterToKml;
 import Tools.comb_reader;
 import Tools.no_gps_read;
 import Tools.wigel_mac;
+import WatchSer.watchservice;
 import Tools.Filter;
 import Tools.Read;
 public class main {
 	
 	//https://www.youtube.com/watch?v=fcNp2SsWOeM for the watchservice
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		/**
 		 * main
 		 * @author Shiran &Yonatan
 		 *
 		 */
-		try (WatchService service = FileSystems.getDefault().newWatchService()){
-			Map<WatchKey, Path> KeyMap = new HashMap<>();
-			Path path = Paths.get("Data/input");
-			KeyMap.put(path.register(service,
-				StandardWatchEventKinds.ENTRY_CREATE,
-				StandardWatchEventKinds.ENTRY_DELETE,
-				StandardWatchEventKinds.ENTRY_MODIFY
-					),path);
-			WatchKey watchKey;
-			do {
-				watchKey = service.take();
-				Path eventDir = KeyMap.get(watchKey);
-				for(WatchEvent<?> event : watchKey.pollEvents()) {
-					WatchEvent.Kind<?> kind = event.kind();
-					Path eventPath = (Path) event.context();
-					System.out.println(eventDir + ":" + kind + ":"+eventPath);
-				}
-			} while(watchKey.reset());
-			
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		try (WatchService service = FileSystems.getDefault().newWatchService()){
+//			Map<WatchKey, Path> KeyMap = new HashMap<>();
+//			Path path = Paths.get("Data\\input","Data\\input\\comb");
+//			KeyMap.put(path.register(service,
+//				StandardWatchEventKinds.ENTRY_CREATE,
+//				StandardWatchEventKinds.ENTRY_DELETE,
+//				StandardWatchEventKinds.ENTRY_MODIFY
+//					),path);
+//			WatchKey watchKey;
+//			do {
+//				watchKey = service.take();
+//				Path eventDir = KeyMap.get(watchKey);
+//				for(WatchEvent<?> event : watchKey.pollEvents()) {
+//					WatchEvent.Kind<?> kind = event.kind();
+//					Path eventPath = (Path) event.context();
+//					System.out.println(eventDir + ":" + kind + ":"+eventPath);
+//				}
+//			} while(watchKey.reset());
+//			
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+		watchservice watchMe = new watchservice();
+		
+		Thread thread = new Thread();
+		
 		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\after_filter.csv");
 		
 		Read data=new Read();
