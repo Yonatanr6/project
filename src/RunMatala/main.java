@@ -26,6 +26,7 @@ import Tools.Filter;
 import Tools.Read;
 public class main {
 	
+	//https://www.youtube.com/watch?v=fcNp2SsWOeM for the watchservice
 
 	public static void main(String[] args) throws IOException {
 		/**
@@ -35,7 +36,7 @@ public class main {
 		 */
 		try (WatchService service = FileSystems.getDefault().newWatchService()){
 			Map<WatchKey, Path> KeyMap = new HashMap<>();
-			Path path = Paths.get("input");
+			Path path = Paths.get("Data/input");
 			KeyMap.put(path.register(service,
 				StandardWatchEventKinds.ENTRY_CREATE,
 				StandardWatchEventKinds.ENTRY_DELETE,
@@ -46,7 +47,9 @@ public class main {
 				watchKey = service.take();
 				Path eventDir = KeyMap.get(watchKey);
 				for(WatchEvent<?> event : watchKey.pollEvents()) {
-					
+					WatchEvent.Kind<?> kind = event.kind();
+					Path eventPath = (Path) event.context();
+					System.out.println(eventDir + ":" + kind + ":"+eventPath);
 				}
 			} while(watchKey.reset());
 			
