@@ -577,7 +577,7 @@ public class gui extends javax.swing.JFrame {
         });
         
         JTextArea textArea_1 = new JTextArea();
-        textArea_1.setText("blabla");
+        textArea_1.setText("");
         
         JCheckBox chckbxByLontitude = new JCheckBox("By Latitude");
         chckbxByLontitude.addMouseListener(new MouseAdapter() {

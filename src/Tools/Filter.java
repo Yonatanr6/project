@@ -359,6 +359,7 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter
 	
 }
 
+
 public static void load_filter() throws IOException {
 	File newfile = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\Filter.txt");
 	BufferedReader br = new BufferedReader(new FileReader(newfile));
