@@ -17,6 +17,9 @@ import java.nio.file.WatchService;
 import java.util.HashMap;
 import java.util.Map;
 
+import Tools.Writer;
+import gui_.gui;
+
 //https://gist.github.com/taichi/2508403
 //https://www.youtube.com/watch?v=fcNp2SsWOeM for the watchservice
 
@@ -58,6 +61,10 @@ public class watchservice implements Runnable {
 					WatchEvent.Kind<?> kind = event.kind();
 					Path eventPath = (Path) event.context();
 					System.out.println(eventDir + ":" + kind + ":"+eventPath);
+					gui.data.wifiNetworks.clear();
+					gui.data.add_wigle("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\WigleWifi");
+					gui.data.comb_adder("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\comb");
+					Writer write =new Writer(gui.data);
 				}
 			} while(watchKey.reset());
 			

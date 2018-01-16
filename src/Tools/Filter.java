@@ -6,6 +6,11 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import Tools.*;
 import Algorithms.*;
 import RunMatala.*;
@@ -16,11 +21,13 @@ import gui_.*;
 public class Filter {
 	
 	static String save_id,load_id;
-	static String save_from_time, load_from_time;
-	static String save_to_time,load_to_time;
+	static Date save_from_time;
+	static String load_from_time;
+	static Date save_to_time;
+	static String load_to_time;
 	static double save_from_lat,load_from_lat, save_to_lat,load_to_lat, save_from_lon,load_from_lon;
 	static double save_to_lon,load_to_lon, save_from_alt,load_from_alt, save_to_alt,load_to_alt;
-	
+	static DateFormat format = new SimpleDateFormat("dd-MM-yy hh:mm");
 	
 //public static void remove_by_id(comb_reader data, String id) {//filter for comb
 //	try {
@@ -49,7 +56,7 @@ public static void remove_by_id(Read data, String id) {//filter fo wiglewifi
 	}
 	setSave_id(id);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).Id.compareTo(id)!=0) {
+		if(data.wifiNetworks.get(i).Id.contains(id)) {
 			data.wifiNetworks.remove(i);
 		    i--;
 		}
@@ -66,7 +73,7 @@ public static void leave_by_id(Read data, String id) {//filter fo wiglewifi
 	}
 	setSave_id(id);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).Id.equals(id)) {
+		if(!data.wifiNetworks.get(i).Id.contains(id)) {
 			data.wifiNetworks.remove(i);
 		    i--;
 		}
@@ -75,28 +82,11 @@ public static void leave_by_id(Read data, String id) {//filter fo wiglewifi
 	
 }
 
-//public void remove_by_time(comb_reader data, String from_time, String to_time) {
-//	try {
-//		Writer backup = new Writer(data);
-//	} catch (IOException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	setSave_from_time(from_time);
-//	setSave_to_time(to_time);
-//	for(int i=0;i<data.KMLpoints.size();i++) {
-//		if(data.KMLpoints.get(i).FirstSeen.compareTo(from_time)<0) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//		if(data.KMLpoints.get(i).FirstSeen.compareTo(to_time)>0) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//	}	
-//}
+	
 
-public static void remove_by_time(Read data, String from_time, String to_time) {
+
+public static void remove_by_time(Read data, Date from_time, Date to_time) throws ParseException {
+	
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -106,17 +96,17 @@ public static void remove_by_time(Read data, String from_time, String to_time) {
 	setSave_from_time(from_time);
 	setSave_to_time(to_time);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).FirstSeen.compareTo(from_time)<0) {
-			data.wifiNetworks.remove(i);
+		int FT =format.parse(data.wifiNetworks.get(i).FirstSeen).compareTo(from_time);
+		int TT = format.parse(data.wifiNetworks.get(i).FirstSeen).compareTo(to_time);
+		if(FT>=0&&TT<=0) {
+			
+		data.wifiNetworks.remove(i);
 			i--;
-		}
-		if(data.wifiNetworks.get(i).FirstSeen.compareTo(to_time)>0) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-	}	
+		}	
+	}
+	
 }
-public static void leave_by_time(Read data, String from_time, String to_time) {
+public static void leave_by_time(Read data, Date from_time, Date to_time) throws ParseException {
 	try {
 		Writer backup = new Writer(data);
 	} catch (IOException e) {
@@ -126,80 +116,17 @@ public static void leave_by_time(Read data, String from_time, String to_time) {
 	setSave_from_time(from_time);
 	setSave_to_time(to_time);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).FirstSeen.compareTo(from_time)>0) {
-			data.wifiNetworks.remove(i);
+		int FT =format.parse(data.wifiNetworks.get(i).FirstSeen).compareTo(from_time);
+		int TT = format.parse(data.wifiNetworks.get(i).FirstSeen).compareTo(to_time);			
+		if(FT>0&&TT>0) {
+		data.wifiNetworks.remove(i);
+		
 			i--;
 		}
-		if(data.wifiNetworks.get(i).FirstSeen.compareTo(to_time)<0) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
+		
 	}	
 }
 
-//public void remove_by_lat(comb_reader data, double from, double to) {
-//	try {
-//		Writer backup = new Writer(data);
-//	} catch (IOException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	setSave_from_lat(from);
-//	setSave_to_lat(to);
-//	for(int i=0;i<data.KMLpoints.size();i++) {
-//		if(data.KMLpoints.get(i).CurrentLatitude<from) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//		if(data.KMLpoints.get(i).CurrentLatitude>to) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//	}
-//	
-//}
-//public void remove_by_lon(comb_reader data, double from, double to) {
-//	try {
-//		Writer backup = new Writer(data);
-//	} catch (IOException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	setSave_from_lon(from);
-//	setSave_to_lon(to);
-//	for(int i=0;i<data.KMLpoints.size();i++) {
-//		if(data.KMLpoints.get(i).CurrentLongitude<from) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//		if(data.KMLpoints.get(i).CurrentLongitude>to) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//	}
-//	
-//}
-//public void remove_by_alt(comb_reader data, double from, double to) {
-//	try {
-//		Writer backup = new Writer(data);
-//	} catch (IOException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	setSave_from_alt(from);
-//	setSave_to_alt(to);
-//	for(int i=0;i<data.KMLpoints.size();i++) {
-//		if(data.KMLpoints.get(i).AltitudeMeters<from) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//		if(data.KMLpoints.get(i).AltitudeMeters>to) {
-//			data.KMLpoints.remove(i);
-//			i--;
-//		}
-//	}
-//	
-//}
 
 public static void remove_by_lat(Read data, double from, double to) {
 	try {
@@ -211,11 +138,8 @@ public static void remove_by_lat(Read data, double from, double to) {
 	setSave_from_lat(from);
 	setSave_to_lat(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).CurrentLatitude<from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).CurrentLatitude>to) {
+		if(data.wifiNetworks.get(i).CurrentLatitude>from&&data.wifiNetworks.get(i).CurrentLatitude<to) {
+			System.out.println("delete");
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -232,11 +156,7 @@ public static void leave_by_lat(Read data, double from, double to) {
 	setSave_from_lat(from);
 	setSave_to_lat(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).CurrentLatitude>from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).CurrentLatitude<to) {
+		if(data.wifiNetworks.get(i).CurrentLatitude<from||data.wifiNetworks.get(i).CurrentLatitude>to) {
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -253,11 +173,7 @@ public static void remove_by_lon(Read data, double from, double to) {
 	setSave_from_lon(from);
 	setSave_to_lon(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).CurrentLongitude<from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).CurrentLongitude>to) {
+		if(data.wifiNetworks.get(i).CurrentLongitude>from&&data.wifiNetworks.get(i).CurrentLongitude<to) {
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -274,11 +190,7 @@ public static void leave_by_lon(Read data, double from, double to) {
 	setSave_from_lon(from);
 	setSave_to_lon(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).CurrentLongitude>from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).CurrentLongitude<to) {
+		if(data.wifiNetworks.get(i).CurrentLongitude<from||data.wifiNetworks.get(i).CurrentLongitude>to) {
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -295,11 +207,7 @@ public static void remove_by_alt(Read data, double from, double to) {
 	setSave_from_alt(from);
 	setSave_to_alt(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).AltitudeMeters<from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).AltitudeMeters>to) {
+		if(data.wifiNetworks.get(i).AltitudeMeters>from&&data.wifiNetworks.get(i).AltitudeMeters<to) {
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -316,11 +224,7 @@ public static void leave_by_alt(Read data, double from, double to) {
 	setSave_from_alt(from);
 	setSave_to_alt(to);
 	for(int i=0;i<data.wifiNetworks.size();i++) {
-		if(data.wifiNetworks.get(i).AltitudeMeters>from) {
-			data.wifiNetworks.remove(i);
-			i--;
-		}
-		if(data.wifiNetworks.get(i).AltitudeMeters<to) {
+		if(data.wifiNetworks.get(i).AltitudeMeters>from||data.wifiNetworks.get(i).AltitudeMeters<to) {
 			data.wifiNetworks.remove(i);
 			i--;
 		}
@@ -366,13 +270,13 @@ public static String getSave_id() {
 public static String getLoad_id() {
 	return load_id;
 }
-public static String getSave_from_time() {
+public static Date getSave_from_time() {
 	return save_from_time;
 }
 public static String getLoad_from_time() {
 	return load_from_time;
 }
-public static String getSave_to_time() {
+public static Date getSave_to_time() {
 	return save_to_time;
 }
 public static String getLoad_to_time() {
@@ -414,10 +318,9 @@ public static double getSave_to_alt() {
 public static double getLoad_to_alt() {
 	return load_to_alt;
 }
-public static void load_filter() throws IOException {
+public static void load_filter() throws IOException, ParseException {
 	File newfile = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\Filter.txt");
 	BufferedReader br = new BufferedReader(new FileReader(newfile));
-	
 	String[] filterRead= new String[9];
 	for(int i=0; i<9;i++) {
 		try {
@@ -428,18 +331,9 @@ public static void load_filter() throws IOException {
 		}	
 	}
 
-//	load_id= filterRead[0];
-//	load_from_time= filterRead[1];
-//	load_to_time =filterRead[2];
-//	load_from_lat = Double.parseDouble(filterRead[3]);
-//	load_to_lat =Double.parseDouble(filterRead[4]);
-//	load_from_lon = Double.parseDouble(filterRead[5]);
-//	load_to_lon = Double.parseDouble(filterRead[6]);
-//    load_from_alt = Double.parseDouble(filterRead[7]);
-//    load_to_alt = Double.parseDouble(filterRead[8]);
 	save_id= filterRead[0];
-	save_from_time= filterRead[1];
-	save_to_time =filterRead[2];
+	save_from_time=format.parse(filterRead[1]);
+	save_to_time =format.parse(filterRead[2]);
 	save_from_lat = Double.parseDouble(filterRead[3]);
 	save_to_lat =Double.parseDouble(filterRead[4]);
 	save_from_lon = Double.parseDouble(filterRead[5]);
@@ -457,10 +351,10 @@ public static void and_filter() {
 public static void setSave_id(String save_id1) {
 	save_id = save_id1;
 }
-public static void setSave_from_time(String save_from_time1) {
+public static void setSave_from_time(Date save_from_time1) {
 	save_from_time = save_from_time1;
 }
-public static void setSave_to_time(String save_to_time1) {
+public static void setSave_to_time(Date save_to_time1) {
 	save_to_time = save_to_time1;
 }
 public static void setSave_from_lat(double save_from_lat1) {

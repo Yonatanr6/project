@@ -3,12 +3,21 @@ package gui_;
 import java.awt.EventQueue;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle.ComponentPlacement;
+
+import org.jdatepicker.impl.JDatePanelImpl;
+import org.jdatepicker.impl.JDatePickerImpl;
+import org.jdatepicker.impl.UtilDateModel;
+
 import javax.swing.JTextField;
 import Tools.*;
 import WatchSer.watchservice;
@@ -26,7 +35,20 @@ import java.awt.event.InputMethodListener;
 import java.awt.event.InputMethodEvent;
 import javax.swing.JCheckBox;
 import java.awt.Checkbox;
+import java.awt.Container;
 
+import datechooser.model.DateChoose;
+import datechooser.beans.DateChooserCombo;
+import org.jdatepicker.util.JDatePickerUtil;
+import javax.swing.JLabel;
+import javax.swing.JRadioButton;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ChangeEvent;
+import java.awt.TextField;
+import java.awt.TextArea;
+import javax.swing.JTextPane;
+import java.awt.event.ItemListener;
+import java.awt.event.ItemEvent;
 
 /*public class gui_ {
 
@@ -79,7 +101,9 @@ import java.awt.Checkbox;
  */
 public class gui extends javax.swing.JFrame {
 
-	
+	 public static Read data = new Read();
+	 public static String read_comb_path="C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\comb";
+	 comb_reader data2 = new comb_reader();
 	
     /**
      * Creates new form GUI
@@ -88,8 +112,12 @@ public class gui extends javax.swing.JFrame {
 	
 	
     public gui() throws IOException {
+    	
+    	
+    	
+    	
         initComponents();
-        
+        data.comb_adder(read_comb_path);
       
     }
 
@@ -106,16 +134,20 @@ public class gui extends javax.swing.JFrame {
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
-    private void initComponents() throws IOException {
+    public void initComponents() throws IOException {
     	
-    	 Read data = new Read();
-    	 comb_reader data2 = new comb_reader();
+    	
     	
 
         jLabel1 = new javax.swing.JLabel();
         input_wigelwifi = new java.awt.TextField();
         input_cumb = new java.awt.TextField();
         CB_FILTER_LOC = new java.awt.Checkbox();
+//        CB_FILTER_LOC.addItemListener(new ItemListener() {
+//        	public void itemStateChanged(ItemEvent arg0) {
+//        		filter_by_loc=true;
+//        	}
+//        });
         CB_FILTER_LOC.addMouseListener(new MouseAdapter() {
         	@Override
         	public void mousePressed(MouseEvent arg0) {
@@ -128,10 +160,19 @@ public class gui extends javax.swing.JFrame {
         });
         CB_TIME_FILTER = new java.awt.Checkbox();
         CB_TIME_FILTER.addMouseListener(new MouseAdapter() {
-        	@Override
+        	@SuppressWarnings("deprecation")
+			@Override
         	public void mousePressed(MouseEvent e) {
         		 from_time =Time1.getText();
         		 to_time =Time2.getText();
+        		 try {
+					from_time1 =format.parse(from_time);
+					to_time1 =format.parse(to_time);
+				} catch (ParseException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+        		 
         		filter_by_time=true;
         		
         	}
@@ -153,6 +194,7 @@ public class gui extends javax.swing.JFrame {
         Lat2 = new java.awt.TextField();
         lon2 = new java.awt.TextField();
         alt2 = new java.awt.TextField();
+       
         CB_DEVICE = new java.awt.Checkbox();
         CB_DEVICE.addMouseListener(new MouseAdapter() {
         	@Override
@@ -334,6 +376,7 @@ public class gui extends javax.swing.JFrame {
             	data.wifiNetworks.clear();
             	data.comb_adder(path);
                 jToggleButton1ActionPerformed(evt);
+                Before_filter.setSelected(false);
             }
         });
 
@@ -356,8 +399,10 @@ public class gui extends javax.swing.JFrame {
         Time1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
             	
+            	
                 jTextField2ActionPerformed(evt);
                 from_time =Time1.getText();
+                
             }
         });
 
@@ -499,6 +544,9 @@ public class gui extends javax.swing.JFrame {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
         		String load_filter = "Device: "+Filter.getSave_id()+" "+ "from time: "+Filter.getSave_from_time()+" "+"to time: "+Filter.getSave_to_time()+" "+"from lat: "+Filter.getSave_from_lat()+" "+"to lat"+Filter.getSave_to_lat()+" "+"from lon:" + Filter.getSave_from_lon()+" "+"to lon"+Filter.getSave_to_lon()+" "+"from alt: "+Filter.getSave_from_alt()+" "+"to alt: "+Filter.getSave_to_alt();
                 textArea_1.setText(load_filter);
@@ -543,26 +591,30 @@ public class gui extends javax.swing.JFrame {
         	@Override
         	public void mouseClicked(MouseEvent arg0) {
         		String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter\\backup\\backup.csv");
-        		try {
+        		 try {
 					Writer backup =new Writer(data,path);
-				} catch (IOException e) {
+				} catch (IOException e2) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					e2.printStackTrace();
 				}
-//        		if(filter_by_device)
-//        			Filter.remove_by_id(data, device_filter);
         		if(CB_DEVICE.getState())
         			Filter.remove_by_id(data, device_filter);
-        		if(filter_by_lat)
+        		if(chckbxByLontitude.isSelected()&&CB_FILTER_LOC.getState())
         			Filter.remove_by_lat(data, from_lat,to_lat);
+        		
         		if(filter_by_lon)
         			Filter.remove_by_lon(data, from_lon,to_lon);
         		if(filter_by_alt)
         			Filter.remove_by_alt(data, from_alt,to_alt);
-        		if(filter_by_time)
-        			Filter.remove_by_time(data, from_time,to_time);
-        		
-        		if(not_by_device)
+        		if(CB_TIME_FILTER.getState()) {
+					try {
+						Filter.remove_by_time(data, from_time1,to_time1);
+					} catch (ParseException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+        		}
+        		if(chckbxNotByThis_1.isSelected())
         			Filter.leave_by_id(data, device_filter);
         		if(not_by_loc) {
         		if(filter_by_lat)
@@ -572,8 +624,13 @@ public class gui extends javax.swing.JFrame {
         		if(filter_by_alt)
         			Filter.leave_by_alt(data, from_alt,to_alt);
         		}
-        		if(not_by_time)
-        			Filter.leave_by_time(data, from_time,to_time);
+        		if(chckbxNotByThis_2.isSelected()) {
+					try {
+						Filter.leave_by_time(data, from_time1,to_time1);
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}}
         		if(or_by_device&&or_by_loc) {
         			
         		}
@@ -585,62 +642,51 @@ public class gui extends javax.swing.JFrame {
 //        String load_filter = "Device: "+Filter.getLoad_id()+" "+ "from time: "+Filter.getLoad_from_time()+" "+"to time: "+Filter.getLoad_to_time()+" "+"from lat: "+Filter.getLoad_from_lat()+" "+"to lat"+Filter.getLoad_to_lat()+" "+"from lon:" + Filter.getLoad_from_lon()+" "+"to lon"+Filter.getLoad_to_lon()+" "+"from alt: "+Filter.getLoad_from_alt()+" "+"to alt: "+Filter.getLoad_to_alt();
 //        textArea_1.setText(load_filter);
         
-        JCheckBox chckbxByLontitude = new JCheckBox("By Latitude");
-        chckbxByLontitude.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+       
+        chckbxByLontitude.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxByLontitude.isSelected()) {
         		from_lat = Double.parseDouble(Lat1.getText());
         		to_lat = Double.parseDouble(Lat2.getText());
         		filter_by_lat=true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		filter_by_lat=false;
-        	}
+        	}}
         });
         
+        
         JCheckBox chckbxByLontitude_1 = new JCheckBox("By Lontitude");
-        chckbxByLontitude_1.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxByLontitude_1.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxByLontitude_1.isSelected()) {
         		from_lon = Double.parseDouble(lon1.getText());
         		to_lon = Double.parseDouble(lon2.getText());
         		filter_by_lon=true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		filter_by_lon=false;
-        	}
+        	}}
         });
+        
         
         JCheckBox chckbxNewCheckBox = new JCheckBox("By altitude");
-        chckbxNewCheckBox.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
-        		from_alt = Double.parseDouble(lon1.getText());
-        		to_alt = Double.parseDouble(lon2.getText());
-        		filter_by_alt=true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		filter_by_alt=false;
+        chckbxNewCheckBox.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxNewCheckBox.isSelected()) {
+        			from_alt = Double.parseDouble(lon1.getText());
+            		to_alt = Double.parseDouble(lon2.getText());
+            		filter_by_alt=true;
+        		}
         	}
         });
+        
         
         chckbxNotByThis = new JCheckBox("Not by this location");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
-        		not_by_loc= true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		not_by_loc=false;
+        chckbxNotByThis.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxNotByThis.isSelected())
+        			not_by_loc= true;
         	}
         });
         
+        
         chckbxOrThisLocation = new JCheckBox("Or this location");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
+        chckbxOrThisLocation.addMouseListener(new MouseAdapter() {
         	@Override
         	public void mousePressed(MouseEvent e) {
         		or_by_loc= true;
@@ -652,20 +698,17 @@ public class gui extends javax.swing.JFrame {
         });
         
         chckbxNotByThis_1 = new JCheckBox("Not by this device");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxNotByThis_1.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxNotByThis_1.isSelected())
         		device_filter = filter_dev.getText();
-        		not_by_device= true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		not_by_device=false;
         	}
         });
+       
+        
         
         chckbxOrByThis = new JCheckBox("Or by this device");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
+        chckbxOrByThis.addMouseListener(new MouseAdapter() {
         	@Override
         	public void mousePressed(MouseEvent e) {
         		device_filter = filter_dev.getText();
@@ -676,24 +719,27 @@ public class gui extends javax.swing.JFrame {
         		or_by_device=false;
         	}
         });
+       
+        
         
         chckbxNotByThis_2 = new JCheckBox("Not by this time");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxNotByThis_2.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent arg0) {
+        		if(chckbxNotByThis_2.isSelected()) {
         		 from_time =Time1.getText();
         		 to_time =Time2.getText();
-        		not_by_time= true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		not_by_time=false;
-        	}
+        		 try {
+ 					from_time1 =format.parse(Time1.getText());
+ 					to_time1 =format.parse(Time2.getText());
+ 				} catch (ParseException e1) {
+ 					// TODO Auto-generated catch block
+ 					e1.printStackTrace();
+        	}}}
         });
         
         
         chckbxOrByThis_1 = new JCheckBox("Or by this time");
-        chckbxNotByThis.addMouseListener(new MouseAdapter() {
+        chckbxNotByThis_1.addMouseListener(new MouseAdapter() {
         	@Override
         	public void mousePressed(MouseEvent e) {
         		 from_time =Time1.getText();
@@ -706,6 +752,13 @@ public class gui extends javax.swing.JFrame {
         	}
         });
         
+        JTextPane txtpnDateFormatDdmmdyy = new JTextPane();
+        txtpnDateFormatDdmmdyy.setText("Date format: dd-MM-yy hh:mm");
+        
+        txtpnExp = new JTextPane();
+        txtpnExp.setText("EXP: Lenovo PB2-690Y");
+        
+        
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         layout.setHorizontalGroup(
@@ -715,125 +768,140 @@ public class gui extends javax.swing.JFrame {
         			.addGroup(layout.createParallelGroup(Alignment.LEADING)
         				.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 452, GroupLayout.PREFERRED_SIZE)
         				.addComponent(textArea_1, GroupLayout.PREFERRED_SIZE, 954, GroupLayout.PREFERRED_SIZE))
-        			.addContainerGap(585, Short.MAX_VALUE))
+        			.addContainerGap(718, Short.MAX_VALUE))
         		.addGroup(layout.createSequentialGroup()
         			.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        				.addGroup(layout.createSequentialGroup()
-        					.addContainerGap(342, Short.MAX_VALUE)
-        					.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
-        						.addGroup(layout.createSequentialGroup()
-        							.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
-        								.addComponent(alt1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        								.addComponent(lon1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
-        								.addComponent(Lat1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        								.addGroup(layout.createSequentialGroup()
-        									.addComponent(jLabel8)
-        									.addPreferredGap(ComponentPlacement.RELATED)
-        									.addComponent(alt2, GroupLayout.PREFERRED_SIZE, 65, GroupLayout.PREFERRED_SIZE))
-        								.addGroup(layout.createParallelGroup(Alignment.LEADING, false)
-        									.addGroup(layout.createSequentialGroup()
-        										.addComponent(jLabel7)
-        										.addPreferredGap(ComponentPlacement.RELATED)
-        										.addComponent(lon2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        									.addGroup(layout.createSequentialGroup()
-        										.addComponent(jLabel6)
-        										.addPreferredGap(ComponentPlacement.RELATED)
-        										.addComponent(Lat2, GroupLayout.PREFERRED_SIZE, 65, GroupLayout.PREFERRED_SIZE)))))
-        						.addGroup(layout.createSequentialGroup()
-        							.addComponent(chckbxNotByThis)
-        							.addGap(22)))
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        						.addGroup(layout.createSequentialGroup()
-        							.addGap(23)
-        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        								.addComponent(chckbxByLontitude)
-        								.addComponent(chckbxByLontitude_1)
-        								.addComponent(chckbxNewCheckBox)))
-        						.addComponent(CB_FILTER_LOC, GroupLayout.PREFERRED_SIZE, 106, GroupLayout.PREFERRED_SIZE))
-        					.addGap(448)
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        						.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, 92, GroupLayout.PREFERRED_SIZE)
-        						.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, 148, GroupLayout.PREFERRED_SIZE)))
         				.addGroup(layout.createSequentialGroup()
         					.addGap(20)
         					.addComponent(jLabel1, GroupLayout.PREFERRED_SIZE, 185, GroupLayout.PREFERRED_SIZE))
         				.addGroup(layout.createSequentialGroup()
-        					.addContainerGap()
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        						.addComponent(input_wigelwifi, GroupLayout.PREFERRED_SIZE, 169, GroupLayout.PREFERRED_SIZE)
-        						.addComponent(input_cumb, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE))
-        					.addPreferredGap(ComponentPlacement.UNRELATED)
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        						.addComponent(btnAddWiglewifi)
-        						.addComponent(btnAddComb))
-        					.addPreferredGap(ComponentPlacement.RELATED)
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING, false)
-        						.addGroup(layout.createSequentialGroup()
-        							.addComponent(ONE_MAC_ALGO1, GroupLayout.PREFERRED_SIZE, 93, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(O_ALGO1)
-        							.addGap(430)
-        							.addComponent(Save_cumb)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(Save_kml)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(Remove_all))
-        						.addGroup(layout.createSequentialGroup()
-        							.addComponent(STR_ALGO2, GroupLayout.PREFERRED_SIZE, 199, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(str_algo2))
-        						.addGroup(layout.createSequentialGroup()
-        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        								.addComponent(chckbxOrThisLocation)
-        								.addGroup(layout.createSequentialGroup()
-        									.addComponent(mac1, GroupLayout.PREFERRED_SIZE, 51, GroupLayout.PREFERRED_SIZE)
-        									.addPreferredGap(ComponentPlacement.RELATED)
-        									.addComponent(rssi1, GroupLayout.PREFERRED_SIZE, 41, GroupLayout.PREFERRED_SIZE)))
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(mac2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(rssi2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(mac3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(rssi3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        								.addGroup(layout.createSequentialGroup()
-        									.addComponent(chckbxOrByThis)
-        									.addGap(18)
-        									.addComponent(chckbxNotByThis_1, GroupLayout.PREFERRED_SIZE, 145, GroupLayout.PREFERRED_SIZE)
-        									.addGap(135))
-        								.addGroup(layout.createSequentialGroup()
-        									.addComponent(algo2_macs)
-        									.addPreferredGap(ComponentPlacement.RELATED, 519, Short.MAX_VALUE))))))
-        				.addGroup(layout.createSequentialGroup()
         					.addGap(20)
-        					.addComponent(Before_filter, GroupLayout.PREFERRED_SIZE, 301, GroupLayout.PREFERRED_SIZE)))
-        			.addGap(53)
-        			.addComponent(chckbxOrByThis_1)
-        			.addPreferredGap(ComponentPlacement.UNRELATED)
-        			.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        					.addComponent(Before_filter, GroupLayout.PREFERRED_SIZE, 301, GroupLayout.PREFERRED_SIZE))
         				.addGroup(layout.createSequentialGroup()
-        					.addComponent(Time1, GroupLayout.PREFERRED_SIZE, 51, GroupLayout.PREFERRED_SIZE)
-        					.addPreferredGap(ComponentPlacement.RELATED)
-        					.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE)
-        					.addPreferredGap(ComponentPlacement.RELATED)
-        					.addComponent(Time2, GroupLayout.PREFERRED_SIZE, 51, GroupLayout.PREFERRED_SIZE)
-        					.addGap(109)
-        					.addComponent(btnFilter)
-        					.addGap(26))
-        				.addGroup(layout.createSequentialGroup()
-        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        						.addComponent(Save_filter)
+        					.addContainerGap(29, Short.MAX_VALUE)
+        					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         						.addGroup(layout.createSequentialGroup()
-        							.addComponent(CB_TIME_FILTER, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addGap(22)
-        							.addComponent(chckbxNotByThis_2))
-        						.addComponent(LOAD_FILTER, GroupLayout.PREFERRED_SIZE, 115, GroupLayout.PREFERRED_SIZE))
-        					.addGap(105))))
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(input_wigelwifi, GroupLayout.PREFERRED_SIZE, 169, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(input_cumb, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE))
+        							.addPreferredGap(ComponentPlacement.UNRELATED)
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(btnAddWiglewifi)
+        								.addComponent(btnAddComb)))
+        						.addComponent(chckbxOrThisLocation))
+        					.addPreferredGap(ComponentPlacement.RELATED)
+        					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        						.addGroup(layout.createParallelGroup(Alignment.LEADING, false)
+        							.addGroup(layout.createSequentialGroup()
+        								.addComponent(ONE_MAC_ALGO1, GroupLayout.PREFERRED_SIZE, 93, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(O_ALGO1)
+        								.addGap(430)
+        								.addComponent(Save_cumb)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(Save_kml)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(Remove_all))
+        							.addGroup(layout.createSequentialGroup()
+        								.addComponent(STR_ALGO2, GroupLayout.PREFERRED_SIZE, 199, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(str_algo2))
+        							.addGroup(layout.createSequentialGroup()
+        								.addGap(16)
+        								.addComponent(mac1, GroupLayout.PREFERRED_SIZE, 51, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(rssi1, GroupLayout.PREFERRED_SIZE, 41, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(mac2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(rssi2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(mac3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addComponent(rssi3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addPreferredGap(ComponentPlacement.RELATED)
+        								.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        									.addGroup(layout.createSequentialGroup()
+        										.addComponent(chckbxOrByThis)
+        										.addPreferredGap(ComponentPlacement.UNRELATED)
+        										.addComponent(chckbxNotByThis_1)
+        										.addGap(165))
+        									.addGroup(layout.createSequentialGroup()
+        										.addComponent(algo2_macs)
+        										.addPreferredGap(ComponentPlacement.RELATED, 519, Short.MAX_VALUE)))))
+        						.addGroup(layout.createSequentialGroup()
+        							.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
+        								.addGroup(layout.createSequentialGroup()
+        									.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
+        										.addComponent(alt1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        										.addComponent(lon1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+        										.addComponent(Lat1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        									.addPreferredGap(ComponentPlacement.RELATED)
+        									.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        										.addGroup(layout.createSequentialGroup()
+        											.addComponent(jLabel8)
+        											.addPreferredGap(ComponentPlacement.RELATED)
+        											.addComponent(alt2, GroupLayout.PREFERRED_SIZE, 65, GroupLayout.PREFERRED_SIZE))
+        										.addGroup(layout.createParallelGroup(Alignment.LEADING, false)
+        											.addGroup(layout.createSequentialGroup()
+        												.addComponent(jLabel7)
+        												.addPreferredGap(ComponentPlacement.RELATED)
+        												.addComponent(lon2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        											.addGroup(layout.createSequentialGroup()
+        												.addComponent(jLabel6)
+        												.addPreferredGap(ComponentPlacement.RELATED)
+        												.addComponent(Lat2, GroupLayout.PREFERRED_SIZE, 65, GroupLayout.PREFERRED_SIZE)))))
+        								.addGroup(layout.createSequentialGroup()
+        									.addComponent(chckbxNotByThis)
+        									.addGap(22)))
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addGroup(layout.createSequentialGroup()
+        									.addGap(23)
+        									.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        										.addComponent(chckbxByLontitude)
+        										.addComponent(chckbxByLontitude_1)
+        										.addComponent(chckbxNewCheckBox)))
+        								.addComponent(CB_FILTER_LOC, GroupLayout.PREFERRED_SIZE, 106, GroupLayout.PREFERRED_SIZE))
+        							.addPreferredGap(ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        									.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, 326, GroupLayout.PREFERRED_SIZE)
+        									.addGap(56))
+        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        									.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, 133, GroupLayout.PREFERRED_SIZE)
+        									.addGap(15))
+        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        									.addComponent(txtpnExp, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        									.addGap(154)))))))
+        			.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        				.addGroup(layout.createSequentialGroup()
+        					.addGap(53)
+        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        						.addGroup(layout.createSequentialGroup()
+        							.addComponent(chckbxOrByThis_1)
+        							.addGap(12)
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(Save_filter)
+        								.addComponent(LOAD_FILTER, GroupLayout.PREFERRED_SIZE, 115, GroupLayout.PREFERRED_SIZE)
+        								.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        									.addComponent(Time2, GroupLayout.PREFERRED_SIZE, 142, GroupLayout.PREFERRED_SIZE)
+        									.addGroup(layout.createSequentialGroup()
+        										.addComponent(CB_TIME_FILTER, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        										.addGap(22)
+        										.addComponent(chckbxNotByThis_2))))
+        							.addGap(50))
+        						.addGroup(layout.createSequentialGroup()
+        							.addComponent(Time1, GroupLayout.PREFERRED_SIZE, 148, GroupLayout.PREFERRED_SIZE)
+        							.addPreferredGap(ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+        							.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE)
+        							.addGap(227)))
+        					.addPreferredGap(ComponentPlacement.RELATED)
+        					.addComponent(btnFilter)
+        					.addGap(119))
+        				.addGroup(layout.createSequentialGroup()
+        					.addGap(134)
+        					.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, 195, GroupLayout.PREFERRED_SIZE)
+        					.addContainerGap())))
         );
         layout.setVerticalGroup(
         	layout.createParallelGroup(Alignment.TRAILING)
@@ -873,7 +941,7 @@ public class gui extends javax.swing.JFrame {
         			.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         				.addGroup(layout.createSequentialGroup()
         					.addComponent(Before_filter)
-        					.addPreferredGap(ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+        					.addGap(10)
         					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         						.addGroup(layout.createParallelGroup(Alignment.LEADING)
         							.addComponent(Lat1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -881,14 +949,14 @@ public class gui extends javax.swing.JFrame {
         						.addComponent(jLabel6)
         						.addComponent(chckbxByLontitude))
         					.addGap(8)
-        					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        						.addComponent(lon1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        						.addComponent(jLabel7)
-        						.addComponent(lon2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        						.addComponent(chckbxByLontitude_1))
-        					.addPreferredGap(ComponentPlacement.RELATED)
-        					.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
+        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
         						.addGroup(layout.createSequentialGroup()
+        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        								.addComponent(lon1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(jLabel7)
+        								.addComponent(lon2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(chckbxByLontitude_1))
+        							.addGap(10)
         							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         								.addComponent(alt1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         								.addComponent(jLabel8)
@@ -896,21 +964,26 @@ public class gui extends javax.swing.JFrame {
         									.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         										.addComponent(chckbxNewCheckBox)
         										.addComponent(alt2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        									.addGap(1)))
-        							.addGap(8)
-        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        								.addComponent(CB_FILTER_LOC, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        								.addComponent(chckbxNotByThis)
-        								.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-        									.addComponent(chckbxOrThisLocation)
-        									.addComponent(chckbxNotByThis_1)
-        									.addComponent(chckbxOrByThis))))
+        									.addGap(1))))
         						.addGroup(layout.createSequentialGroup()
-        							.addGap(9)
-        							.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        							.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+        							.addGap(12)
+        							.addComponent(txtpnExp, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        							.addPreferredGap(ComponentPlacement.RELATED)
+        							.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)))
+        					.addGap(8)
+        					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        						.addComponent(CB_FILTER_LOC, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        						.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        							.addComponent(chckbxNotByThis)
+        							.addComponent(chckbxOrThisLocation))
+        						.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        							.addComponent(chckbxOrByThis)
+        							.addComponent(chckbxNotByThis_1))
+        						.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+        					.addGap(0))
         				.addGroup(layout.createSequentialGroup()
+        					.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, 18, GroupLayout.PREFERRED_SIZE)
+        					.addPreferredGap(ComponentPlacement.RELATED)
         					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
         						.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
         						.addComponent(Time1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -1063,6 +1136,8 @@ watchservice watchMe = new watchservice();
 		
 		Thread thread = new Thread(watchMe);
 		thread.start();
+		
+		
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -1094,7 +1169,9 @@ watchservice watchMe = new watchservice();
         });
     }
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify 
+    
+    
     private java.awt.Checkbox CB_FILTER_LOC;
     private java.awt.Checkbox CB_TIME_FILTER;
     private java.awt.Checkbox CB_DEVICE;
@@ -1140,7 +1217,9 @@ watchservice watchMe = new watchservice();
     String mac_algo2,mac2_algo2,mac3_algo2;
     int RSSI1, RSSI2, RSSI3;
     private JButton btnFilter;
-    String device_filter="",from_time="",to_time="";
+    public static String device_filter="",from_time="",to_time="";
+    static Date from_time1,to_time1;
+    DateFormat format = new SimpleDateFormat("dd-MM-yy hh:mm");
     double from_lat,to_lat,from_lon,to_lon,from_alt,to_alt;
     boolean filter_by_loc= false, filter_by_time=false, filter_by_device=false,not_by_time=false,or_by_time=false,not_by_loc=false,or_by_loc=false,not_by_device=false,or_by_device=false;
     boolean filter_by_lat=false,filter_by_lon=false,filter_by_alt=false;
@@ -1150,4 +1229,8 @@ watchservice watchMe = new watchservice();
     private JCheckBox chckbxOrByThis;
     private JCheckBox chckbxNotByThis_2;
     private JCheckBox chckbxOrByThis_1;
+    private JTextPane txtpnExp;
+    JCheckBox chckbxByLontitude = new JCheckBox("By Latitude");
+    JCheckBox chckbxByLontitude_1;
+    JCheckBox chckbxNewCheckBox;
 }

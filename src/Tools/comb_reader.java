@@ -60,6 +60,7 @@ public class comb_reader {
 							comb_reader point = new comb_reader(ID);// fix to get the right id
 							String[] split = lineRead.split(",");
 							point.FirstSeen= split[0];
+							
 							point.Id= split[1];
 							point.CurrentLatitude = Double.parseDouble(split[2]);
 							point.CurrentLongitude = Double.parseDouble(split[3]);
@@ -115,6 +116,7 @@ public class comb_reader {
 							comb_reader point = new comb_reader(ID);// fix to get the right id
 							String[] split = lineRead.split(",");
 							point.FirstSeen= split[0];
+							
 							point.Id= split[1];
 							point.CurrentLatitude = Double.parseDouble(split[2]);
 							point.CurrentLongitude = Double.parseDouble(split[3]);
