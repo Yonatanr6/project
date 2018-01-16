@@ -22,30 +22,13 @@ public class Filter {
 	
 	static String save_id,load_id;
 	static Date save_from_time;
-	static String load_from_time;
+	static Date load_from_time;
 	static Date save_to_time;
-	static String load_to_time;
+	static Date load_to_time;
 	static double save_from_lat,load_from_lat, save_to_lat,load_to_lat, save_from_lon,load_from_lon;
 	static double save_to_lon,load_to_lon, save_from_alt,load_from_alt, save_to_alt,load_to_alt;
 	static DateFormat format = new SimpleDateFormat("dd-MM-yy hh:mm");
 	
-//public static void remove_by_id(comb_reader data, String id) {//filter for comb
-//	try {
-//		Writer backup = new Writer(data);
-//	} catch (IOException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	setSave_id(id);
-//	for(int i=0;i<data.KMLpoints.size();i++) {
-//		if(!data.KMLpoints.get(i).Id.equals(id)) {
-//			data.KMLpoints.remove(i);
-//		    i--;
-//		}
-//	}
-//	
-//	
-//}
 
 public static void remove_by_id(Read data, String id) {//filter fo wiglewifi
 	try {
@@ -239,17 +222,6 @@ String path=("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\output\\Filter
 	PrintWriter writer = new PrintWriter(path);
 	
 	
-//	writer.print(save_id+",");
-//	writer.print(save_from_time+",");
-//	writer.print(save_to_time+",");
-//	writer.print(save_from_lat+",");
-//	writer.print(save_to_lat+",");
-//	writer.print(save_from_lon+",");
-//	writer.print(save_to_lon+",");
-//	writer.print(save_from_alt+",");
-//	writer.print(save_to_alt);
-//	writer.close();
-	
 	writer.println(save_id);
 	writer.println(save_from_time);
 	writer.println(save_to_time);
@@ -273,13 +245,13 @@ public static String getLoad_id() {
 public static Date getSave_from_time() {
 	return save_from_time;
 }
-public static String getLoad_from_time() {
+public static Date getLoad_from_time() {
 	return load_from_time;
 }
 public static Date getSave_to_time() {
 	return save_to_time;
 }
-public static String getLoad_to_time() {
+public static Date getLoad_to_time() {
 	return load_to_time;
 }
 public static double getSave_from_lat() {
@@ -332,14 +304,16 @@ public static void load_filter() throws IOException, ParseException {
 	}
 
 	save_id= filterRead[0];
-	save_from_time=format.parse(filterRead[1]);
-	save_to_time =format.parse(filterRead[2]);
-	save_from_lat = Double.parseDouble(filterRead[3]);
-	save_to_lat =Double.parseDouble(filterRead[4]);
-	save_from_lon = Double.parseDouble(filterRead[5]);
-	save_to_lon = Double.parseDouble(filterRead[6]);
-	save_from_alt = Double.parseDouble(filterRead[7]);
-	save_to_alt = Double.parseDouble(filterRead[8]);
+	if(!filterRead[1].equals("null")) {
+	load_from_time=format.parse(filterRead[1]);
+	load_to_time =format.parse(filterRead[2]);
+	}
+	load_from_lat = Double.parseDouble(filterRead[3]);
+	load_to_lat =Double.parseDouble(filterRead[4]);
+	load_from_lon = Double.parseDouble(filterRead[5]);
+	load_to_lon = Double.parseDouble(filterRead[6]);
+	load_from_alt = Double.parseDouble(filterRead[7]);
+	load_to_alt = Double.parseDouble(filterRead[8]);
     
 	br.close();
 }

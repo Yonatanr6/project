@@ -50,51 +50,6 @@ import javax.swing.JTextPane;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
 
-/*public class gui_ {
-
-	private JFrame frame;
-
-	*//**
-	 * Launch the application.
-	 *//*
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					gui_ window = new gui_();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	*//**
-	 * Create the application.
-	 *//*
-	public gui_() {
-		initialize();
-	}
-
-	*//**
-	 * Initialize the contents of the frame.
-	 *//*
-	private void initialize() {
-		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	}
-
-}
-*/
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 /**
  *
  * @author shiran
@@ -118,6 +73,14 @@ public class gui extends javax.swing.JFrame {
     	
         initComponents();
         data.comb_adder(read_comb_path);
+        String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+        int temp=0;
+        for(int i=0;i<data.wifiNetworks.size();i++) {
+        	temp+=data.wifiNetworks.get(i).NumberOWN;
+        }
+        String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+        textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+        		+"  " +"Number of Macs:"+"  "+num_of_mac);
       
     }
 
@@ -285,18 +248,27 @@ public class gui extends javax.swing.JFrame {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+                String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+                int temp=0;
+                for(int i=0;i<data.wifiNetworks.size();i++) {
+                	temp+=data.wifiNetworks.get(i).NumberOWN;
+                }
+                String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+                textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+                		+"  " +"Number of Macs:"+"  "+num_of_mac);	
             }
         });
-        String num_of_wifi=Integer.toString(data.wifiNetworks.size());
-        int temp=0;
-        for(int i=0;i<data.wifiNetworks.size();i++) {
-        	temp+=data.wifiNetworks.get(i).NumberOWN;
-        }
-        String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+       
 
         Save_cumb.setText("Save comb ");
         Save_cumb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
+            	 String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+                 int temp=0;
+                 for(int i=0;i<data.wifiNetworks.size();i++) {
+                 	temp+=data.wifiNetworks.get(i).NumberOWN;
+                 }
+                 String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
             	try {
 					Writer write = new Writer(data);
 				} catch (IOException e) {
@@ -377,6 +349,14 @@ public class gui extends javax.swing.JFrame {
             	data.comb_adder(path);
                 jToggleButton1ActionPerformed(evt);
                 Before_filter.setSelected(false);
+                String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+                int temp=0;
+                for(int i=0;i<data.wifiNetworks.size();i++) {
+                	temp+=data.wifiNetworks.get(i).NumberOWN;
+                }
+                String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+                textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+                		+"  " +"Number of Macs:"+"  "+num_of_mac);	
             }
         });
 
@@ -548,7 +528,7 @@ public class gui extends javax.swing.JFrame {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-        		String load_filter = "Device: "+Filter.getSave_id()+" "+ "from time: "+Filter.getSave_from_time()+" "+"to time: "+Filter.getSave_to_time()+" "+"from lat: "+Filter.getSave_from_lat()+" "+"to lat"+Filter.getSave_to_lat()+" "+"from lon:" + Filter.getSave_from_lon()+" "+"to lon"+Filter.getSave_to_lon()+" "+"from alt: "+Filter.getSave_from_alt()+" "+"to alt: "+Filter.getSave_to_alt();
+        		String load_filter = "Device: "+Filter.getLoad_id()+" "+ "From time: "+Filter.getLoad_from_time()+" "+"To time: "+Filter.getLoad_to_time()+" "+"From lat: "+Filter.getLoad_from_lat()+" "+"To lat: "+Filter.getLoad_to_lat()+" "+"From lon: " + Filter.getLoad_from_lon()+" "+"To lon: "+Filter.getLoad_to_lon()+" "+"From alt: "+Filter.getLoad_from_alt()+" "+"To alt: "+Filter.getLoad_to_alt();
                 textArea_1.setText(load_filter);
         	}
         });
@@ -570,7 +550,16 @@ public class gui extends javax.swing.JFrame {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+        		String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+                int temp=0;
+                for(int i=0;i<data.wifiNetworks.size();i++) {
+                	temp+=data.wifiNetworks.get(i).NumberOWN;
+                }
+                String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+                textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+                		+"  " +"Number of Macs:"+"  "+num_of_mac);	
         	}
+        	
         });
         
         JButton btnAddComb = new JButton("Add comb");
@@ -579,6 +568,14 @@ public class gui extends javax.swing.JFrame {
         	public void mouseClicked(MouseEvent arg0) {
         	comb_path = input_cumb.getText();
         	data.comb_adder(comb_path);
+        	String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+            int temp=0;
+            for(int i=0;i<data.wifiNetworks.size();i++) {
+            	temp+=data.wifiNetworks.get(i).NumberOWN;
+            }
+            String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+            textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+            		+"  " +"Number of Macs:"+"  "+num_of_mac);	
         	}
         });
         
@@ -597,16 +594,16 @@ public class gui extends javax.swing.JFrame {
 					// TODO Auto-generated catch block
 					e2.printStackTrace();
 				}
-        		if(CB_DEVICE.getState())
+        		if(CB_DEVICE.getState()||chckbxOrByThis.isSelected())
         			Filter.remove_by_id(data, device_filter);
-        		if(chckbxByLontitude.isSelected()&&CB_FILTER_LOC.getState())
+        		if(chckbxByLontitude.isSelected()&&CB_FILTER_LOC.getState()||chckbxOrThisLocation.isSelected())
         			Filter.remove_by_lat(data, from_lat,to_lat);
         		
-        		if(filter_by_lon)
+        		if(filter_by_lon&&CB_FILTER_LOC.getState()||chckbxOrThisLocation.isSelected())
         			Filter.remove_by_lon(data, from_lon,to_lon);
-        		if(filter_by_alt)
+        		if(filter_by_alt&&CB_FILTER_LOC.getState()||chckbxOrThisLocation.isSelected())
         			Filter.remove_by_alt(data, from_alt,to_alt);
-        		if(CB_TIME_FILTER.getState()) {
+        		if(CB_TIME_FILTER.getState()||chckbxOrByThis_1.isSelected()) {
 					try {
 						Filter.remove_by_time(data, from_time1,to_time1);
 					} catch (ParseException e1) {
@@ -616,7 +613,7 @@ public class gui extends javax.swing.JFrame {
         		}
         		if(chckbxNotByThis_1.isSelected())
         			Filter.leave_by_id(data, device_filter);
-        		if(not_by_loc) {
+        		if(chckbxNotByThis.isSelected()) {
         		if(filter_by_lat)
         			Filter.leave_by_lat(data, from_lat,to_lat);
         		if(filter_by_lon)
@@ -631,10 +628,15 @@ public class gui extends javax.swing.JFrame {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}}
-        		if(or_by_device&&or_by_loc) {
-        			
-        		}
-        			
+        		
+        		String num_of_wifi=Integer.toString(data.wifiNetworks.size());
+                int temp=0;
+                for(int i=0;i<data.wifiNetworks.size();i++) {
+                	temp+=data.wifiNetworks.get(i).NumberOWN;
+                }
+                String num_of_mac=Integer.toString(data.wifiNetworks.size()*temp);
+                textArea.setText("Number of WifiNetworks:"+"    "  + num_of_wifi
+                		+"  " +"Number of Macs:"+"  "+num_of_mac);	
         	}
         });
         
@@ -686,16 +688,13 @@ public class gui extends javax.swing.JFrame {
         
         
         chckbxOrThisLocation = new JCheckBox("Or this location");
-        chckbxOrThisLocation.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxOrThisLocation.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxOrThisLocation.isSelected())
         		or_by_loc= true;
         	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		or_by_loc=false;
-        	}
         });
+       
         
         chckbxNotByThis_1 = new JCheckBox("Not by this device");
         chckbxNotByThis_1.addChangeListener(new ChangeListener() {
@@ -708,17 +707,15 @@ public class gui extends javax.swing.JFrame {
         
         
         chckbxOrByThis = new JCheckBox("Or by this device");
-        chckbxOrByThis.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxOrByThis.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxOrByThis.isSelected()){
         		device_filter = filter_dev.getText();
         		or_by_device= true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		or_by_device=false;
+        		}
         	}
         });
+       
        
         
         
@@ -739,24 +736,30 @@ public class gui extends javax.swing.JFrame {
         
         
         chckbxOrByThis_1 = new JCheckBox("Or by this time");
-        chckbxNotByThis_1.addMouseListener(new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e) {
+        chckbxOrByThis_1.addChangeListener(new ChangeListener() {
+        	public void stateChanged(ChangeEvent e) {
+        		if(chckbxOrByThis_1.isSelected()) {
         		 from_time =Time1.getText();
         		 to_time =Time2.getText();
+        		 try {
+					from_time1 =format.parse(Time1.getText());
+					to_time1 =format.parse(Time2.getText());
+				} catch (ParseException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+					
         		or_by_time= true;
-        	}
-        	@Override
-        	public void mouseReleased(MouseEvent e) {
-        		or_by_time=false;
+        		}
         	}
         });
+       
         
         JTextPane txtpnDateFormatDdmmdyy = new JTextPane();
         txtpnDateFormatDdmmdyy.setText("Date format: dd-MM-yy hh:mm");
         
         txtpnExp = new JTextPane();
-        txtpnExp.setText("EXP: Lenovo PB2-690Y");
+        txtpnExp.setText("EXMP: Lenovo PB2-690Y");
         
         
 
@@ -778,7 +781,7 @@ public class gui extends javax.swing.JFrame {
         					.addGap(20)
         					.addComponent(Before_filter, GroupLayout.PREFERRED_SIZE, 301, GroupLayout.PREFERRED_SIZE))
         				.addGroup(layout.createSequentialGroup()
-        					.addContainerGap(29, Short.MAX_VALUE)
+        					.addContainerGap(30, Short.MAX_VALUE)
         					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         						.addGroup(layout.createSequentialGroup()
         							.addGroup(layout.createParallelGroup(Alignment.LEADING)
@@ -862,15 +865,15 @@ public class gui extends javax.swing.JFrame {
         										.addComponent(chckbxByLontitude_1)
         										.addComponent(chckbxNewCheckBox)))
         								.addComponent(CB_FILTER_LOC, GroupLayout.PREFERRED_SIZE, 106, GroupLayout.PREFERRED_SIZE))
-        							.addPreferredGap(ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
-        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
-        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        							.addPreferredGap(ComponentPlacement.RELATED, 226, Short.MAX_VALUE)
+        							.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        								.addGroup(layout.createSequentialGroup()
         									.addComponent(filter_dev, GroupLayout.PREFERRED_SIZE, 326, GroupLayout.PREFERRED_SIZE)
         									.addGap(56))
-        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        								.addGroup(layout.createSequentialGroup()
         									.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, 133, GroupLayout.PREFERRED_SIZE)
         									.addGap(15))
-        								.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        								.addGroup(layout.createSequentialGroup()
         									.addComponent(txtpnExp, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         									.addGap(154)))))))
         			.addGroup(layout.createParallelGroup(Alignment.LEADING)
@@ -892,7 +895,7 @@ public class gui extends javax.swing.JFrame {
         							.addGap(50))
         						.addGroup(layout.createSequentialGroup()
         							.addComponent(Time1, GroupLayout.PREFERRED_SIZE, 148, GroupLayout.PREFERRED_SIZE)
-        							.addPreferredGap(ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+        							.addPreferredGap(ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
         							.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE)
         							.addGap(227)))
         					.addPreferredGap(ComponentPlacement.RELATED)
@@ -982,7 +985,7 @@ public class gui extends javax.swing.JFrame {
         						.addComponent(CB_DEVICE, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
         					.addGap(0))
         				.addGroup(layout.createSequentialGroup()
-        					.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, 18, GroupLayout.PREFERRED_SIZE)
+        					.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         					.addPreferredGap(ComponentPlacement.RELATED)
         					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
         						.addComponent(jLabel5, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
@@ -1137,6 +1140,7 @@ watchservice watchMe = new watchservice();
 		Thread thread = new Thread(watchMe);
 		thread.start();
 		
+       	
 		
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -1167,6 +1171,7 @@ watchservice watchMe = new watchservice();
 				}
             }
         });
+       
     }
 
     // Variables declaration - do not modify 
@@ -1207,7 +1212,7 @@ watchservice watchMe = new watchservice();
     private java.awt.TextField alt1;
     private java.awt.TextField Lat2;
     private java.awt.TextField lon2;
-    private JTextArea textArea;
+    private static JTextArea textArea;
     
     String mac="";
     String stralg2= "";
