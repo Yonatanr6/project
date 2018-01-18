@@ -18,10 +18,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import Tools.*;
 import Algorithms.*;
-import RunMatala.*;
 import tests.*;
 import wifi_data.*;
 import gui_.*;
+import main.*;
 
 class ReadTest {
 	public 	List<location> locations= new ArrayList<location>();

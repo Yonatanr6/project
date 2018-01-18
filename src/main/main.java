@@ -1,4 +1,4 @@
-package RunMatala;
+package main;
 
 import java.awt.List;
 import java.io.FileNotFoundException;
@@ -27,10 +27,10 @@ import Tools.Read;
 
 import Tools.*;
 import Algorithms.*;
-import RunMatala.*;
 import tests.*;
 import wifi_data.*;
 import gui_.*;
+import main.*;
 
 
 public class main {

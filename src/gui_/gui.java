@@ -22,10 +22,11 @@ import javax.swing.JTextField;
 import Tools.*;
 import WatchSer.watchservice;
 import Algorithms.*;
-import RunMatala.*;
 import tests.*;
 import wifi_data.*;
 import gui_.*;
+import main.*;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -761,6 +762,34 @@ public class gui extends javax.swing.JFrame {
         txtpnExp = new JTextPane();
         txtpnExp.setText("EXMP: Lenovo PB2-690Y");
         
+        txtUser = new JTextField();
+        txtUser.setText("User");
+        txtUser.setColumns(10);
+        
+        txtPassword = new JTextField();
+        txtPassword.setText("Password");
+        txtPassword.setColumns(10);
+        
+        txtIp = new JTextField();
+        txtIp.setText("IP");
+        txtIp.setColumns(10);
+        
+        txtPort = new JTextField();
+        txtPort.setText("PORT");
+        txtPort.setColumns(10);
+        
+        txtDb = new JTextField();
+        txtDb.setText("DB");
+        txtDb.setColumns(10);
+        
+        txtTable = new JTextField();
+        txtTable.setText("Table");
+        txtTable.setColumns(10);
+        
+        JButton btnConnect = new JButton("Connect");
+        
+        JButton btnAddTable = new JButton("Add Table");
+        
         
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -903,15 +932,28 @@ public class gui extends javax.swing.JFrame {
         					.addGap(119))
         				.addGroup(layout.createSequentialGroup()
         					.addGap(134)
-        					.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, 195, GroupLayout.PREFERRED_SIZE)
-        					.addContainerGap())))
+        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        						.addComponent(txtpnDateFormatDdmmdyy, GroupLayout.PREFERRED_SIZE, 195, GroupLayout.PREFERRED_SIZE)
+        						.addGroup(layout.createSequentialGroup()
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(txtUser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtPassword, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtIp, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtPort, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+        							.addGap(26)
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(btnAddTable)
+        								.addComponent(btnConnect)
+        								.addComponent(txtTable, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtDb, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+        					.addGap(259))))
         );
         layout.setVerticalGroup(
         	layout.createParallelGroup(Alignment.TRAILING)
         		.addGroup(layout.createSequentialGroup()
         			.addContainerGap()
-        			.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        				.addGroup(layout.createSequentialGroup()
+        			.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
+        				.addGroup(Alignment.LEADING, layout.createSequentialGroup()
         					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
         						.addGroup(layout.createParallelGroup(Alignment.BASELINE)
         							.addComponent(Remove_all)
@@ -921,17 +963,37 @@ public class gui extends javax.swing.JFrame {
         							.addComponent(O_ALGO1)
         							.addComponent(btnAddWiglewifi))
         						.addGroup(layout.createSequentialGroup()
-        							.addComponent(jLabel1, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)
+        							.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        								.addComponent(jLabel1, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtUser, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(txtDb, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
         							.addPreferredGap(ComponentPlacement.RELATED)
-        							.addComponent(input_wigelwifi, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-        					.addGap(11)
-        					.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-        						.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-        							.addComponent(STR_ALGO2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        							.addComponent(str_algo2)
-        							.addComponent(btnAddComb))
-        						.addComponent(input_cumb, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        					.addGap(38))
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addComponent(input_wigelwifi, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        									.addComponent(txtPassword, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        									.addComponent(txtTable, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))))
+        					.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        						.addGroup(layout.createSequentialGroup()
+        							.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        								.addGroup(layout.createSequentialGroup()
+        									.addGap(11)
+        									.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+        										.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        											.addComponent(STR_ALGO2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        											.addComponent(str_algo2)
+        											.addComponent(btnAddComb))
+        										.addComponent(input_cumb, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+        								.addGroup(layout.createSequentialGroup()
+        									.addPreferredGap(ComponentPlacement.RELATED)
+        									.addComponent(txtIp, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+        							.addPreferredGap(ComponentPlacement.RELATED)
+        							.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        								.addComponent(txtPort, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+        								.addComponent(btnAddTable)))
+        						.addGroup(layout.createSequentialGroup()
+        							.addPreferredGap(ComponentPlacement.UNRELATED)
+        							.addComponent(btnConnect))))
         				.addGroup(layout.createParallelGroup(Alignment.BASELINE)
         					.addComponent(mac1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
         					.addComponent(rssi1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -1008,7 +1070,7 @@ public class gui extends javax.swing.JFrame {
         					.addComponent(Save_filter, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE)
         					.addPreferredGap(ComponentPlacement.RELATED)
         					.addComponent(LOAD_FILTER)))
-        			.addGap(30))
+        			.addGap(24))
         );
         getContentPane().setLayout(layout);
         CB_DEVICE.getAccessibleContext().setAccessibleName("");
@@ -1238,4 +1300,10 @@ watchservice watchMe = new watchservice();
     JCheckBox chckbxByLontitude = new JCheckBox("By Latitude");
     JCheckBox chckbxByLontitude_1;
     JCheckBox chckbxNewCheckBox;
+    private JTextField txtUser;
+    private JTextField txtPassword;
+    private JTextField txtIp;
+    private JTextField txtPort;
+    private JTextField txtDb;
+    private JTextField txtTable;
 }
