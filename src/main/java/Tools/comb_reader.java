@@ -45,7 +45,7 @@ public class comb_reader {
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
-			if (file.isFile()) {
+			if (file.isFile()&&file.getName().endsWith(".csv")) {
 
 
 				try  (BufferedReader br = new BufferedReader(new FileReader(file))){
@@ -101,7 +101,7 @@ public class comb_reader {
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
-			if (file.isFile()) {
+			if (file.isFile()&&file.getName().endsWith(".csv")) {
 
 
 				try  (BufferedReader br = new BufferedReader(new FileReader(file))){

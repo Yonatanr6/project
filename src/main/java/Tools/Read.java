@@ -61,7 +61,7 @@ public class Read {
 		File[] listOfFiles = folder.listFiles();
 
 		for (File file : listOfFiles) {
-			if (file.isFile()) {
+			if (file.isFile()&&file.getName().endsWith(".csv")) {
 
 
 				try  (BufferedReader br = new BufferedReader(new FileReader(file))){
@@ -107,7 +107,7 @@ public class Read {
 
 		File[] listOfFiles1 = folder1.listFiles();
 		for (File file1 : listOfFiles1) {
-			if (file1.isFile()) {
+			if (file1.isFile()&&file1.getName().endsWith(".csv")) {
 
 
 				try  (BufferedReader br = new BufferedReader(new FileReader(file1))){
@@ -199,7 +199,7 @@ public class Read {
 		
 
 		for (File file : listOfFiles) {
-			if (file.isFile()) {
+			if (file.isFile()&&file.getName().endsWith(".csv")) {
 
 
 				try  (BufferedReader br = new BufferedReader(new FileReader(file))){

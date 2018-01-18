@@ -19,7 +19,7 @@ jar {
         }
     }    
     manifest {
-        attributes 'Main-Class': 'main.java.gui_.gui'
+        attributes 'Main-Class': 'gui_.gui'
     }
 }
 
@@ -43,5 +43,4 @@ testCompile 'mysql:mysql-connector-java:5.1+'
 testCompile 'com.jgoodies:forms:1.+'
 testCompile 'com.jgoodies:jgoodies-common:1.+'
 }
-
 
