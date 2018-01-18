@@ -20,7 +20,7 @@ For further information you can check our UML Diagram and Java Docs for this pro
 
 							
 
-![My image](https://raw.githubusercontent.com/shiranawa/matala-shiran-yonatan/img.png)
+![My image]( https://github.com/shiranawa/matala-shiran-yonatan-/blob/master/img.png)
 
 
 
