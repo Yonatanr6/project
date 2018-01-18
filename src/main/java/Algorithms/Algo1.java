@@ -5,11 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Tools.*;
-import Algorithms.*;
-
-import wifi_data.*;
-import gui_.*;
-import main.*;
 
 
 //the class of algo1

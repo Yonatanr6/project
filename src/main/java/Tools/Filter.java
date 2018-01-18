@@ -11,13 +11,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import Tools.*;
-import Algorithms.*;
-
-import wifi_data.*;
-import gui_.*;
-import main.*;
-
 public class Filter {
 	
 	static String save_id,load_id;

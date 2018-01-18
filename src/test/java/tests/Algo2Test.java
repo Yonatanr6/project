@@ -5,17 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import Tools.*;
 import Algorithms.*;
-import tests.*;
-import wifi_data.*;
-import gui_.*;
-import main.*;
 
 class Algo2Test {
 	List<Algo2> calcs = new ArrayList<>();

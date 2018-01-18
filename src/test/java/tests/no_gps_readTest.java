@@ -13,12 +13,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import Tools.*;
-import Algorithms.*;
-import tests.*;
-import wifi_data.*;
-import gui_.*;
-import main.*;
 
 class no_gps_readTest {
 
@@ -42,7 +36,7 @@ class no_gps_readTest {
 	final void no_gps_read_test() {
 		try {
 
-			File folder = new File("C:\\Users\\shira\\git\\matala-shiran-yonatan-new\\Data\\input\\no_gps");
+			File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-new\\Data\\input\\no_gps\\");
 			
 			assertTrue(folder.canRead());
 			BufferedReader br = new BufferedReader(new FileReader(folder));

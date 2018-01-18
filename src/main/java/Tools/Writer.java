@@ -3,12 +3,6 @@ package Tools;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import Tools.*;
-import Algorithms.*;
-
-import wifi_data.*;
-import gui_.*;
-import main.*;
 
 
 public class Writer {

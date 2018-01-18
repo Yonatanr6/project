@@ -36,6 +36,11 @@ task wrapper(type: Wrapper) {
 
 
 
+task checkCompile(type: JavaExec) {//another compile check for main
+    main = "main.main"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
 
 dependencies{
 testCompile 'org.junit.jupiter:junit-jupiter-api:5.+'

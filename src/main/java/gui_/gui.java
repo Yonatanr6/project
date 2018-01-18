@@ -1,18 +1,14 @@
 package gui_;
 
-import java.awt.EventQueue;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
 import java.io.PrintStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import javax.swing.JFrame;
 import javax.swing.JTextArea;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout;
@@ -26,10 +22,6 @@ import WatchSer.watchservice;
 import Algorithms.*;
 import DB.MySql;
 
-import wifi_data.*;
-import gui_.*;
-import main.*;
-
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -38,19 +30,9 @@ import java.awt.event.MouseEvent;
 import java.awt.event.InputMethodListener;
 import java.awt.event.InputMethodEvent;
 import javax.swing.JCheckBox;
-import java.awt.Checkbox;
-import java.awt.Container;
-
-
-import javax.swing.JLabel;
-import javax.swing.JRadioButton;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
-import java.awt.TextField;
-import java.awt.TextArea;
 import javax.swing.JTextPane;
-import java.awt.event.ItemListener;
-import java.awt.event.ItemEvent;
 
 /**
  *

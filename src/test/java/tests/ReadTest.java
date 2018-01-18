@@ -16,12 +16,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import Tools.*;
-import Algorithms.*;
-import tests.*;
 import wifi_data.*;
-import gui_.*;
-import main.*;
 
 class ReadTest {
 	public 	List<location> locations= new ArrayList<location>();
@@ -64,6 +59,22 @@ class ReadTest {
 			}
 
 		};
+	}
+	@Test
+	final void Readtest() {
+		try {
+
+			File folder = new File("C:\\Users\\Yoni\\git\\matala-shiran-yonatan-\\Data\\input\\WigleWifi\\");
+			
+			assertTrue(folder.canRead());
+			BufferedReader br = new BufferedReader(new FileReader(folder));
+			assertFalse(br.readLine() == null);
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
 
