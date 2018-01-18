@@ -1,11 +1,47 @@
 apply plugin: "java"
-
+apply plugin: 'application'
 apply plugin: 'eclipse'
+
+
+
 
 repositories {
     mavenCentral()
 }
 
-task hello{
-println "hello"
+
+ mainClassName ='gui_.gui'
+
+jar {
+ from {
+        (configurations.runtime).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }    
+    manifest {
+        attributes 'Main-Class': 'main.java.gui_.gui'
+    }
 }
+
+
+sourceCompatibility = '1.8'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+if (!hasProperty('mainClass')) {
+    ext.mainClass = 'gui_.gui'
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+
+
+
+dependencies{
+testCompile 'org.junit.jupiter:junit-jupiter-api:5.+'
+testCompile 'mysql:mysql-connector-java:5.1+'
+testCompile 'com.jgoodies:forms:1.+'
+testCompile 'com.jgoodies:jgoodies-common:1.+'
+}
+
+
